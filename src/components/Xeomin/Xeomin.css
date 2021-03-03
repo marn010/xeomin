@@ -1,9 +1,190 @@
 .XeominMainWebBox{
    overflow: hidden;
 }
-.XeominTitle{
+.XeominBlue{
  color: #4478B8;
 }
-.XeominText{
+.XeominTitle{
    text-align: center;
+}
+.XeominText{
+   text-align:  left;
+}
+.XeominTitlePic{
+   width: 100%;
+}
+.Toxina1{
+   width: 200%;
+   transform: scale(1,-1) rotate(10deg);
+   margin: -10% 0% 0% -150%;
+}
+.Toxina2{
+   width: 200%;
+   transform: scale(1,-1) rotate(-135deg);
+   margin: 0% 0% 0% 80%;
+}
+.ToxinaBlue{
+   width: 70%;
+   transform: rotate(40deg);
+   margin: -5% 0% 5% 0%;
+}
+.DrFrevert{
+   background-color: #457EB9;
+   color: white;
+   margin: 1% 0% 2% 0%;
+}
+/*WEB*/
+@media(min-width:769px){
+   .XeominMainMovBox{
+      display: none;
+   }
+   .XeoBorderL{
+      border-right: solid 2px #4478B8 ;  
+   }
+   .DrFrevertPic{
+      width: 100%;
+   }
+   .DrFrevertTextBox{
+      padding: 5% 20% 5% 2% !important;
+   }
+   .XeominBlockBLue{
+      background-color: #306088;
+   }
+   .XeominLabPic{
+      width: 80% ;
+   }
+   .XeominLabFinalText{
+      text-align: center;
+      font-size: calc(0.5rem + 2vw);
+   }
+   .XtractPic{
+      width: auto;
+   }
+   .XtractVideo{
+      background-color: #306088;
+      color: white;
+      text-align: left;
+   }
+   .ToxinaBlue2{
+      width: 50%;
+      transform: translate(40%,-10%) rotate(45deg);
+   }
+   .XeominRec{
+      padding: 0% 10% 0% 30%;
+      font-size: calc(1.0rem + 1vw);
+   }
+   .XeominRecText{
+      padding: 0% 10% 0% 5% !important;
+      
+   }
+   .XeominRecFirstText{
+      font-size: calc(0.5rem + 1vw);
+   }
+   .XeominRecSecondText{
+      font-size: calc(0.1rem + 1vw);
+   }
+   .XeominVialPic{
+      width: 75%;
+      padding: 0% 0% 0% 20%;
+   }
+   .XeominVialText{
+      font-size: calc(0.3rem + 1vw);
+   }
+   .XeominStepsBox{
+      text-align: left;
+      
+   }
+   .XeominStepsTitle{
+      font-size: calc(0.5rem + 1vw);
+      text-align: center;
+   }
+   .Paso1Text{
+      display: block;
+      width: 50%;
+      margin: 0% auto 0% auto;
+   }
+   .Paso1Pic{
+      display: block;
+      width: 30%;
+      margin: 0% auto 5% auto
+   }
+   .XeominTipsText{
+      padding-left: 2%;
+      position: relative;
+   }
+   .XeominTipsDot{
+      height: 8px;
+      width: 8px;
+      border-radius: 50%;
+      position: absolute;
+      background-color: #4478B8;
+      top: 0%;
+      left: -1%;
+   }
+   .XeominTipsBox{
+      border-left: solid 1px #4478B8;
+      /* padding-left: 2%; */
+      margin-bottom: 1%;
+   }
+   .XeominTips::after p{
+      background-color: #4478B8;
+      border-radius: 50%;
+   }
+   .Paso2Pic{
+      display: block;
+      width: 50%;
+      margin: 10% auto 5% auto;
+   }
+   .Paso2Text{
+      margin-bottom: 10%;
+   }
+   .XeominImportant{
+      background-color: #E7E7E7;
+   }
+   .Paso3Pic{
+      display: block;
+      width: 30%;
+      margin: 0% auto 0% auto;
+   }
+   .XeoTechnique{
+      font-size: calc(0.5rem + 1vw);
+      text-align: center;
+   }
+   .One21Pic{
+      display: block;
+      width: 70%;
+      margin: 0% auto 0% auto;
+   }
+   .list li::marker{
+      color: #C2187E;
+      background-color: #4478B8;
+   }
+   ol{
+      list-style: none;
+      counter-reset: my-awesome-counter;
+   }
+   li {
+      position: relative;
+      counter-increment: my-awesome-counter;
+      margin: 1rem;
+      padding-left: 2.25rem;
+   }
+   .list li::before{
+      background: #C2187E;
+      content: counter(my-awesome-counter)".";
+      width: 2rem;
+      height: 2rem;
+      border-radius: 50%;
+      color: white;
+      display: inline-block;
+      line-height: 2rem;
+      text-align: center;
+      margin-right: 0.5rem;
+   }
+}
+/*CELL*/
+@media(max-width:768px){
+   .XeominMainWebBox{
+      display: none;
+   }
 }
