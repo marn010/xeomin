@@ -1,0 +1,23 @@
+.form{
+   background-color: rgba(177, 185, 197, 0.18) !important;
+   color: white !important;
+}
+#name::placeholder{
+   color: white;
+}
+#email::placeholder{
+   color: white;
+}
+#address::placeholder{
+   color: white;
+}
+#Tel::placeholder{
+   color: white;
+}
+.custom-select{
+   color: white;
+}
+select,
+select option {
+   color: #000;
+}

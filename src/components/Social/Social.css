@@ -1,0 +1,14 @@
+.SocialBox{
+   background-color: #457EB9;
+   color: white;
+   padding: 2% 0% 2% 0%;
+}
+.VisitBox{
+   text-align: center;
+   font-size: calc(1.0rem + 1vw);
+   padding: 0% 4%;   
+}
+.VisitBox p{
+   border-bottom: solid 2px white;
+   width: auto;
+}

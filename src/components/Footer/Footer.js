@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
 import Forms from '../Form/Form';
+import Social from '../Social/Social';
 
 import './Footer.css'
 
@@ -7,6 +8,7 @@ export default class Footer extends Component{
    render(){
       return(
          <React.Fragment>
+            <Social/>
             <div className="MainBox">
                <div className="MainWebBox container">
                   <div className="container">
