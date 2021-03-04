@@ -181,6 +181,18 @@
       text-align: center;
       margin-right: 0.5rem;
    }
+   .XeoDownloadText{
+      text-align: center;
+   }
+   .XeoDownloadBTN{
+      text-align: center;
+      background-color: #4478B8;
+      color: white;
+      width: 40%;
+      display: block;
+      margin: 0% auto 0% auto;
+      border-radius: 10px;
+   }
 }
 /*CELL*/
 @media(max-width:768px){

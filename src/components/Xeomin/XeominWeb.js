@@ -269,10 +269,13 @@ export default class XeominWeb extends Component{
                         </ol>
                      </div>
                   </div>
-                  <div className="">
-                     <p>
+                  <div className="container">
+                     <p className="XeominBlue XeoDownloadText">
                         Si desea conocer más de esta técnica descargue la guía paso a paso
                      </p>
+                     <button className="XeoDownloadBTN" type="button" >
+                        Descargar
+                     </button>
                   </div>
                </div>
             </div>
