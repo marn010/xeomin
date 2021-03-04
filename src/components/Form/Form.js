@@ -3,8 +3,11 @@ import { Form, FormGroup, Input, Button, CustomInput, Row, Col, Label } from 're
 
 import './Form.css';
 
+import { data } from './data';
+
 export default class Forms extends Component{
    render(){
+      let id=-1;
       return(
          <React.Fragment>
             <Form className="" >
@@ -35,8 +38,12 @@ export default class Forms extends Component{
                         placeholder="Ciudad*"
                         >
                            <option value="">Ciudad*</option>
-                           <option>Aguachica</option>
-                           <option>Aqui pondria más ciudades...</option>
+                           {data.map(() =>{
+                              id=id+1;
+                              return(
+                                 <option>{data[id].city}</option>
+                              );
+                           })}
                      </CustomInput>
                      </Col>
                      <Col md={6}>
