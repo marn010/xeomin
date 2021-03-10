@@ -1,0 +1,43 @@
+.loginBox{
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+   justify-content: center;
+   background-color: rgba(54, 54, 54, 1.0);
+   height: 100vh;
+   color: white;
+}
+.MainLogBox{
+   margin-top: -5%;
+   background-color: black;
+   border-radius: 40px;
+   padding: 5% 5% 5% 5%;
+   text-align: center;
+}
+.MainBox h1{
+   margin-bottom: 5%;
+   font-size: calc(2.0rem + 1vw);
+}
+.FormBox{
+   background-color: rgba(255, 255, 255, 0.6);
+   border-radius: 20px;
+   padding: 2% 2% 2% 2%;
+   color: black;
+   text-align: center;
+}
+.FormBox p{
+   padding: 0% 5%;
+}
+.FormBox input{
+   border-radius: 10px;
+}
+hr{
+   background-color: white;
+   height: 1px;
+   width: 70%;
+}
+.ColorsLog{
+   position: absolute;
+   left: 5%;
+   bottom: 5%;
+}
