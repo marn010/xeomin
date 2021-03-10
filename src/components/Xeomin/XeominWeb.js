@@ -1,4 +1,5 @@
 import React, { Component } from 'react';
+import { Link } from 'react-router-dom';
 
 import './Xeomin.css';
 
@@ -16,19 +17,19 @@ export default class XeominWeb extends Component{
                   </div>
                   <div className="col-10 justify-content-center XeominText">
                      <div>
-                        <p className="XeominBlue XeominTitle"><b>XEOMIN&#174;</b> ES PARTE DE LA INVESTIGACIÓN DE TODA UNA VIDA</p>
-                        <p>
+                        <p className="XeominBlue XeominTitle Raleway font32"><b className="RalewayBold">XEOMIN&#174;</b> ES PARTE DE LA INVESTIGACIÓN DE TODA UNA VIDA</p>
+                        <p className="Raleway font24">
                            Hace casi 20 años, el Dr. Frevert se dio cuenta que el complejo proteico que rodea el núcleo de neurotoxinas no es necesario para su efecto terapéutico o modo de acción
                         </p>
                         <div className="row col-12 justify-content-left">
                            <div className="col-6 XeoBorderL ">
-                              <p className="XeominBlue">
-                                 <b>"El complejo proteico que forma parte de una toxina botulinica es simplemente una impureza"</b>, explica el Dr. Frevert.
+                              <p className="XeominBlue Raleway font24">
+                                 <b className="RalewayBold ">"El complejo proteico que forma parte de una toxina botulinica es simplemente una impureza"</b>, explica el Dr. Frevert.
                               </p>
                            </div>
                            <div className="col-6">
-                              <p>
-                                 Descubrio que solo se requeria la proteina responsable de la actiuvidad farmacológica, la neurotoxina en su estado puro
+                              <p className="Raleway font24">
+                                 Descubrió que solo se requeria la proteina responsable de la actiuvidad farmacológica, la neurotoxina en su estado puro
                               </p>
                            </div>
                         </div>
@@ -39,14 +40,14 @@ export default class XeominWeb extends Component{
                   <img className="Toxina2" src="/assets/img/Pics/Toxina.png" alt="" />
                   </div>
                </div>
-               <div className="container justify-content-center">
-                  <div className="row col-10">
+               <div className="container col-10 justify-content-center">
+                  <div className="row col-12 justify-content-center">
                      <div className="col-2">
                         <img className="ToxinaBlue" src="/assets/img/Pics/ToxinaBlue.png" alt="ToxinaPura" />
                      </div>
                      <div className="col-10">
-                        <p className="XeominBlue">
-                           <b>"Sabia que el complejo proteico puede estimular el sistema inmunológico para producir anticuerpos que neutralizan la neurotoxina"</b>, reveló
+                        <p className="XeominBlue Raleway font24">
+                           <b className="RalewayBold">"Sabia que el complejo proteico puede estimular el sistema inmunológico para producir anticuerpos que neutralizan la neurotoxina"</b>, reveló
                         </p>  
                      </div>
                   </div>
@@ -57,26 +58,26 @@ export default class XeominWeb extends Component{
                         <img className="DrFrevertPic" src="/assets/img/Pics/Dr_Frevert.png" alt="DrFrevert" />
                      </div>
                      <div className="col-7 offset-1 DrFrevertTextBox">
-                        <h3 className="DrFrevertText">
+                        <h3 className="DrFrevertText RalewayBold font32">
                            El Dr. Jurgen Frevert podria ser descrito como el padre de XEOMIN&#174;.
                         </h3>
-                        <p className="">
+                        <p className="Raleway font24">
                            Hace más de 30 años, el Dr. formaba parte de una investigfacion doctoral y se le encomendó <b>purificar</b> la toxina botulinica tipo A con la que trabajaba en ese momento (Onabotulinim Toxin A).
                         </p>
                      </div>
                   </div>
                </div>
                <div className="container">
-                  <p className="XeominBlue">
+                  <p className="XeominBlue RalewayMedium font24 FrevertPostText">
                      Hacia finales de la década de 1990, comenzó el proyecto que dio como resultado XEOMIN&#174;. Realizando fermentaciones durante la semana, el Dr. Frevert pasó muchos fines de semana con colegas igualmente dedicados a purificar y experimentar nuevas formas de estabilizar la neurotoxina y descubrió que la sacarosa era el excipiente más efectivo en este sentido.
                   </p>
                </div>
-               <div className="row col-12">
+               <div className="row col-12 FrevertScientific">
                   <div className="col-2 XeominBlockBLue">
                      <img src="" alt="" />
                   </div>
-                  <div className="col-9 offset-1">
-                     <p className="XeominBlue">
+                  <div className="col-9 offset-1 ">
+                     <p className="XeominBlue Raleway font24 ">
                         "Como cientifico, bioquímico, es muy satisfactorio haber desarrollado un producto, con mis propias manos".
                      </p>
                   </div>
@@ -85,7 +86,7 @@ export default class XeominWeb extends Component{
                   <div className="col-4">
                      <img className="XeominLabPic" src="/assets/img/Pics/XeominLab.png" alt="" />
                   </div>
-                  <div className="col-6">
+                  <div className="col-6 Raleway font24">
                      <p>
                         XEOMIN&#174; es un producto de alta calidad: de todos los pacientes tratados hasta la fecha <span className="XeominBlue"> ninguno ha desarrollado anticuerpos neutralizantes o se ha convertido en no respondedores secundarios </span>, lo que permite a los pacientes beneficiarse de tratamientos repetidos.
                      </p>
@@ -95,19 +96,19 @@ export default class XeominWeb extends Component{
                      <p>
                         Esto significa que, si bien hay una menor carga proteica en el vial, <span className="XeominBlue">XEOMIN&#174; al contener unicamente la neurotixina purificada tiene la mayor potencia específica </span> en comparación con otros productos de toxina botulinica".
                      </p>
-                     <p>(Frevert J. Drugs R D 2010;10:67-73.)</p>
+                     <p className="font18">(Frevert J. Drugs R D 2010;10:67-73.)</p>
                   </div>
                </div>
                <div className="row col-12 justify-content-center">
-                  <p className="col-12 XeominBlue XeominLabFinalText">
+                  <p className="col-12 XeominBlue XeominLabFinalText RaleWayBold font32">
                      <b>El complejo proteico es simplemente una impureza</b>
                   </p>
                   <img className="XtractPic" src="/assets/img/Pics/Xtract.png" alt="Xtract" />
                </div>
                <div className="XtractVideo row justify-content-center">
-                  <div className="col-5">
+                  <div className="col-5 Raleway font40">
                      <p>
-                        <b>XTRACT TECHNOLOGY </b>
+                        <b className="RalewayBold">XTRACT TECHNOLOGY </b>
                         PROCESO DE MANUFACTURA Y PRODUCCIÓN</p>
                   </div>
                   <div className="col-7">
@@ -120,10 +121,10 @@ export default class XeominWeb extends Component{
                      <img className="ToxinaBlue2" src="/assets/img/Pics/ToxinaBlue.png" alt="toxin" />
                   </div>
                   <div className="col-9">
-                     <p className="XeominBlue">
+                     <p className="XeominBlue Raleway font24">
                         A través del proceso XTRACT TEchnology se consigue remover el complejo proteico, obteniendo una neurotoxina activa (150kDA) purificada que ofrece un menor riesgo de inmunogenicidad y una alta estabilidad.
                      </p>
-                     <p>
+                     <p className="font18">
                         J Drugs Dermatol. 2019; 18 (1) : 52-57. S.K. Sharma. Toxicon 41 (2003) 321-331
                      </p>
                   </div>
@@ -131,18 +132,18 @@ export default class XeominWeb extends Component{
                </div>
                <div className="row -col-10 justify-content-center">
                   <div className="col-4">
-                     <p className="XeominBlue XeominRec">
-                        <b>XEOMIN&#174;: </b>
+                     <p className="XeominBlue XeominRec Raleway font32">
+                        <b className="RalewayBold font40">XEOMIN&#174;: </b>
                         RECONSTITUCIÓN Y DILUCIÓN
                      </p>
                   </div>
                   <div className="col-6 XeominRecText">
-                     <p className="XeominBlue XeominRecFirstText">
+                     <p className="XeominBlue RalewayBold font32">
                         <b>
                            XEOMIN&#174; puede ayudarlo a alcanzar el efecto deseado en sus pacientes.
                         </b>
                      </p>
-                     <p className="XeominBlue XeominRecSecondText">
+                     <p className="XeominBlue font18">
                         XEOMIN&#174; (incobotulinumtoxinaA) Summary of Product Characteristics. MerzPharmaceuticals GmbH.
                      </p>
                   </div>
@@ -151,7 +152,7 @@ export default class XeominWeb extends Component{
                   <div className="col-3">
                      <img className="XeominVialPic" src="/assets/img/Pics/XeominVial.png" alt="" />
                   </div>
-                  <div className="col-9 XeominVialText">
+                  <div className="col-9 Raleway font24">
                      <p>
                         El resultado final <span className="XeominBlue"> dependerá de la dosis y la técnica utilizada.</span>
                      </p>
@@ -167,17 +168,17 @@ export default class XeominWeb extends Component{
                   </div>
                </div>
                <div className="XeominStepsBox">
-                  <p className="XeominBlue XeominStepsTitle">
+                  <p className="XeominBlue XeominStepsTitle RalewayBold font32">
                      PASOS PARA UNA ADECUADA RECONSTITUCIÓN DE XEOMIN
                   </p>
-                  <div className="row col-10 offset-1">
+                  <div className="row col-10 offset-1 font24">
                      <div className="col-5">
-                        <p className="XeominBlue Paso1Text">Paso 1:</p>
+                        <p className="XeominBlue Paso1Text RalewayBold font32">Paso 1:</p>
                         <img className="Paso1Pic" src="/assets/img/Pics/Paso1.png" alt="Paso 1"  />
                      </div>
-                     <div className="col-7 XeominTips">
+                     <div className="col-7 XeominTips Raleway">
                         <p className="XeominTipsBox XeominTipsText">
-                        <span className="XeominTipsDot"></span>
+                        <span className="XeominTipsDot "></span>
                            Primero debe abrir la solución salina que Merz le proveerá y aspirar 2.0ml de volumen para la reconstitución.
                         </p>
                         <p className="XeominTipsBox XeominTipsText">
@@ -192,10 +193,10 @@ export default class XeominWeb extends Component{
                         <span className="XeominTipsDot"></span>
                            Debido al proceso de sellado al vacio de XEOMIN&#174;, la solución salina deberá ser aspirada al interior del vial por si sola.</p>
                      </div>
-                     <div className="col-5">
-                        <p className="XeominBlue">Paso 2:</p>
+                     <div className="col-5 Raleway">
+                        <p className="XeominBlue RalewayBold">Paso 2:</p>
                         <p className="Paso2Text">Retire la aguja y realice movimientos circulares dejando que el liquido toque todas las paredes del vial y el tapón de goma, y regrese a su posición inicial, repitiendo estos movimientos varias veces hasta lograr una mezcla homogénea.</p>
-                        <div className="XeominImportant XeominBlue">
+                        <div className="XeominImportant XeominBlue RalewayMedium">
                            <p>
                               IMPORTANTE:
                            </p>
@@ -210,8 +211,8 @@ export default class XeominWeb extends Component{
                      <div className="col-5">
                         <img className="Paso3Pic" src="/assets/img/Pics/Paso3.png" alt="Paso 3" />
                      </div>
-                     <div className="col-7 XeominTips">
-                        <p className="XeominBlue">
+                     <div className="col-7 XeominTips Raleway">
+                        <p className="XeominBlue RalewayBold">
                            Paso 3:
                         </p>
                         <p className="XeominTipsBox XeominTipsText "> 
@@ -219,7 +220,7 @@ export default class XeominWeb extends Component{
                         </p>
                         <p className="XeominTipsBox XeominTipsText">
                         <span className="XeominTipsDot"></span>
-                           Lasolución lista para usarse debe ser homogénea, incolora y libre de partículas. XEOMIN&#174; no debe ser utilizado si la solución reconstituida tiene una apariencia opaca o contiene material floculado o en partículas.
+                           La solución lista para usarse debe ser homogénea, incolora y libre de partículas. XEOMIN&#174; no debe ser utilizado si la solución reconstituida tiene una apariencia opaca o contiene material floculado o en partículas.
                         </p>
                         <p className="XeominTipsText">
                         <span className="XeominTipsDot"></span>
@@ -228,7 +229,7 @@ export default class XeominWeb extends Component{
                      </div>
                   </div>
                   <div className="VideoReconstitucion">
-                     <div className="col-5">
+                     <div className="col-5 Raleway font40 XeominBlue">
                         <p>
                            Video Reconstitución
                         </p>
@@ -238,44 +239,44 @@ export default class XeominWeb extends Component{
                      </div>
                   </div>
                   <div className="XeoTechnique row justify-content-center">
-                     <p className="XeominBlue col-4">
+                     <p className="XeominBlue col-4 Raleway font32">
                         DESTÁQUESE CON UNA <b>TÉCNICA PERSONALIZADA</b>
                      </p>
                   </div>
-                  <div className="row justify-content-center">
+                  <div className="row justify-content-center One21Box">
                      <div className="col-4">
                         <img className="One21Pic" src="/assets/img/Pics/One21.png" alt="one21" />
                      </div>
-                     <div className="col-6">
+                     <div className="col-6 Raleway font24 One21Text">
                         <p>
-                           <b>ONE21</b> es una exclusiva técnica que apunta a un tratamiento individualizado para el modelamiento de las cejas, tratamiento de arrugas frontales, glabelares y perioculares, basada en la anatomía y los resultados deseados por los pacientes.
+                           <b className="RalewayBold One21Full">one<span className="One21">2</span>1</b> es una exclusiva técnica que apunta a un tratamiento individualizado para el modelamiento de las cejas, tratamiento de arrugas frontales, glabelares y perioculares, basada en la anatomía y los resultados deseados por los pacientes.
                         </p>
                      </div>
                   </div>
-                  <div className="VideoONE21 row col-12">
-                     <div className="col-7">
+                  <div className="VideoONE21 row col-12 justify-content-center">
+                     <div className="col-6 Raleway font24">
                         <p>Video One21 - Dra. Barrera</p>
                         {/*VIDEO*/}
                      </div>
                      <div className="col-5">
-                        <p>El protocolo</p>
-                        <p>
+                        <p className="RalewayBold font40">El protocolo</p>
+                        <p className="RalewayBold font24">
                            de la técnica #ONE21 se divide en 3 importantes pasos:
                         </p>
-                        <ol className="list">
+                        <ol className="list Raleway font24">
                            <li>Evaluación</li>
                            <li>Adaptación</li>
                            <li>Personalización</li>
                         </ol>
                      </div>
                   </div>
-                  <div className="container">
-                     <p className="XeominBlue XeoDownloadText">
+                  <div className="container Raleway">
+                     <p className="XeominBlue XeoDownloadText font24">
                         Si desea conocer más de esta técnica descargue la guía paso a paso
                      </p>
-                     <button className="XeoDownloadBTN" type="button" >
+                     <Link className="XeoDownloadBTN"  to={{pathname:"/assets/pdf/Doc1.pdf"}} target="_blank" >
                         Descargar
-                     </button>
+                     </Link>
                   </div>
                </div>
             </div>

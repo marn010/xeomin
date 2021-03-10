@@ -1,0 +1,28 @@
+.ThanksMainBox{
+   background-color: white;
+   color: #00356E;
+   border-radius: 50px;
+}
+@media(max-width:768px){
+   .ThanksWebBox{
+      display: none;
+   }
+}
+@media(min-width:769px){
+   .ThanksMovBox{
+      display: none;
+   }
+   .exp{
+      background-color: #457EB6;
+      color: white;
+   }
+   .ThanksWebBox{
+      padding: 5% 5% 5% 5%;
+   }
+   .ThanksText{
+      margin: 0% 0% 5% 0%;
+   }
+   .ThanksText p{
+      padding: 0% 8%;
+   }
+}

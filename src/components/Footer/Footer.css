@@ -2,26 +2,26 @@
    background-color: rgba(54, 54, 54, 1.0);
    height: auto;
    color: white;
-   padding: 5% 0% 5% 0%;
+   padding: 5% 0% 2% 0%;
 }
 .XeoSubmitBTN{
    background-color: #457EB2;
    border-radius: 9px;
    width: 100%;
 }
+.MainWebBox{
+   border-bottom: solid 2px white;
+   padding: 0% 0% 2% 0%;
+}
 @media(min-width:769px){
    .MainMovBox{
       display: none;
-   }
-   .MainWebBox{
-      border-bottom: solid 2px white;
-      padding: 0% 0% 2% 0%;
    }
    .MERZBox{
       padding: 1% 2% 0% 0%;
    }
    .MerzSubtitle{
-      font-size: 0.6rem;
+      font-size: calc(0.8rem + 0.1vw);/*0.6rem*/
       text-align: end; 
       border-right: solid 2px white;
       padding: 0% 0.5% 0% 0%;
@@ -30,7 +30,7 @@
       margin: 5% 0% 5% 0%;
    }
    .MerzTitle{
-      font-size: 1.2rem;
+      font-size: calc(1.2rem + 0.2vw)/* 1.2rem */;
       margin: auto;
    }
    .PaintPic{
@@ -38,9 +38,23 @@
       position: absolute;
       left:-1.5%
    }
+   .RegInvima{
+      margin: 5% 0% 0% 0%
+   }
 }
 @media(max-width:768px){
    .MainWebBox{
       display: none;
+   }
+   .MERZBox{
+      padding: 1% 2% 0% 0%;
+   }
+   .MerzSubtitle{
+      text-align: end;
+   }
+   .PaintPic{
+      height: 70%;
+      position: absolute;
+      left: -20%;
    }
 }

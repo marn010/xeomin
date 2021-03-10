@@ -7,7 +7,7 @@ export default class Exclusive extends Component{
       return(
          <React.Fragment>
             <div className="ExclusiveBox">
-               <p className="ExclusiveText align-self-center">
+               <p className="ExclusiveText align-self-center Raleway">
                   Contenido exclusivo para cuerpo médico
                </p>
             </div>

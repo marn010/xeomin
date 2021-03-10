@@ -21,3 +21,17 @@ select,
 select option {
    color: #000;
 }
+.Overlay{
+   position: fixed;
+   top: 0;
+   right: 0;
+   bottom: 0;
+   left: 0;
+   background-color: rgba(27, 27, 24, 0.9);
+}
+.Modal{
+   position: relative;
+   margin: 10% 5%;
+   border-radius: 30px;
+   background-color: white;
+}

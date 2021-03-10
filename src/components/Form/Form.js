@@ -1,12 +1,30 @@
 import React, { Component } from 'react';
-import { Form, FormGroup, Input, Button, CustomInput, Row, Col, Label } from 'reactstrap';
+import { Form, FormGroup, Input, Button, Row, Col, Label } from 'reactstrap';
 import axios from 'axios'
+import Modal from 'react-modal';
+import Thanks from '../Thanks/Thanks'
 
 import './Form.css';
 
 import { data } from './data';
 
 export default class Forms extends Component{
+   constructor(){
+      super();
+      this.state = {
+         showModal: false,
+
+      };
+      this.handleOpenModal = this.handleOpenModal.bind(this);
+      this.handleCloseModal = this.handleCloseModal.bind(this);
+   }
+   handleOpenModal(){
+      this.setState({showModal: true});
+   }
+   handleCloseModal(){
+      this.setState({showModal: false});
+   }
+
    handleSubmit(e){
       e.preventDefault();
       axios.post('/correo/',{
@@ -34,6 +52,15 @@ export default class Forms extends Component{
       let id=-1;
       return(
          <React.Fragment>
+            <Modal
+               isOpen={this.state.showModal}
+               contentLabel="onRequestClose Example"
+               onRequestClose={this.handleCloseModal}
+               className="Modal"
+               overlayClassName="Overlay"
+            >
+               <Thanks />               
+            </Modal>
             <Form className="" onSubmit={(e)=>this.handleSubmit(e)}>
                <FormGroup>
                   <Input className="form" type="name" name="name" id="name"
@@ -52,12 +79,12 @@ export default class Forms extends Component{
                </FormGroup>
                <FormGroup>
                   <Input className="form" type="Tel" name="Tel" id="Tel"
-                     placeholder="Teeléfono de contacto*" required
+                     placeholder="Teléfono de contacto*" required
                   />
                </FormGroup>
                <FormGroup>
                   <Row>
-                     <Col md={6}>
+                     <Col /* md={6} */ xs={6}>
                         <Input className="form" type="select" name="city" id="city"
                         
                         >
@@ -70,7 +97,7 @@ export default class Forms extends Component{
                            })}
                      </Input>
                      </Col>
-                     <Col md={6}>
+                     <Col xs={6}>
                         <Label>
                            *Espacios obligatorios
                         </Label>
@@ -80,11 +107,11 @@ export default class Forms extends Component{
                <FormGroup check>
                   <Label check>
                      <Input  type="checkbox" name="Terms" id="Terms" required />{' '}
-                     He leido y acepto los <a href="" target="blank">terminos y condiciones</a>
+                     Acepto que mis datos sean tratados bajo la <a href="https://www.merz-institute.com/theme/merztiaa/web/custompage/index.php?id=5" target="blank">política de privacidad</a> de datos de Merz Aesthetics Colombia*.
                   </Label>
                </FormGroup>
                <FormGroup>
-                  <Button type="submit" className="XeoSubmitBTN">
+                  <Button type="submit" className="XeoSubmitBTN" onClick={this.handleOpenModal}>
                      Enviar
                   </Button>
                </FormGroup>

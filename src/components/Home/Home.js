@@ -9,15 +9,15 @@ export default class Home extends Component{
          <React.Fragment>
             <div className="HomeMainWebBox">
                <Header/>
-               <div className="KnowMoreXeo">
+               <div className="KnowMoreXeo font40">
                   <p>
                      Conozca más de
-                     <img className="XeominTitlePic" src="/assets/img/Pics/Xeomin.png" alt="" />
+                     <img className="XeominHomeTitlePic" src="/assets/img/Pics/Xeomin.png" alt="" />
                   </p>
                </div>
-               <div className="row col-12 justify-content-center">
+               <div className="row col-12 justify-content-center font24">
                   <div className="col-5">
-                     <a href="">
+                     <a href="/xeomin">
                         <img className="InfoXeo" src="/assets/img/Pics/InfoXeomin.png" alt="Xeomin" />
                      </a>
                      <p>
@@ -25,16 +25,14 @@ export default class Home extends Component{
                      </p>
                   </div>
                   <div className="col-5">
-                     <a href="">
-                        <img className="CampaingnGlobal" src="/assets/img/Pics/1.jpg" alt="Campaingn" />
+                     <a href="/campaign">
+                        <img className="CampaingnGlobal" src="/assets/img/Pics/1.jpg" alt="Campaign" />
                      </a>
                      <p>
                         Campaña global
                      </p>
                   </div>
                </div>
-               <p>HomePage works!!</p>
-
             </div>
             <div className="HomeMainWMovBox">
 

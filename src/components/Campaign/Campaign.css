@@ -1,0 +1,85 @@
+.HeaderCampaingn{
+   width: 100%;
+}
+.InitialCampaingnBox{
+   padding: 5% 0% 0% 0%;
+}
+.InitialCampaingn{
+   font-size: calc(1.0rem + 1vw);
+   
+}
+.InitialCampaingn p{
+   margin: 0% 0%;
+   line-height: 1.2;
+}
+.InitialCampaingnText p{
+   font-size: calc(0.5rem + 1vw);  
+}
+.InitialCite{
+   position: absolute;
+   top: 15%;
+   left: -8%;
+   color: #0080BC;
+   font-size: calc(2.5rem + 2vw);
+   line-height: 0.1;
+}
+.FinalCite{
+   color: #0080BC;
+   position: absolute;
+   right: 10%;
+   font-size: calc(2.5rem + 2vw);
+   line-height: 0.8;
+}
+.GwynethCite{
+   margin: 12% 0% 0% 0%;
+}
+.VideoPure{
+   background-color: #E7E7E7;
+}
+.VideoPureText{
+   text-align: left;
+   color: #306085;
+   padding: 0% 25% 0% 25%;
+}
+.VideoPurify{
+   background-color: #457EB6;
+   color: white;
+}
+.VideoPurifyText{
+   padding: 0% 25% 0% 25%;
+}
+.MerzAestheticsTextWBox{
+   padding: 0% 5% 5% 8%;
+}
+.MerzAestheticsTextBox{
+   background-color: #306088;
+   color: white;
+   padding: 5% 10% 5% 5%;
+}
+.MERZBox2{
+   padding: 1% 2% 0% 0%;
+   margin: 5% 0% 5% 0%;
+   position: relative;
+}
+.PaintLPic{
+   height: 440%;
+   position: absolute;
+   left:0%;
+   top: -110%;
+}
+.MerzSubtitle2{
+   font-size: calc(1.1rem + 0.1vw);/*0.6rem*/
+   text-align: end; 
+   border-right: solid 2px black;
+   padding: 0% 0.5% 0% 0%;
+}
+.MerzSubtitle2 p{
+   margin: 5% 0% 5% 0%;
+}
+.MerzTitle2{
+   font-size: calc(1.5rem + 0.2vw)/* 1.2rem */;
+   margin: auto;
+}
+@media(min-width:769px){
+   
+}

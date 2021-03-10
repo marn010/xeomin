@@ -1,9 +1,9 @@
 .ExclusiveBox{
    width: 100%;
-   background-color: rgba(4, 4, 4, 0.9);
+   background-color: rgba(4, 4, 4, 0.8);
    height: 10vh;
    position: fixed;
-   bottom: 10%;
+   bottom: 1%;
    color: white;
    text-align: center;
    
@@ -13,4 +13,9 @@
    display: inline-block;
    margin: 1.5% 0%;
    font-size: calc(0.3rem + 1vw);
+}
+@media(max-width:768px){
+   .ExclusiveBox{
+      bottom: 10%;
+   }
 }

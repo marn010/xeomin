@@ -10,9 +10,9 @@ export default class Header extends Component{
                <img className="HeaderPic" src="/assets/img/Pics/Header.png" alt="" />
                <div className="col-11 TestimonyVid">
                   <div className="row">
-                     <div className="col-6">
+                     <div className="col-6 Raleway font32">
                         <p>
-                           <b>
+                           <b className="Raleway ">
                               Testimonio personal 
                            </b> de Carolina Aristizábal
                         </p>
