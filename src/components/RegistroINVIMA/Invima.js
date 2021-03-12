@@ -6,7 +6,16 @@ export default class Invima extends Component{
    render(){
       return(
          <React.Fragment>
-            <img src="" alt="Registro Invima" />
+            <img className="LogoHeadINVIMA" src="/assets/img/Pics/LogoHeadINVIMA.png" alt="" />
+            <p className="RegText XeominBlue font32 RalewayBold">
+               Registro sanitario INVIMA
+            </p>
+            <img className="RegINVIMA" src="/assets/img/Pics/INVIMA.png" alt="Registro Invima" />
+            <div className="BackBTN font24">
+               <button>
+                  Regresar
+               </button>
+            </div>
          </React.Fragment>
       );
    }

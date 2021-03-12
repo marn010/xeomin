@@ -35,15 +35,21 @@
 }
 .VideoPure{
    background-color: #E7E7E7;
+   margin-top: 5%;
+   margin-bottom: 5%;
 }
 .VideoPureText{
    text-align: left;
    color: #306085;
    padding: 0% 25% 0% 25%;
 }
+.rowPurify{
+   border-bottom:solid 2px#306088;
+}
 .VideoPurify{
    background-color: #457EB6;
    color: white;
+   margin-top: 5%;
 }
 .VideoPurifyText{
    padding: 0% 25% 0% 25%;
@@ -60,6 +66,9 @@
    padding: 1% 2% 0% 0%;
    margin: 5% 0% 5% 0%;
    position: relative;
+}
+.MERZBox2 img{
+   width: 100%;
 }
 .PaintLPic{
    height: 440%;
@@ -79,6 +88,19 @@
 .MerzTitle2{
    font-size: calc(1.5rem + 0.2vw)/* 1.2rem */;
    margin: auto;
+}
+.GPBeauty{
+   width: 100%;
+   margin-bottom: 5%;
+}
+.GPAbout{
+   width: 100%;
+   margin: 5% 0%;
+}
+.EmotionText{
+   padding: 0% 10%;
+   margin: 0%;
+   border-right: solid 3px #306088;
 }
 @media(min-width:769px){
    

@@ -25,4 +25,19 @@
    .ThanksText p{
       padding: 0% 8%;
    }
+   .hashtag{
+      width: 100%;
+   }
+   .InstaBlue{
+      width: 10%;
+   }
+   .WebBlue{
+      width: 10%;
+   }
+   .WebBlueText{
+      margin: 2% 0%;
+   }
+   .InstaBlueText{
+      margin: 2% 0%;
+   }
 }

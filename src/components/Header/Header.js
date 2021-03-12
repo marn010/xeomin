@@ -11,7 +11,7 @@ export default class Header extends Component{
                <div className="col-11 TestimonyVid">
                   <div className="row">
                      <div className="col-6 Raleway font32">
-                        <p>
+                        <p className="TestimonyText">
                            <b className="Raleway ">
                               Testimonio personal 
                            </b> de Carolina Aristizábal

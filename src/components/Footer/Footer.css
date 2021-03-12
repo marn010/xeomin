@@ -10,9 +10,10 @@
    width: 100%;
 }
 .MainWebBox{
-   border-bottom: solid 2px white;
+   /* border-bottom: solid 2px white; */
    padding: 0% 0% 2% 0%;
 }
+
 @media(min-width:769px){
    .MainMovBox{
       display: none;
@@ -39,7 +40,23 @@
       left:-1.5%
    }
    .RegInvima{
-      margin: 5% 0% 0% 0%
+      margin: 1% auto 5% auto;
+      text-align: center;
+   }
+   .RegInvima p{
+      text-align: center;
+   }
+   .EndForm{
+      width: 100%;
+   }
+   .pencilPic{
+      position: absolute;
+      top: 0%;
+      left: 0%;
+      width: 10%;
+   }
+   .pencilText{
+      padding: 0% 10%;
    }
 }
 @media(max-width:768px){
@@ -56,5 +73,14 @@
       height: 70%;
       position: absolute;
       left: -20%;
+   }
+   .pencilPic{
+      position: absolute;
+      top: 0%;
+      left: 0%;
+      width: 10%;
+   }
+   .pencilText{
+      padding: 0% 10%;
    }
 }

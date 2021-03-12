@@ -10,10 +10,7 @@ export default class Home extends Component{
             <div className="HomeMainWebBox">
                <Header/>
                <div className="KnowMoreXeo font40">
-                  <p>
-                     Conozca más de
-                     <img className="XeominHomeTitlePic" src="/assets/img/Pics/Xeomin.png" alt="" />
-                  </p>
+                  <img className="XeominHomeTitlePic" src="/assets/img/Pics/Xeomin.png" alt="" />
                </div>
                <div className="row col-12 justify-content-center font24">
                   <div className="col-5">
@@ -26,7 +23,7 @@ export default class Home extends Component{
                   </div>
                   <div className="col-5">
                      <a href="/campaign">
-                        <img className="CampaingnGlobal" src="/assets/img/Pics/1.jpg" alt="Campaign" />
+                        <img className="CampaingnGlobal" src="/assets/img/Pics/HomeCampaing.png" alt="Campaign" />
                      </a>
                      <p>
                         Campaña global

@@ -24,21 +24,8 @@ export default class Campaign extends Component{
                      </div>
                   </div>
                </div>
-               <div className="GwynethBox container">
-                  <div className="row justify-content-center">
-                     <div className="col-4">
-                        <b><p>
-                           <span className="InitialCite">&#10077;</span>PARA MÍ, LA BELLEZA SE TRATA DE PROFUNDIZAR EN LA FELICIDAD EN LUGAR DE TRATAR DE PERSEGUIR LA JUVENTUD.
-                           <p className="FinalCite">&#10078;</p>
-                        </p>
-                        <p className="GwynethCite">GWYNETH PALTROW</p>
-                        <p>47 años.</p>
-                        </b>
-                     </div>
-                     <div className="col-6">
-                        <img src="" alt="Gwyneth" />
-                     </div>
-                  </div>
+               <div className="GwynethBox container col-12">
+                  <img className="GPBeauty" src="/assets/img/Pics/GPBeauty.png" alt="" />
                </div>
                <div className="container Raleway font24">
                   <p>
@@ -62,12 +49,12 @@ export default class Campaign extends Component{
                </div>
                <div className="container">
                   <div className="row font24">
-                     <div className="col-6 RalewayBold XeominBlue">
-                        <p>
-                           "Es un momento muy emocionante para Merz Aesthetics", dijo Bob Rhatigan,. Director Ejecutivo Global de Merz Aesthetics.
+                     <div className="col-5 RalewayBold XeominBlue">
+                        <p className="EmotionText">
+                           "Es un momento muy emocionante para Merz Aesthetics", dijo Bob Rhatigan. Director Ejecutivo Global de Merz Aesthetics.
                         </p>
                      </div>
-                     <div className="col-6 Raleway">
+                     <div className="col-7 Raleway">
                         <p>
                            "La pasión de Gwyneth por le conocimiento y el parendizaje, su perspectiva profundamente personal sobre la belleza y el envejecimiento, y su estándar puro de belleza, son cualidades que admiramos en Merz Aesthetics y son los valores que compartimos como empresa"
                         </p>
@@ -75,7 +62,7 @@ export default class Campaign extends Component{
                   </div>
                </div>
                <div className="container VideoPurify">
-                  <div className="row justify-content-center">
+                  <div className="row justify-content-center rowPurify">
                      <div className="col-4">
                         <p className="VideoPurifyText Raleway font40">
                            Video GP - Me purifiqué
@@ -94,19 +81,7 @@ export default class Campaign extends Component{
                   </div>
                </div>               
                <div className="MERZBox2">
-                  <div className="row justify-content-end">
-                     <img className="PaintLPic" src="/assets/img/Pics/PaintLPic.png" alt="PaintPic" />
-                     <div className="col-2 align-self-center MerzSubtitle2">
-                        <p className="">
-                           confidence to be
-                        </p>
-                     </div>
-                     <div className="col-4 align-self-center" style={{paddingLeft:"0.5%"}}>
-                        <p className="MerzTitle2">
-                           MERZ AESTHETICS&#174;
-                        </p>
-                     </div>
-                  </div>
+                  <img src="/assets/img/Pics/LogoMerz.png" alt="" />
                </div>
                <div className="container">
                   <div className="row font24">
@@ -128,22 +103,8 @@ export default class Campaign extends Component{
                      </div>
                   </div>
                </div>
-               <div className="container"> 
-                  <div className="row">
-                     <div className="col-6">
-                        <p><b>Acerca de Gwyneth Paltrow</b></p>
-                        <p>
-                           Gwyneth Paltrow, actriz ganadora de un Óscar, también autora de libros de cocina, cantante y emprededora. En 2008 Paltrow fundó Goop, que se ha convertido en una marca de estilo de vida dedicada a ayudar a las mujeres a tomar sus propias decisiones en las diversas facetas de sus vidas, desde el estilo, los viajes, el trabajo, la comida y la belleza hasta el bienestar fisico, mental y espiritual.</p>
-                        <p>
-                           Goop ahora tiene una tienda digital, un libro publicado, experiencia en ventas minoristas permanentemente y un negocio que crece, eventos en vivo, un programa de television en Netflix y sus propias lineas de productos, incluidas las del cuidado de la piel, fragancias, prendas de vestir, productos corporales, lociones para la ducha y sumplementos.
-                        </p>
-                        <p>Goop es una marca registrada de Goop Inc.</p>
-                     </div>
-                     <div className="col-6">
-                        <img src="" alt="Gwyneth" />
-                     </div>
-                  </div>
-
+               <div className=""> 
+                  <img className="GPAbout" src="/assets/img/Pics/GPAbout.png" alt="" />
                </div>
             </div>
          </React.Fragment>

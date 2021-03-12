@@ -8,8 +8,10 @@ export default function Login({setToken}){
    const handleSubmit = async e=> {
       e.preventDefault();
       /* alert("La clave ingresada fue: " + password) */
+      /* const token =password; */
       if(password===pass){
-         setToken(1)
+         setToken({token:pass})
+         alert("codigo aceptado")
       }else{
          alert("El código ingresado no corresponde con nuestra base de datos.")
       }
@@ -20,7 +22,7 @@ export default function Login({setToken}){
             <h1>¡BIENVENIDO!</h1>
             <div className="FormBox">
                <form onSubmit={handleSubmit}>
-                  <label>
+                  <label className="Raleway">
                      <p><b>Ingrese el código</b> de acceso para conocer y vivir una experiencia única</p>
                      <input type="password" onChange={e => setPassword(e.target.value)} />
                   </label>
@@ -30,8 +32,11 @@ export default function Login({setToken}){
                </form>
             </div>
          </div>
-         <hr/>
-         <img className="ColorsLog" src="/assets/img/Pics/ColorsLog.png" alt="" />
+         <img className="ColorsLog" src="/assets/img/Pics/LogoHome.png" alt="" />
+         <p className="LoginExclusiveText">
+            Contenido exclusivo para cuerpo médico
+         </p>
       </div>
    )
 }
+

@@ -1,0 +1,21 @@
+.RegINVIMA{
+   width: 100%;
+}
+.LogoHeadINVIMA{
+   width: 100%;
+}
+.RegText{
+   text-align: center;
+}
+.BackBTN{
+   background-color: #457EB9;
+   text-align: center;
+   padding: 4% 0%;
+}
+.BackBTN button{
+   border-color: transparent;
+   border-radius: 10px;
+   width: 30%;
+   padding: 0.5%;
+   color: #457EB9;
+}

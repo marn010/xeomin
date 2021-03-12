@@ -23,19 +23,19 @@ export default class Thanks extends Component{
                      </div>
                      <div className="row">
                         <div className="col-4">
-                           <img src="" alt="logo"/>
+                           <img className="hashtag" src="/assets/img/pics/hashtag.png" alt="logo"/>
                         </div>
-                        <div className="col-4">
-                           <img src="" alt="insta" />
-                           <p>
+                        <div className="col-4 InstaBlueText">
+                           <img className="InstaBlue" src="/assets/img/Pics/InstaBlue.png" alt="insta" />
+                           <span>
                               @merzaesthetics_col
-                           </p>
+                           </span>
                         </div>
-                        <div className="col-4">
-                           <img src="" alt="web" />
-                           <p>
+                        <div className="col-4 WebBlueText">
+                           <img className="WebBlue" src="/assets/img/Pics/WebBlue.png" alt="web" />
+                           <span className="">
                               www.merz.com/co
-                           </p>
+                           </span>
                         </div>
                      </div>
                   </div>

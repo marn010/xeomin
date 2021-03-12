@@ -1,10 +1,11 @@
 .KnowMoreXeo{
-   background-color: #306088;
+   background-color: transparent;
    text-align: center;
    color: white;
+   margin-bottom: 5%;
 }
 .XeominHomeTitlePic{
-   width: 10%;
+   width: 100%;
 }
 .InfoXeo{
    width: 80%;

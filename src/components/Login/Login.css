@@ -30,6 +30,10 @@
 }
 .FormBox input{
    border-radius: 10px;
+   border-color: transparent;
+}
+.FormBox button{
+   display: none;
 }
 hr{
    background-color: white;
@@ -37,7 +41,9 @@ hr{
    width: 70%;
 }
 .ColorsLog{
-   position: absolute;
-   left: 5%;
-   bottom: 5%;
+   margin: 2% 0% 2% 0%;
+   width: 100%;
+}
+.LoginExclusiveText{
+   text-align: center;
 }
