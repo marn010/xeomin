@@ -13,7 +13,7 @@
 }
 .VisitBox p{
    border-bottom: solid 2px white;
-   width: auto;
+   width: 100%;
 }
 .InstaBlack{
    width: 10%;
@@ -22,4 +22,35 @@
 .WebBlack{
    width: 10%;
    margin: 5% 0%;
+}
+.instaBox{
+   text-align: center;
+}
+.WebBox{
+   text-align: center;
+}
+@media(max-width:768px){
+   .InstaBlack{
+      width: 20%;
+      margin: 5% 0%;
+   }
+   .WebBlack{
+      width: 20%;
+      margin: 5% 0%;
+   }
+   .VisitBox{
+      padding: 0% 1%;
+      text-align: center;
+   }
+   .instaBox{
+      padding: 0% 5px;
+      text-align: center;
+   }
+   .WebBox{
+      padding: 0% 5px;
+      text-align: center;
+   }
+   .SocialBox div{
+      margin: 0%;
+   }
 }

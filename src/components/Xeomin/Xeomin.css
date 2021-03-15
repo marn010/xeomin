@@ -290,11 +290,12 @@
       text-align: left;
    }
    .ToxinaBlue2{
-      width: 50%;
+      width: 100%;
       transform: translate(40%,-10%) rotate(45deg);
+      margin-left: -50%;
    }
    .XeominRec{
-      padding: 0% 10% 0% 30%;
+      padding: 0% 10% 0% 10%;
       /* font-size: calc(1.0rem + 1vw); */
    }
    .XeominRecText{
@@ -322,7 +323,7 @@
       margin: 0% auto 5% auto
    }
    .XeominTipsText{
-      padding-left: 2%;
+      padding-left: 5%;
       position: relative;
    }
    .XeominTipsDot{
@@ -354,10 +355,11 @@
    }
    .XeominImportant{
       background-color: #E7E7E7;
+      text-align: center;
    }
    .Paso3Pic{
       display: block;
-      width: 100%;
+      width: 75%;
       margin: 0% auto 0% auto;
    }
    .VideoReconstitucion{
@@ -366,14 +368,16 @@
    .XeoTechnique{
       font-size: calc(0.5rem + 1vw);
       text-align: center;
+      margin: 0%;
    }
    .One21Box{
       margin: 0% 0% 4% 0%;
    }
    .One21Pic{
       display: block;
-      width: 100%;
-      margin: -3.5% auto 0% auto;
+      width: 70%;
+      padding: 5% 10%;
+      margin: 1% auto 0% auto;
    }
    .One21Text{
       color: #636362;
@@ -383,6 +387,9 @@
    }
    .One21{
       color: #0075C9;
+   }
+   .ProtocolMov{
+      width: 100%;
    }
    .VideoONE21{
       background-color: #003869;
@@ -418,6 +425,7 @@
    }
    .XeoDownloadText{
       text-align: center;
+      color: white;
    }
    .XeoDownloadBTN{
       text-align: center;

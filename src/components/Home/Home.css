@@ -7,9 +7,20 @@
 .XeominHomeTitlePic{
    width: 100%;
 }
-.InfoXeo{
-   width: 80%;
+
+@media(max-width:768px){
+   .InfoXeo{
+      width: 100%;
+   }
+   .CampaingnGlobal{
+      width: 100%;
+   }
 }
-.CampaingnGlobal{
-   width: 80%;
+@media(min-width:769px){
+   .InfoXeo{
+      width: 80%;
+   }
+   .CampaingnGlobal{
+      width: 80%;
+   }
 }

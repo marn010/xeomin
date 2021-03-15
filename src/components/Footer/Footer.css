@@ -13,6 +13,9 @@
    /* border-bottom: solid 2px white; */
    padding: 0% 0% 2% 0%;
 }
+.RegInvima p{
+   color: white;
+}
 
 @media(min-width:769px){
    .MainMovBox{
@@ -33,11 +36,6 @@
    .MerzTitle{
       font-size: calc(1.2rem + 0.2vw)/* 1.2rem */;
       margin: auto;
-   }
-   .PaintPic{
-      height: 8%;
-      position: absolute;
-      left:-1.5%
    }
    .RegInvima{
       margin: 1% auto 5% auto;
@@ -69,18 +67,19 @@
    .MerzSubtitle{
       text-align: end;
    }
-   .PaintPic{
-      height: 70%;
-      position: absolute;
-      left: -20%;
-   }
    .pencilPic{
       position: absolute;
       top: 0%;
-      left: 0%;
-      width: 10%;
+      left: -5%;
+      width: 15%;
    }
    .pencilText{
       padding: 0% 10%;
+   }
+   .EndForm{
+      width: 100%;
+   }
+   .RegInvima p{
+      text-align: center;
    }
 }

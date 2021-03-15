@@ -110,12 +110,12 @@ export default class XeominMov extends Component{
                      <img src="" alt="Video"/>
                   </div>
                </div>
-               <div className="container col-10 justify-content-center">
-               <div className="row col-12">
-                  <div className="col-2">
+               <div className="container col-12 justify-content-center">
+               <div className="row col-12" style={{margin:"0%"}}>
+                  <div className="col-2" style={{padding:"0%"}}>
                      <img className="ToxinaBlue2" src="/assets/img/Pics/ToxinaBlue.png" alt="toxin" />
                   </div>
-                  <div className="col-9">
+                  <div className="col-10" style={{paddingRight:"0%"}}>
                      <p className="XeominBlue Raleway font24">
                         A través del proceso XTRACT TEchnology se consigue remover el complejo proteico, obteniendo una neurotoxina activa (150kDA) purificada que ofrece un menor riesgo de inmunogenicidad y una alta estabilidad.
                      </p>
@@ -126,13 +126,13 @@ export default class XeominMov extends Component{
                </div>
                </div>
                <div className="row col-12 justify-content-center">
-                  <div className="col-4">
+                  <div className="col-5">
                      <p className="XeominBlue XeominRec Raleway font32">
                         <b className="RalewayBold font40">XEOMIN&#174;: </b>
                         RECONSTITUCIÓN Y DILUCIÓN
                      </p>
                   </div>
-                  <div className="col-6 XeominRecText">
+                  <div className="col-7 XeominRecText">
                      <p className="XeominBlue RalewayBold font32">
                         <b>
                            XEOMIN&#174; puede ayudarlo a alcanzar el efecto deseado en sus pacientes.
@@ -166,7 +166,7 @@ export default class XeominMov extends Component{
                   <p className="XeominBlue XeominStepsTitle RalewayBold font32">
                      PASOS PARA UNA ADECUADA RECONSTITUCIÓN DE XEOMIN
                   </p>
-                  <div className="row col-10 offset-1 font24">
+                  <div className="row col-12 font24" style={{margin:"0%"}}>
                      <div className="col-5">
                         <p className="XeominBlue Paso1Text RalewayBold font32">Paso 1:</p>
                         <img className="Paso1Pic" src="/assets/img/Pics/Paso1.png" alt="Paso 1"  />
@@ -188,10 +188,14 @@ export default class XeominMov extends Component{
                         <span className="XeominTipsDot"></span>
                            Debido al proceso de sellado al vacio de XEOMIN&#174;, la solución salina deberá ser aspirada al interior del vial por si sola.</p>
                      </div>
-                     <div className="col-5 Raleway">
+                     <div className="col-7 Raleway">
                         <p className="XeominBlue RalewayBold">Paso 2:</p>
                         <p className="Paso2Text">Retire la aguja y realice movimientos circulares dejando que el liquido toque todas las paredes del vial y el tapón de goma, y regrese a su posición inicial, repitiendo estos movimientos varias veces hasta lograr una mezcla homogénea.</p>
-                        <div className="XeominImportant XeominBlue RalewayMedium">
+                     </div>
+                     <div className="col-5" style={{padding:"0%"}}>
+                        <img className="Paso2Pic" src="/assets/img/Pics/Paso2.png" alt="Paso 2" />
+                     </div>
+                     <div className="col-12 XeominImportant XeominBlue RalewayMedium">
                            <p>
                               IMPORTANTE:
                            </p>
@@ -199,14 +203,7 @@ export default class XeominMov extends Component{
                               El frasco no debe ser agitado vigorosamente.
                            </p>
                         </div>
-                     </div>
-                     <div className="col-7">
-                        <img className="Paso2Pic" src="/assets/img/Pics/Paso2.png" alt="Paso 2" />
-                     </div>
-                     <div className="col-5">
-                        <img className="Paso3Pic" src="/assets/img/Pics/Paso3.png" alt="Paso 3" />
-                     </div>
-                     <div className="col-7 XeominTips Raleway">
+                        <div className="col-7 XeominTips Raleway">
                         <p className="XeominBlue RalewayBold">
                            Paso 3:
                         </p>
@@ -222,57 +219,52 @@ export default class XeominMov extends Component{
                            La solución reconstituida de XEOMIN&#174; debe ser utilizada para inyección intramuscular y puede ser almacenado en refgrigeración por 24h a una temperatura de 2°C a 8°C.
                         </p>
                      </div>
+                     <div className="col-5" style={{padding:"0%"}}>
+                        <img className="Paso3Pic" src="/assets/img/Pics/Paso3.png" alt="Paso 3" />
+                     </div>
                   </div>
                   <div className="VideoReconstitucion">
-                     <div className="col-5 Raleway font40 XeominBlue">
+                     <div className="col-12 Raleway font40 XeominBlue">
                         <p>
                            Video Reconstitución
                         </p>
                      </div>
-                     <div className="col-7">
+                     <div className="col-12">
                         {/*VIDEO*/}
+                        <img src="" alt="Video" />
                      </div>
                   </div>
+                  <div className="col-12 justify-content-around">
+                        <img className="One21Pic" src="/assets/img/Pics/One21.png" alt="one21" />
+                     </div>
                   <div className="XeoTechnique row col-12 justify-content-center">
-                     <p className="XeominBlue col-4 Raleway font32">
+                     <p className="XeominBlue col-12 Raleway font32">
                         DESTÁQUESE CON UNA <b>TÉCNICA PERSONALIZADA</b>
                      </p>
                   </div>
                   <div className="row col-12 justify-content-center One21Box">
-                     <div className="col-4">
-                        <img className="One21Pic" src="/assets/img/Pics/One21.png" alt="one21" />
-                     </div>
-                     <div className="col-6 Raleway font24 One21Text">
+                     <div className="col-12 Raleway font24 One21Text">
                         <p>
                            <b className="RalewayBold One21Full">one<span className="One21">2</span>1</b> es una exclusiva técnica que apunta a un tratamiento individualizado para el modelamiento de las cejas, tratamiento de arrugas frontales, glabelares y perioculares, basada en la anatomía y los resultados deseados por los pacientes.
                         </p>
                      </div>
                   </div>
+                  <img className="ProtocolMov" src="/assets/img/Pics/ProtocoloMov.png" alt="Protocolo" />
                   <div className="VideoONE21 row col-12 justify-content-center">
                      <div className="col-6 Raleway font24">
                         <p>Video One21 - Dra. Barrera</p>
                         {/*VIDEO*/}
                      </div>
-                     <div className="col-5">
-                        <p className="RalewayBold font40">El protocolo</p>
-                        <p className="RalewayBold font24">
-                           de la técnica #ONE21 se divide en 3 importantes pasos:
-                        </p>
-                        <ol className="list Raleway font24">
-                           <li>Evaluación</li>
-                           <li>Adaptación</li>
-                           <li>Personalización</li>
-                        </ol>
-                     </div>
-                  </div>
-                  <div className="container Raleway">
+                     <div className="container Raleway">
                      <p className="XeominBlue XeoDownloadText font24">
                         Si desea conocer más de esta técnica descargue la guía paso a paso
                      </p>
                      <Link className="XeoDownloadBTN"  to={{pathname:"/assets/pdf/Doc1.pdf"}} target="_blank" >
                         Descargar
                      </Link>
+                     </div>
                   </div>
+                  
                </div>
             </div>
          </div>
