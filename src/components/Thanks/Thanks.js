@@ -41,7 +41,37 @@ export default class Thanks extends Component{
                   </div>
                </div>
                <div className="ThanksMovBox">
-
+                  <div className="container col-12">
+                     <div className="row ThanksText justify-content-center">
+                        <div className="col-12">
+                           <p className="Raleway font40">
+                              <b className="RalewayBold">¡MUCHAS GRACIAS</b> POR ACEPTAR VIVIR UNA EXPERIENCIA ÚNICA!
+                           </p>
+                        </div>
+                        <div className="col-12">
+                           <p className="Raleway font32">
+                              Próximamente recibirá una <b className="RalewayBold"> muestra de Xeomin&#174;</b> y conocerá de otros beneficios adicionales que podrá tener por formar parte de esta <span className="exp"> experiencia única </span>
+                           </p>
+                        </div>
+                     </div>
+                     <div className="col-12">
+                        <img className="hashtag" src="/assets/img/pics/hashtag.png" alt="logo"/>
+                     </div>
+                     <div className="row justify-content-center">
+                        <div className="col-6 InstaBlueText font24">
+                           <img className="InstaBlue" src="/assets/img/Pics/InstaBlue.png" alt="insta" />
+                           <span>
+                              @merzaesthetics_col
+                           </span>
+                        </div>
+                        <div className="col-6 WebBlueText font24">
+                           <img className="WebBlue" src="/assets/img/Pics/WebBlue.png" alt="web" />
+                           <span className="">
+                              www.merz.com/co
+                           </span>
+                        </div>
+                     </div>
+                  </div>
                </div>
             </div>
          </React.Fragment>

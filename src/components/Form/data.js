@@ -1,282 +1,292 @@
 export const data = [
    {
       city:"Aguachica",
+      id:"01"
    },
    {
       city:"Apartadó",
+      id:"02"
    },
    {
       city:"Arauca",
+      id:"03"
    },
    {
       city:"Armenia",
+      id:"04"
    },
    {
       city:"Barrancabermeja",
+      id:"05"
    },
    {
       city:"Barranquilla",
+      id:"06"
    },
    {
       city:"Bello",
+      id:"07"
    },
    {
       city:"Bogotá D.C.",
+      id:"08"
    },
    {
       city:"Buga",
+      id:"09"
    },
    {
       city:"Cali",
+      id:"10"
       
    },
    {
       city:"Cartago",
-      
+      id:"11"
    },
    {
       city:"Cartagena",
-      
+      id:"12"
    },
    {
       city:"Caucasia",
-      
+      id:"13"
    },
    {
       city:"Cereté",
-      
+      id:"14"
    },
    {
       city:"Chia",
-      
+      id:"15"
    },
    {
       city:"Ciénaga",
-      
+      id:"16"
    },
    {
       city:"Cúcuta",
-      
+      id:"17"
    },
    {
       city:"Dosquebradas",
-      
+      id:"18"
    },
    {
       city:"Duitama",
-      
+      id:"19"
    },
    {
       city:"Envigado",
-      
+      id:"20"
    },
    {
       city:"Facatativá",
-      
+      id:"21"
    },
    {
       city:"Florencia",
-      
+      id:"22"
    },
    {
       city:"Floridablanca",
-      
+      id:"23"
    },
    {
       city:"Fusagasugá",
-      
+      id:"24"
    },
    {
       city:"Girardot",
-      
+      id:"25"
    },
    {
       city:"Girón",
-      
+      id:"26"
    },
    {
       city:"Ibagué",
-      
+      id:"27"
    },
    {
       city:"Ipiales",
-      
+      id:"28"
    },
    {
       city:"Itagüi",
-      
+      id:"29"
    },
    {
       city:"Jamundi",
-      
+      id:"30"
    },
    {
       city:"Lorica",
-      
+      id:"31"
    },
    {
       city:"Los Patios",
-      
+      id:"32"
    },
    {
       city:"Magangué",
-      
+      id:"33"
    },
    {
       city:"Maicao",
-      
+      id:"34"
    },
    {
       city:"Malambo",
-      
+      id:"35"
    },
    {
       city:"Manizales",
-      
+      id:"36"
    },
    {
       city:"Medellin",
-      
+      id:"37"
    },
    {
       city:"Melgar",
-      
+      id:"38"
    },
    {
       city:"Montería",
-      
+      id:"39"
    },
    {
       city:"Neiva",
-      
+      id:"40"
    },
    {
       city:"Ocaña",
-      
+      id:"41"
    },
    {
       city:"Paipa",
-      
+      id:"42"
    },
    {
       city:"Palmira",
-      
+      id:"43"
    },
    {
       city:"Pamplona",
-      
+      id:"44"
    },
    {
       city:"Pasto",
-      
+      id:"45"
    },
    {
       city:"Pereira",
-      
+      id:"46"
    },
    {
       city:"Piedecuesta",
-      
+      id:"47"
    },
    {
       city:"Pitalito",
-      
+      id:"48"
    },
    {
       city:"Popayán",
-      
+      id:"49"
    },
    {
       city:"Quibdó",
-      
+      id:"50"
    },
    {
       city:"Riohacha",
-      
+      id:"51"
    },
    {
       city:"Rionegro",
-      
+      id:"52"
    },
    {
       city:"Sabanalarga",
-      
+      id:"53"
    },
    {
       city:"Sahagún",
-      
+      id:"54"
    },
    {
       city:"San Andrés Islas",
-      
+      id:"55"
    },
    {
       city:"Santa Marta",
-      
+      id:"56"
    },
    {
       city:"Sincelejo",
-      
+      id:"57"
    },
    {
       city:"Soacha",
-      
+      id:"58"
    },
    {
       city:"Sogamoso",
-      
+      id:"59"
    },
    {
       city:"Soledad",
-      
+      id:"60"
    },
    {
       city:"Tibú",
-      
+      id:"61"
    },
    {
       city:"Tuluá",
-      
+      id:"62"
    },
    {
       city:"Tumaco",
-      
+      id:"63"
    },
    {
       city:"Tunja",
-      
+      id:"64"
    },
    {
       city:"Turbo",
-      
+      id:"65"
    },
    {
       city:"Valledupar",
-      
+      id:"66"
    },
    {
       city:"Villa de leyva",
-      
+      id:"67"
    },
    {
       city:"Villa del Rosario",
-      
+      id:"68"
    },
    {
       city:"Villavicencio",
-      
+      id:"69"
    },
    {
       city:"Yopal",
-      
+      id:"70"
    },
    {
       city:"Yumbo",
-      
+      id:"71"
    },
    {
       city:"Zipaquirá",
-      
+      id:"72"
    },
     
 ]

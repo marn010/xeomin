@@ -13,7 +13,6 @@ export default class Forms extends Component{
       super();
       this.state = {
          showModal: false,
-
       };
       this.handleOpenModal = this.handleOpenModal.bind(this);
       this.handleCloseModal = this.handleCloseModal.bind(this);
@@ -24,7 +23,6 @@ export default class Forms extends Component{
    handleCloseModal(){
       this.setState({showModal: false});
    }
-
    handleSubmit(e){
       e.preventDefault();
       axios.post('/correo/',{
@@ -86,13 +84,13 @@ export default class Forms extends Component{
                   <Row>
                      <Col /* md={6} */ xs={6}>
                         <Input className="form" type="select" name="city" id="city"
-                        
+                        defaultValue=""
                         >
-                           <option value="" selected disabled hidden >Ciudad*</option>
+                           <option value=""   disabled hidden >Ciudad*</option>
                            {data.map(() =>{
                               id=id+1;
                               return(
-                                 <option>{data[id].city}</option>
+                                 <option key={data[id].id}>{data[id].city}</option>
                               );
                            })}
                      </Input>

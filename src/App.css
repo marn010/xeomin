@@ -52,13 +52,13 @@
 }
 @media(max-width:768px){
    .font18{
-      font-size: calc(0.1rem + 1vw);
-   }
-   .font21{
       font-size: calc(0.2rem + 1vw);
    }
+   .font21{
+      font-size: calc(0.3rem + 1vw);
+   }
    .font24{
-      font-size: calc(0.40rem + 1vw);
+      font-size: calc(0.45rem + 1vw);
    }
    .font32{
       font-size: calc(0.7rem + 1vw);
