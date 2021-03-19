@@ -1,4 +1,5 @@
 import React, { Component } from 'react';
+import Footer from '../Footer/Footer';
 
 import './Xeomin.css';
 import XeominMov from './XeominMov';
@@ -10,6 +11,7 @@ export default class Xeomin extends Component{
          <div className="XeominMainBox" id="Xeomin">
             <XeominWeb/>
             <XeominMov/>
+            <Footer/>
          </div>
       );
    }

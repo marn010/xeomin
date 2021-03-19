@@ -12,9 +12,9 @@ export default class Invima extends Component{
             </p>
             <img className="RegINVIMA" src="/assets/img/Pics/INVIMA.png" alt="Registro Invima" />
             <div className="BackBTN font24">
-               <button>
+               <a href="/home">
                   Regresar
-               </button>
+               </a>
             </div>
          </React.Fragment>
       );

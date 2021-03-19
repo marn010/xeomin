@@ -1,4 +1,5 @@
 import React, { Component } from 'react';
+import Footer from '../Footer/Footer';
 import Header from '../Header/Header';
 
 import './Home.css';
@@ -34,6 +35,7 @@ export default class Home extends Component{
             <div className="HomeMainWMovBox">
 
             </div>
+            <Footer/>
          </React.Fragment>
       );
    }

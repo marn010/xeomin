@@ -3,7 +3,6 @@ import { BrowserRouter as Router, Switch, Route, Redirect } from 'react-router-d
 import 'bootstrap/dist/css/bootstrap.min.css';
 
 import Xeomin from './Xeomin/Xeomin';
-import Footer from './Footer/Footer';
 import Exclusive from './Exclusive/Exclusive';
 import Home from './Home/Home';
 import Login from './Login/Login';
@@ -28,7 +27,7 @@ export default function Main(){
                <Route path="/invima" component={Invima}></Route>
                <Redirect to="/home"></Redirect>
             </Switch>
-         <Footer/>
+         
          <Exclusive/>
          </Router>
       </div>

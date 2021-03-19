@@ -1,4 +1,5 @@
 import React, { Component } from 'react';
+import Footer from '../Footer/Footer';
 
 import './Campaign.css';
 
@@ -107,6 +108,7 @@ export default class Campaign extends Component{
                   <img className="GPAbout" src="/assets/img/Pics/GPAbout.png" alt="" />
                </div>
             </div>
+         <Footer/>
          </React.Fragment>
       );
    }

@@ -4,17 +4,16 @@ import './Login.css';
 
 export default function Login({setToken}){
    const [password,setPassword] = useState();
-   const pass= 'jZae727K08KaOmKSgOaGzww/XVqGr/PKEgIMkjrcbJI=';
+   const pass= '1nARL5A8kNk6PREQ+Tf42hmNGcQaVB3FkMkCtXA6lf0=';
    var crypto = require('crypto');
    const handleSubmit = async e=> {
       e.preventDefault();
       const hash = crypto.createHash('sha256').update(password).digest('base64');
-      alert("La clave ingresada fue: " + password);
-      alert("El Hash producido es: " + hash);
-      /* const token =password; */
+      /* alert("La clave ingresada fue: " + password); */
+      /* alert("El Hash producido es: " + hash); */
       if(hash===pass){
          setToken({token:pass})
-         alert("codigo aceptado")
+         /* alert("codigo aceptado") */
       }else{
          alert("El código ingresado no corresponde con nuestra base de datos.")
       }

@@ -11,11 +11,18 @@
    background-color: #457EB9;
    text-align: center;
    padding: 4% 0%;
+   color: white;
+   margin-bottom: 10%;
 }
-.BackBTN button{
+
+.BackBTN a{
+   background-color: white;
    border-color: transparent;
    border-radius: 10px;
    width: 30%;
-   padding: 0.5%;
+   padding: 1% 10%;
    color: #457EB9;
+}
+.BackBTN a:hover{
+   text-decoration:none;
 }
