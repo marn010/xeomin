@@ -49,6 +49,10 @@
    .font40{
       font-size: calc(1.7rem + 1vw);
    }
+   .trademark{
+      font-size: 70%/* 1rem */;
+      vertical-align: top;
+   }
 }
 @media(max-width:768px){
    .font18{
@@ -65,5 +69,9 @@
    }
    .font40{
       font-size: calc(0.9rem + 1vw);
+   }
+   .trademark{
+      font-size: 70%/* 0.8rem */;
+      vertical-align: top;
    }
 }

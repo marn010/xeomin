@@ -13,13 +13,13 @@ export default class Social extends Component{
                         <p>VISITE</p>
                      </div>
                      <div className="col-5 font24 instaBox">
-                        <a href="www.instagram.com" target="blank">
+                        <a href="https://www.instagram.com/?hl=es" target="blank">
                            <img className="InstaBlack" src="/assets/img/Pics/InstaBlack.png" alt="instagram" />
                            <span>@merzaesthetics_col</span>
                         </a>
                      </div>
                      <div className="col-5 font24 WebBox">
-                        <a href="www.merz.com/co" target="blank">
+                        <a href="https://www.merz.com/co" target="blank">
                            <img className="WebBlack" src="/assets/img/Pics/WebBlack.png" alt="Web" />
                            <span>www.merz.com/co</span>
                         </a>

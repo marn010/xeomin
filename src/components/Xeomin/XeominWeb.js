@@ -17,7 +17,7 @@ export default class XeominWeb extends Component{
                   </div>
                   <div className="col-10 justify-content-center XeominText">
                      <div>
-                        <p className="XeominBlue XeominTitle Raleway font32"><b className="RalewayBold">XEOMIN&#174;</b> ES PARTE DE LA INVESTIGACIÓN DE TODA UNA VIDA</p>
+                        <p className="XeominBlue XeominTitle Raleway font32"><b className="RalewayBold">XEOMIN<span className="trademark">&#174;</span></b> ES PARTE DE LA INVESTIGACIÓN DE TODA UNA VIDA</p>
                         <p className="Raleway font24">
                            Hace casi 20 años, el Dr. Frevert se dio cuenta que el complejo proteico que rodea el núcleo de neurotoxinas no es necesario para su efecto terapéutico o modo de acción
                         </p>
@@ -59,7 +59,7 @@ export default class XeominWeb extends Component{
                      </div>
                      <div className="col-7 offset-1 DrFrevertTextBox">
                         <h3 className="DrFrevertText RalewayBold font32">
-                           El Dr. Jurgen Frevert podria ser descrito como el padre de XEOMIN&#174;.
+                           El Dr. Jurgen Frevert podria ser descrito como el padre de XEOMIN<span className="trademark">&#174;</span>.
                         </h3>
                         <p className="Raleway font24">
                            Hace más de 30 años, el Dr. formaba parte de una investigfacion doctoral y se le encomendó <b>purificar</b> la toxina botulinica tipo A con la que trabajaba en ese momento (Onabotulinim Toxin A).
@@ -69,7 +69,7 @@ export default class XeominWeb extends Component{
                </div>
                <div className="container">
                   <p className="XeominBlue RalewayMedium font24 FrevertPostText">
-                     Hacia finales de la década de 1990, comenzó el proyecto que dio como resultado XEOMIN&#174;. Realizando fermentaciones durante la semana, el Dr. Frevert pasó muchos fines de semana con colegas igualmente dedicados a purificar y experimentar nuevas formas de estabilizar la neurotoxina y descubrió que la sacarosa era el excipiente más efectivo en este sentido.
+                     Hacia finales de la década de 1990, comenzó el proyecto que dio como resultado XEOMIN<span className="trademark">&#174;</span>. Realizando fermentaciones durante la semana, el Dr. Frevert pasó muchos fines de semana con colegas igualmente dedicados a purificar y experimentar nuevas formas de estabilizar la neurotoxina y descubrió que la sacarosa era el excipiente más efectivo en este sentido.
                   </p>
                </div>
                <div className="row col-12 FrevertScientific">
@@ -88,13 +88,13 @@ export default class XeominWeb extends Component{
                   </div>
                   <div className="col-6 Raleway font24">
                      <p>
-                        XEOMIN&#174; es un producto de alta calidad: de todos los pacientes tratados hasta la fecha <span className="XeominBlue"> ninguno ha desarrollado anticuerpos neutralizantes o se ha convertido en no respondedores secundarios </span>, lo que permite a los pacientes beneficiarse de tratamientos repetidos.
+                        XEOMIN<span className="trademark">&#174;</span> es un producto de alta calidad: de todos los pacientes tratados hasta la fecha <span className="XeominBlue"> ninguno ha desarrollado anticuerpos neutralizantes o se ha convertido en no respondedores secundarios </span>, lo que permite a los pacientes beneficiarse de tratamientos repetidos.
                      </p>
                      <p>
-                        No solo la neurotoxina es la única proteina bacteriana presente en cada vial de las diferentes preparaciuones de toxina botulinica disponibles en el mercado; XEOMIN&#174; a través de su proceso de manufaftura y fabricación tan perfectamente controlado, <span className="XeominBlue">logra extraer la neurotoxina purificada sin perder su actividad biológica.</span>
+                        No solo la neurotoxina es la única proteina bacteriana presente en cada vial de las diferentes preparaciuones de toxina botulinica disponibles en el mercado; XEOMIN<span className="trademark">&#174;</span> a través de su proceso de manufaftura y fabricación tan perfectamente controlado, <span className="XeominBlue">logra extraer la neurotoxina purificada sin perder su actividad biológica.</span>
                      </p>
                      <p>
-                        Esto significa que, si bien hay una menor carga proteica en el vial, <span className="XeominBlue">XEOMIN&#174; al contener unicamente la neurotixina purificada tiene la mayor potencia específica </span> en comparación con otros productos de toxina botulinica".
+                        Esto significa que, si bien hay una menor carga proteica en el vial, <span className="XeominBlue">XEOMIN<span className="trademark">&#174;</span> al contener unicamente la neurotixina purificada tiene la mayor potencia específica </span> en comparación con otros productos de toxina botulinica".
                      </p>
                      <p className="font18">(Frevert J. Drugs R D 2010;10:67-73.)</p>
                   </div>
@@ -130,21 +130,21 @@ export default class XeominWeb extends Component{
                   </div>
                </div>
                </div>
-               <div className="row -col-10 justify-content-center">
+               <div className="row -col-10 justify-content-center XeoRecBox">
                   <div className="col-4">
                      <p className="XeominBlue XeominRec Raleway font32">
-                        <b className="RalewayBold font40">XEOMIN&#174;: </b>
+                        <b className="RalewayBold font40">XEOMIN<span className="trademark">&#174;</span>: </b>
                         RECONSTITUCIÓN Y DILUCIÓN
                      </p>
                   </div>
                   <div className="col-6 XeominRecText">
                      <p className="XeominBlue RalewayBold font32">
                         <b>
-                           XEOMIN&#174; puede ayudarlo a alcanzar el efecto deseado en sus pacientes.
+                           XEOMIN<span className="trademark">&#174;</span> puede ayudarlo a alcanzar el efecto deseado en sus pacientes.
                         </b>
                      </p>
                      <p className="XeominBlue font18">
-                        XEOMIN&#174; (incobotulinumtoxinaA) Summary of Product Characteristics. MerzPharmaceuticals GmbH.
+                        XEOMIN<span className="trademark">&#174;</span> (incobotulinumtoxinaA) Summary of Product Characteristics. MerzPharmaceuticals GmbH.
                      </p>
                   </div>
                </div>
@@ -183,7 +183,7 @@ export default class XeominWeb extends Component{
                         </p>
                         <p className="XeominTipsBox XeominTipsText">
                         <span className="XeominTipsDot"></span>
-                           Se recomienda usar una aguja corta de 20 -27 gauge para la reconsitutción de XEOMIN&#174;; habitualmente la jeringa ideal llegará con el producto en el kit de dilución.
+                           Se recomienda usar una aguja corta de 20 -27 gauge para la reconsitutción de XEOMIN<span className="trademark">&#174;</span>; habitualmente la jeringa ideal llegará con el producto en el kit de dilución.
                         </p>
                         <p className="XeominTipsBox XeominTipsText">
                         <span className="XeominTipsDot"></span>
@@ -191,7 +191,7 @@ export default class XeominWeb extends Component{
                         </p>
                         <p className="XeominTipsText">
                         <span className="XeominTipsDot"></span>
-                           Debido al proceso de sellado al vacio de XEOMIN&#174;, la solución salina deberá ser aspirada al interior del vial por si sola.</p>
+                           Debido al proceso de sellado al vacio de XEOMIN<span className="trademark">&#174;</span>, la solución salina deberá ser aspirada al interior del vial por si sola.</p>
                      </div>
                      <div className="col-5 Raleway">
                         <p className="XeominBlue RalewayBold">Paso 2:</p>
@@ -220,11 +220,11 @@ export default class XeominWeb extends Component{
                         </p>
                         <p className="XeominTipsBox XeominTipsText">
                         <span className="XeominTipsDot"></span>
-                           La solución lista para usarse debe ser homogénea, incolora y libre de partículas. XEOMIN&#174; no debe ser utilizado si la solución reconstituida tiene una apariencia opaca o contiene material floculado o en partículas.
+                           La solución lista para usarse debe ser homogénea, incolora y libre de partículas. XEOMIN<span className="trademark">&#174;</span> no debe ser utilizado si la solución reconstituida tiene una apariencia opaca o contiene material floculado o en partículas.
                         </p>
                         <p className="XeominTipsText">
                         <span className="XeominTipsDot"></span>
-                           La solución reconstituida de XEOMIN&#174; debe ser utilizada para inyección intramuscular y puede ser almacenado en refgrigeración por 24h a una temperatura de 2°C a 8°C.
+                           La solución reconstituida de XEOMIN<span className="trademark">&#174;</span> debe ser utilizada para inyección intramuscular y puede ser almacenado en refgrigeración por 24h a una temperatura de 2°C a 8°C.
                         </p>
                      </div>
                   </div>

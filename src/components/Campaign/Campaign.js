@@ -99,7 +99,7 @@ export default class Campaign extends Component{
                            Somos conocidos por construir relaciones únicas con clientes que se sienten como familia. Nuestra sede mundial se encuentra en Raleigh, cArolina del NOrte, Estados Unidos, con oficinas en 32 países de todo el mundo. Merz Aesthetics es parte de Merz Group, una empresa familiar fundada en 1908 y con sede en Frankfurt, Alemania.
                         </p>
                         <p>
-                           Para mayor información visita <a href="www.merzaesthetics.com" target="blank">merzaesthetics.com</a>
+                           Para mayor información visita <a href="https://merzaesthetics.com/" target="blank">merzaesthetics.com</a>
                         </p>
                      </div>
                   </div>

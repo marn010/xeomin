@@ -1,4 +1,5 @@
 import React, { Component } from 'react';
+import { Link } from 'react-router-dom';
 import Forms from '../Form/Form';
 import Social from '../Social/Social';
 
@@ -41,11 +42,11 @@ export default class Footer extends Component{
                </div>
                <div className="RegInvima container Raleway font18">
                   <div className="row col-12 justify-content-center">
-                     <a href="/invima">
-                     <p>
-                        Registro sanitario INVIMA
-                     </p>
-                     </a>
+                     <Link to="/invima">
+                        <p>
+                           Registro sanitario INVIMA
+                        </p>
+                     </Link>
                   </div>
                </div>
             </div>

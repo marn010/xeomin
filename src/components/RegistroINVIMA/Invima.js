@@ -1,4 +1,5 @@
 import React, { Component } from 'react';
+import { Link } from 'react-router-dom';
 
 import './Invima.css';
 
@@ -12,9 +13,12 @@ export default class Invima extends Component{
             </p>
             <img className="RegINVIMA" src="/assets/img/Pics/INVIMA.png" alt="Registro Invima" />
             <div className="BackBTN font24">
-               <a href="/home">
+               <Link className="BackBTNLink" to="/home">
                   Regresar
-               </a>
+               </Link>
+               {/* <a href="/home">
+                  Regresar
+               </a> */}
             </div>
          </React.Fragment>
       );

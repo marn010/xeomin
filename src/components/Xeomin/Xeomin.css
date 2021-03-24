@@ -74,12 +74,23 @@
       width: 50%;
       transform: translate(40%,-10%) rotate(45deg);
    }
+   .XeoRecBox{
+      margin: 5% 0%;
+   }
    .XeominRec{
-      padding: 0% 10% 0% 30%;
+      padding: 0% 10% 0% 25%;      
    }
    .XeominRecText{
-      padding: 0% 10% 0% 5% !important;
-      
+      padding: 0% 2% 0% 2% !important;
+      position: relative;
+   }
+   .XeominRecText p::after{
+      content: "";
+      border-left: solid 3px #306088;
+      position: absolute;
+      top: 10%;
+      left: 0%;
+      bottom: 10%;
    }
    .XeominVialPic{
       width: 75%;
