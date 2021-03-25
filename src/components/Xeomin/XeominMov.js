@@ -111,7 +111,7 @@ export default class XeominMov extends Component{
                   </div>
                </div>
                <div className="container col-12 justify-content-center">
-               <div className="row col-12" style={{margin:"0%"}}>
+               <div className="row col-12" style={{margin:"5% 0%"}}>
                   <div className="col-2" style={{padding:"0%"}}>
                      <img className="ToxinaBlue2" src="/assets/img/Pics/ToxinaBlue.png" alt="toxin" />
                   </div>
@@ -259,7 +259,7 @@ export default class XeominMov extends Component{
                      <p className="XeominBlue XeoDownloadText font24">
                         Si desea conocer más de esta técnica descargue la guía paso a paso
                      </p>
-                     <Link className="XeoDownloadBTN"  to={{pathname:"/assets/pdf/Doc1.pdf"}} target="_blank" >
+                     <Link className="XeoDownloadBTN"  to={{pathname:"/assets/pdf/GUIIATECNICAPASOAPASO.pdf"}} target="_blank" >
                         Descargar
                      </Link>
                      </div>

@@ -112,11 +112,13 @@ export default class XeominWeb extends Component{
                         PROCESO DE MANUFACTURA Y PRODUCCIÓN</p>
                   </div>
                   <div className="col-7">
-                     <img src="" alt="Video"/>
+                     <video className="VideoPuroyProbado" id="PuroyComprobado">
+                        <source src="url(https://vimeo.com/manage/videos/528570742)"/>
+                     </video>
                   </div>
                </div>
                <div className="container col-10 justify-content-center">
-               <div className="row ">
+               <div className="row XeoProc">
                   <div className="col-2">
                      <img className="ToxinaBlue2" src="/assets/img/Pics/ToxinaBlue.png" alt="toxin" />
                   </div>
@@ -235,7 +237,9 @@ export default class XeominWeb extends Component{
                         </p>
                      </div>
                      <div className="col-7">
-                        {/*VIDEO*/}
+                        <video className="VideoPuroyProbado" id="PuroyComprobado">
+                           <source src="url(https://vimeo.com/manage/videos/528571892)"/>
+                        </video>
                      </div>
                   </div>
                   <div className="XeoTechnique row justify-content-center">
@@ -256,7 +260,9 @@ export default class XeominWeb extends Component{
                   <div className="VideoONE21 row col-12 justify-content-center">
                      <div className="col-6 Raleway font24">
                         <p>Video One21 - Dra. Barrera</p>
-                        {/*VIDEO*/}
+                        <video className="VideoPuroyProbado" id="PuroyComprobado">
+                           <source src="url(https://vimeo.com/manage/videos/528575563)"/>
+                        </video>
                      </div>
                      <div className="col-5">
                         <p className="RalewayBold font40">El protocolo</p>
@@ -274,7 +280,7 @@ export default class XeominWeb extends Component{
                      <p className="XeominBlue XeoDownloadText font24">
                         Si desea conocer más de esta técnica descargue la guía paso a paso
                      </p>
-                     <Link className="XeoDownloadBTN"  to={{pathname:"/assets/pdf/Doc1.pdf"}} target="_blank" >
+                     <Link className="XeoDownloadBTN"  to={{pathname:"/assets/pdf/GUIIATECNICAPASOAPASO.pdf"}} target="_blank" >
                         Descargar
                      </Link>
                   </div>

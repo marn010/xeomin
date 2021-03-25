@@ -23,6 +23,9 @@
    transform: scale(1,-1) rotate(-135deg);
    margin: 0% 0% 0% 80%;
 }
+.XeoProc{
+   margin: 5% 0% 0% 0%;
+}
 .ToxinaBlue{
    width: 70%;
    transform: rotate(40deg);

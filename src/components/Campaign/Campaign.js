@@ -44,7 +44,9 @@ export default class Campaign extends Component{
                         </p>
                      </div>
                      <div className="col-6">
-                        <img src="" alt="Video" />
+                        <video className="VideoPuroyProbado" id="PuroyComprobado">
+                           <source src="url(https://vimeo.com/manage/videos/529064794)"/>
+                        </video>
                      </div>
                   </div>
                </div>
@@ -70,7 +72,9 @@ export default class Campaign extends Component{
                         </p>
                      </div>
                      <div className="col-6">
-                        <img src="" alt="Video" />
+                        <video className="VideoPuroyProbado" id="PuroyComprobado">
+                           <source src="url(https://vimeo.com/manage/videos/529064724)"/>
+                        </video>
                      </div>
                   </div>
                   <div className="row justify-content-center Raleway font24">
