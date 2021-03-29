@@ -37,6 +37,7 @@
    background-color: #E7E7E7;
    margin-top: 5%;
    margin-bottom: 5%;
+   text-align: center;
 }
 .VideoPureText{
    text-align: left;
@@ -111,13 +112,17 @@
 @media(min-width:769px){
    .VidPure{
       margin: 5% 0%;
-      width: 640px;
-      height: 360px;
+      width: calc(640px + 5vw);
+      max-width: 110%;
+      height: calc(360px + 5vh);
+      max-height: 110%;
    }
    .VidPurify{
       margin: 5% 0%;
       width: calc(640px + 5vw);
+      max-width: 110%;
       height: calc(360px + 5vh);
+      max-height: 110%;
    }
    .VidPureMov{
       display: none;

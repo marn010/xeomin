@@ -43,7 +43,7 @@ export default class Campaign extends Component{
                            Video GP - Puro y comprobado
                         </p>
                      </div>
-                     <div className="col-7 ">
+                     <div className="col-6">
                         <iframe title="vimeo-player" src="https://player.vimeo.com/video/529064794" className="VidPure " /* width="640" height="360" */ frameborder="0" allowfullscreen></iframe>
                      </div>
                   </div>

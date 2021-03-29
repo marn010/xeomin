@@ -11,3 +11,16 @@
 .TestimonyText{
    padding: 5% 8% 5% 8%;
 }
+@media(min-width:769px){
+   .HeaderMovPic{
+      display: none;
+   }
+}
+@media(max-width:768px){
+   .HeaderPic{
+      display: none;
+   }
+   .HeaderMovPic{
+      width: 100%;
+   }
+}

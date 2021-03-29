@@ -99,16 +99,15 @@ export default class XeominMov extends Component{
                      <b>El complejo proteico es simplemente una impureza</b>
                   </p>
                   <img className="XtractPic" src="/assets/img/Pics/Xtract.png" alt="Xtract" />
+                  <p>
+                     <b className="RalewayBold">XTRACT TECHNOLOGY </b>
+                        PROCESO DE MANUFACTURA Y PRODUCCIÓN</p>
                </div>
+
                <div className="XtractVideo row col-12 justify-content-center">
                   <div className="col-5 Raleway font40">
-                     <p>
-                        <b className="RalewayBold">XTRACT TECHNOLOGY </b>
-                        PROCESO DE MANUFACTURA Y PRODUCCIÓN</p>
                   </div>
-                  <div className="col-7">
-                     <img src="" alt="Video"/>
-                  </div>
+                  <iframe title="vimeo-player" src="https://player.vimeo.com/video/528570742" width="640" height="360" frameborder="0" allowfullscreen></iframe>
                </div>
                <div className="container col-12 justify-content-center">
                <div className="row col-12" style={{margin:"5% 0%"}}>
