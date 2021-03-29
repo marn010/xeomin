@@ -10,8 +10,8 @@ export default function Login({setToken}){
    const handleSubmit = async e=> {
       e.preventDefault();
       const hash = crypto.createHash('sha256').update(password).digest('base64');
-      alert("La clave ingresada fue: " + password);
-      alert("El Hash producido es: " + hash);
+      /* alert("La clave ingresada fue: " + password); */
+      /* alert("El Hash producido es: " + hash); */
       if(hash===pass){
          setToken({token:pass})
          /* alert("codigo aceptado") */
