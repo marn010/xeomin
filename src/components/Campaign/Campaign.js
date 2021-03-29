@@ -33,20 +33,28 @@ export default class Campaign extends Component{
                      Paltrow es considerada ampliamente una autoridad en la belleza y el bienestar, por lo cual esta campaña se vincula a su filosofia sobre la belleza: las mujeres deben darse el permiso de hacer lo que quieran para sentirse bien.
                   </p>
                   <p>
-                     Paltrow y personas influyentes de las redes sociuales incentivarán a a las mujeres a tomarse el tiempo para si mismas y priorizar el autocuidado, especialmente ahora. Paltrow compartirá detalles sobnre lo que hace para verse y sentirse mejor, y pedirá a las mujeres que hagan lo mismo en las redes sociales usando el hastag <span> #GoPureStayReal.</span>
+                     Paltrow y personas influyentes de las redes sociuales incentivarán a a las mujeres a tomarse el tiempo para si mismas y priorizar el autocuidado, especialmente ahora. Paltrow compartirá detalles sobre lo que hace para verse y sentirse mejor, y pedirá a las mujeres que hagan lo mismo en las redes sociales usando el hastag <span> #GoPureStayReal.</span>
                   </p>
                </div>
-               <div className="container VideoPure">
-                  <div className="row justify-content-center ">
+               <div className="container col-11 VideoPure">
+                  <div className="row justify-content-center VidPureWeb">
                      <div className="col-4">
                         <p className="VideoPureText Raleway font40">
                            Video GP - Puro y comprobado
                         </p>
                      </div>
-                     <div className="col-6">
-                        <video className="VideoPuroyProbado" id="PuroyComprobado">
-                           <source src="url(https://vimeo.com/manage/videos/529064794)"/>
-                        </video>
+                     <div className="col-7 ">
+                        <iframe title="vimeo-player" src="https://player.vimeo.com/video/529064794" className="VidPure " /* width="640" height="360" */ frameborder="0" allowfullscreen></iframe>
+                     </div>
+                  </div>
+                  <div className="container col-11 VidPureMov">
+                     <div className="col-12">
+                        <p className="VideoPureText Raleway fonrt 40">
+                           Video GP - Puro y comprobado
+                        </p>
+                     </div>
+                     <div className="col-12">
+                        <iframe title="vimeo-player" src="https://player.vimeo.com/video/529064794" className="VidPure " /* width="640" height="360" */ frameborder="0" allowfullscreen></iframe>
                      </div>
                   </div>
                </div>
@@ -64,21 +72,29 @@ export default class Campaign extends Component{
                      </div>
                   </div>
                </div>
-               <div className="container VideoPurify">
-                  <div className="row justify-content-center rowPurify">
+               <div className="container col-11 VideoPurify">
+                  <div className="row justify-content-center rowPurify VidPurifyWeb" style={{padding:"5% 0%"}}>
                      <div className="col-4">
                         <p className="VideoPurifyText Raleway font40">
                            Video GP - Me purifiqué
                         </p>
                      </div>
                      <div className="col-6">
-                        <video className="VideoPuroyProbado" id="PuroyComprobado">
-                           <source src="url(https://vimeo.com/manage/videos/529064724)"/>
-                        </video>
+                     <iframe title="vimeo-player" src="https://player.vimeo.com/video/529064724" className="VidPurify" /* width="640" height="360" */ frameborder="0" allowfullscreen></iframe>
+                     </div>
+                  </div>
+                  <div className="row justify-content-center rowPurify VidPurifyMov" style={{padding:"5% 0%"}}>
+                     <div className="col-12">
+                        <p className="VideoPurifyText Raleway font40">
+                           Video GP - Me purifiqué
+                        </p>
+                     </div>
+                     <div className="col-12">
+                     <iframe title="vimeo-player" src="https://player.vimeo.com/video/529064724" className="VidPurify" /* width="640" height="360" */ frameborder="0" allowfullscreen></iframe>
                      </div>
                   </div>
                   <div className="row justify-content-center Raleway font24">
-                     <div className="col-8">
+                     <div className="col-8" style={{padding:"2% 0%"}}>
                      <p>
                         Esta será la primera campaña global de marketing para Merz Aesthetics desde que la compañia anunció en noviembrte de 2019 que operaria de forma independiente como el mayor negocio dedicado a la estética médica a nivel mundial
                      </p>
@@ -92,7 +108,7 @@ export default class Campaign extends Component{
                   <div className="row font24">
                      <div className="col-6 MerzAestheticsTextWBox Raleway ">
                         <p>
-                           Merz Aesthetics es una compañia de estética médica con una larga historia de capacitación de profesionales de la salud, pacientes y empleados para vivir cad día basados en la confianza. Nuestro objetivo es ayudar a las personas de todo el mundo a verse, sentirse y vivir como las mejores versiones de sí mismos.
+                           Merz Aesthetics es una compañia de estética médica con una larga historia de capacitación de profesionales de la salud, pacientes y empleados para vivir cada día basados en la confianza. Nuestro objetivo es ayudar a las personas de todo el mundo a verse, sentirse y vivir como las mejores versiones de sí mismos.
                         </p>
                         <p>
                            Probada clínicamente, nuestro portafolio de productos incluye inyectables, dispositivos y tratamientos para el cuidado de la piel diseñados para satisfacer las necesaidades de cada paciente con los más altos estándares de seguridad y eficacia.
@@ -100,7 +116,7 @@ export default class Campaign extends Component{
                      </div>
                      <div className="col-6 MerzAestheticsTextBox Raleway">
                         <p>
-                           Somos conocidos por construir relaciones únicas con clientes que se sienten como familia. Nuestra sede mundial se encuentra en Raleigh, cArolina del NOrte, Estados Unidos, con oficinas en 32 países de todo el mundo. Merz Aesthetics es parte de Merz Group, una empresa familiar fundada en 1908 y con sede en Frankfurt, Alemania.
+                           Somos conocidos por construir relaciones únicas con clientes que se sienten como familia. Nuestra sede mundial se encuentra en Raleigh, Carolina del Norte, Estados Unidos, con oficinas en 32 países de todo el mundo. Merz Aesthetics es parte de Merz Group, una empresa familiar fundada en 1908 y con sede en Frankfurt, Alemania.
                         </p>
                         <p>
                            Para mayor información visita <a href="https://merzaesthetics.com/" target="blank">merzaesthetics.com</a>

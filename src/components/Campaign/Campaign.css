@@ -41,8 +41,9 @@
 .VideoPureText{
    text-align: left;
    color: #306085;
-   padding: 0% 25% 0% 25%;
+   padding: 20% 15% 0% 8%;
 }
+
 .VideoPuroyProbado{
    width: auto;
 }
@@ -53,9 +54,11 @@
    background-color: #457EB6;
    color: white;
    margin-top: 5%;
+   margin-left: 5%;
+   width: 90%;
 }
 .VideoPurifyText{
-   padding: 0% 25% 0% 25%;
+   padding: 20% 20% 0% 10%;
 }
 .MerzAestheticsTextWBox{
    padding: 0% 5% 5% 8%;
@@ -106,5 +109,46 @@
    border-right: solid 3px #306088;
 }
 @media(min-width:769px){
-   
+   .VidPure{
+      margin: 5% 0%;
+      width: 640px;
+      height: 360px;
+   }
+   .VidPurify{
+      margin: 5% 0%;
+      width: calc(640px + 5vw);
+      height: calc(360px + 5vh);
+   }
+   .VidPureMov{
+      display: none;
+   }
+   .VidPurifyMov{
+      display: none;
+   }
+}
+@media(max-width:768px){
+   .VidPure{
+      margin: 5% 0%;
+      width: 100%;
+      height: auto;
+   }
+   .VidPurify{
+      width: 100%;
+      height: auto;
+   }
+   .VidPureWeb{
+      display: none;
+   }
+   .VideoPureText{
+      text-align: center;
+      color: #306085;
+      padding: 5% 0% 0% 0%;
+   }
+   .VidPurifyWeb{
+      display: none;
+   }
+   .VideoPurifyText{
+      padding: 0%;
+      text-align: center;
+   }
 }

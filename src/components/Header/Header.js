@@ -8,7 +8,7 @@ export default class Header extends Component{
          <React.Fragment>
             <div className="MainHeaderBox">
                <img className="HeaderPic" src="/assets/img/Pics/Header.png" alt="" />
-               <div className="col-11 TestimonyVid">
+               <div className="TestimonyVid">
                   <div className="row">
                      <div className="col-6 Raleway font32">
                         <p className="TestimonyText">

@@ -23,7 +23,7 @@ export default class Thanks extends Component{
                      </div>
                      <div className="row">
                         <div className="col-4">
-                           <img className="hashtag" src="/assets/img/pics/hashtag.png" alt="logo"/>
+                           <img className="hashtag" src="/assets/img/Pics/Hashtag.png" alt="logo"/>
                         </div>
                         <div className="col-4 InstaBlueText">
                            <img className="InstaBlue" src="/assets/img/Pics/InstaBlue.png" alt="insta" />

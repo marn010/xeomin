@@ -16,7 +16,7 @@ export default class Footer extends Component{
                      <div className="row justify-content-center Raleway">
                         <div className="col-5">
                            <img className="pencilPic" src="/assets/img/Pics/pencil.png" alt="pencil" />
-                           <p className="pencilText">Si está interesado en vivir una experiencia tan única como sus pacientes,<b className="RalewayBold">diligencie sus datos para recibir una muiestra de producto</b></p>
+                           <p className="pencilText">Si está interesado en vivir una experiencia tan única como sus pacientes,<b className="RalewayBold">diligencie sus datos para recibir una muestra de producto</b></p>
                         </div>
                         <div className="col-5">
                            <Forms/>
@@ -29,7 +29,7 @@ export default class Footer extends Component{
                      <div className="col-12 justify-content-center Raleway">
                         <div className="col-11">
                            <img className="pencilPic" src="/assets/img/Pics/pencil.png" alt="pencil" />
-                           <p className="pencilText">Si está interesado en vivir una experiencia tan única como sus pacientes,<b className="RalewayBold">diligencie sus datos para recibir una muiestra de producto</b></p>
+                           <p className="pencilText">Si está interesado en vivir una experiencia tan única como sus pacientes,<b className="RalewayBold">diligencie sus datos para recibir una muestra de producto</b></p>
                         </div>
                         <div className="col-11">
                            <Forms/>

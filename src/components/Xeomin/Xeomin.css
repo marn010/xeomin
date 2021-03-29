@@ -156,6 +156,14 @@
    }
    .VideoReconstitucion{
       background-color: #E7E7E7;
+      padding: 2% 0%;
+   }
+   .VideoReconstitucion p{
+      text-align: center;
+      padding: 18% 0% 0% 0%;
+   }
+   .VidReconstitucion{
+      text-align: center;
    }
    .XeoTechnique{
       font-size: calc(0.5rem + 1vw);
@@ -221,6 +229,10 @@
       display: block;
       margin: 0% auto 0% auto;
       border-radius: 10px;
+      padding: 1% 0%;
+   }
+   .XeoDownloadBTN:hover{
+      color: white;
    }
 }
 /*CELL*/

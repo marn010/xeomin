@@ -112,9 +112,7 @@ export default class XeominWeb extends Component{
                         PROCESO DE MANUFACTURA Y PRODUCCIÓN</p>
                   </div>
                   <div className="col-7">
-                     <video className="VideoPuroyProbado" id="PuroyComprobado">
-                        <source src="url(https://vimeo.com/manage/videos/528570742)"/>
-                     </video>
+                  <iframe title="vimeo-player" src="https://player.vimeo.com/video/528570742" width="640" height="360" frameborder="0" allowfullscreen></iframe>
                   </div>
                </div>
                <div className="container col-10 justify-content-center">
@@ -230,16 +228,14 @@ export default class XeominWeb extends Component{
                         </p>
                      </div>
                   </div>
-                  <div className="VideoReconstitucion">
+                  <div className="VideoReconstitucion row">
                      <div className="col-5 Raleway font40 XeominBlue">
                         <p>
                            Video Reconstitución
                         </p>
                      </div>
-                     <div className="col-7">
-                        <video className="VideoPuroyProbado" id="PuroyComprobado">
-                           <source src="url(https://vimeo.com/manage/videos/528571892)"/>
-                        </video>
+                     <div className="col-7 VidReconstitucion">
+                        <iframe title="vimeo-player" src="https://player.vimeo.com/video/528571892" width="640" height="359" frameborder="0" allowfullscreen></iframe>
                      </div>
                   </div>
                   <div className="XeoTechnique row justify-content-center">
@@ -260,9 +256,7 @@ export default class XeominWeb extends Component{
                   <div className="VideoONE21 row col-12 justify-content-center">
                      <div className="col-6 Raleway font24">
                         <p>Video One21 - Dra. Barrera</p>
-                        <video className="VideoPuroyProbado" id="PuroyComprobado">
-                           <source src="url(https://vimeo.com/manage/videos/528575563)"/>
-                        </video>
+                        <iframe title="vimeo-player" src="https://player.vimeo.com/video/528575563" width="640" height="360" frameborder="0" allowfullscreen></iframe>
                      </div>
                      <div className="col-5">
                         <p className="RalewayBold font40">El protocolo</p>
@@ -280,7 +274,7 @@ export default class XeominWeb extends Component{
                      <p className="XeominBlue XeoDownloadText font24">
                         Si desea conocer más de esta técnica descargue la guía paso a paso
                      </p>
-                     <Link className="XeoDownloadBTN"  to={{pathname:"/assets/pdf/GUIIATECNICAPASOAPASO.pdf"}} target="_blank" >
+                     <Link className="XeoDownloadBTN font21"  to={{pathname:"/assets/pdf/GUIIATECNICAPASOAPASO.pdf"}} target="_blank" >
                         Descargar
                      </Link>
                   </div>
