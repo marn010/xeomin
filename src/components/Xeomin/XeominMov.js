@@ -28,7 +28,7 @@ export default class XeominMov extends Component{
                         </div>
                         <div className="">
                            <p className="Raleway font24">
-                              Descubrió que solo se requeria la proteina responsable de la actiuvidad farmacológica, la neurotoxina en su estado puro
+                              Descubrió que solo se requeria la proteina responsable de la actividad farmacológica, la neurotoxina en su estado puro
                            </p>
                         </div>
                      </div>
@@ -86,7 +86,7 @@ export default class XeominMov extends Component{
                         XEOMIN<span className="trademark">&#174;</span> es un producto de alta calidad: de todos los pacientes tratados hasta la fecha <span className="XeominBlue"> ninguno ha desarrollado anticuerpos neutralizantes o se ha convertido en no respondedores secundarios </span>, lo que permite a los pacientes beneficiarse de tratamientos repetidos.
                      </p>
                      <p>
-                        No solo la neurotoxina es la única proteina bacteriana presente en cada vial de las diferentes preparaciuones de toxina botulinica disponibles en el mercado; XEOMIN<span className="trademark">&#174;</span> a través de su proceso de manufaftura y fabricación tan perfectamente controlado, <span className="XeominBlue">logra extraer la neurotoxina purificada sin perder su actividad biológica.</span>
+                        No solo la neurotoxina es la única proteina bacteriana presente en cada vial de las diferentes preparaciuones de toxina botulinica disponibles en el mercado; XEOMIN<span className="trademark">&#174;</span> a través de su proceso de manufactura y fabricación tan perfectamente controlado, <span className="XeominBlue">logra extraer la neurotoxina purificada sin perder su actividad biológica.</span>
                      </p>
                      <p>
                         Esto significa que, si bien hay una menor carga proteica en el vial, <span className="XeominBlue">XEOMIN<span className="trademark">&#174;</span> al contener unicamente la neurotixina purificada tiene la mayor potencia específica </span> en comparación con otros productos de toxina botulinica".
@@ -116,7 +116,7 @@ export default class XeominMov extends Component{
                   </div>
                   <div className="col-10" style={{paddingRight:"0%"}}>
                      <p className="XeominBlue Raleway font24">
-                        A través del proceso XTRACT TEchnology se consigue remover el complejo proteico, obteniendo una neurotoxina activa (150kDA) purificada que ofrece un menor riesgo de inmunogenicidad y una alta estabilidad.
+                        A través del proceso XTRACT Technology se consigue remover el complejo proteico, obteniendo una neurotoxina activa (150kDA) purificada que ofrece un menor riesgo de inmunogenicidad y una alta estabilidad.
                      </p>
                      <p className="font18">
                         J Drugs Dermatol. 2019; 18 (1) : 52-57. S.K. Sharma. Toxicon 41 (2003) 321-331
@@ -215,7 +215,7 @@ export default class XeominMov extends Component{
                         </p>
                         <p className="XeominTipsText">
                         <span className="XeominTipsDot"></span>
-                           La solución reconstituida de XEOMIN<span className="trademark">&#174;</span> debe ser utilizada para inyección intramuscular y puede ser almacenado en refgrigeración por 24h a una temperatura de 2°C a 8°C.
+                           La solución reconstituida de XEOMIN<span className="trademark">&#174;</span> debe ser utilizada para inyección intramuscular y puede ser almacenado en refrigeración por 24h a una temperatura de 2°C a 8°C.
                         </p>
                      </div>
                      <div className="col-5" style={{padding:"0%"}}>

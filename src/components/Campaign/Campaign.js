@@ -104,7 +104,7 @@ export default class Campaign extends Component{
                <div className="MERZBox2">
                   <img src="/assets/img/Pics/LogoMerz.png" alt="" />
                </div>
-               <div className="container">
+               <div className="container col-12">
                   <div className="row font24">
                      <div className="col-6 MerzAestheticsTextWBox Raleway ">
                         <p>
