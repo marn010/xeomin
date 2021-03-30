@@ -1,5 +1,4 @@
 import React, { Component } from 'react';
-import Footer from '../Footer/Footer';
 
 import './Campaign.css';
 
@@ -9,7 +8,7 @@ export default class CampaignMov extends Component{
          <React.Fragment>
             <div className="CampaignMainBox CampaignMov">
                <div className="CampaignHeader">
-                  <img className="HeaderCampaingn" src="/assets/img/Pics/HeaderCampaingn.png" alt="HeaderCampaign" />
+                  <img className="HeaderCampaingn" src="/assets/img/Pics/HeaderCampaingnMov.png" alt="HeaderCampaign" />
                </div>
                <div className="container">
                   <div className="justify-content-center InitialCampaingnBox">

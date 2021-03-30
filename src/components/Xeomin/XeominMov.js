@@ -95,21 +95,22 @@ export default class XeominMov extends Component{
                </div>
 
                <div className="XtractVideo row col-12 justify-content-center">
-                  <div className="col-5 Raleway font40">
-                  </div>
+
                   <iframe title="vimeo-player" src="https://player.vimeo.com/video/528570742" width="640" height="360" frameborder="0" allowfullscreen></iframe>
                </div>
-               <div className="container col-12 justify-content-center">
+               <div className="container col-12 justify-content-center XtractTechPostText">
                <div className="row col-12" style={{margin:"5% 0%"}}>
                   <div className="col-2" style={{padding:"0%"}}>
                      <img className="ToxinaBlue2" src="/assets/img/Pics/ToxinaBlue.png" alt="toxin" />
                   </div>
                   <div className="col-10" style={{paddingRight:"0%"}}>
                      <p className="XeominBlue Raleway font24">
+                        <b>
                         A través del proceso XTRACT Technology se consigue remover el complejo proteico, obteniendo una neurotoxina activa (150kDA) purificada que ofrece un menor riesgo de inmunogenicidad y una alta estabilidad.
-                     </p>
-                     <p className="font18">
-                        J Drugs Dermatol. 2019; 18 (1) : 52-57. S.K. Sharma. Toxicon 41 (2003) 321-331
+                        </b>
+                        <p className="font18">
+                           J Drugs Dermatol. 2019; 18 (1) : 52-57. S.K. Sharma. Toxicon 41 (2003) 321-331
+                        </p>
                      </p>
                   </div>
                </div>
