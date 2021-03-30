@@ -297,8 +297,8 @@
       margin: 0%;
    }
    .XeominLabPic{
-      height: 90%;
-      margin: 0% 0% 0% -120%;
+      width: 160%;
+      margin: 0% 0% 0% -45%;
    }
    .XeominLabFinalText{
       text-align: center;
@@ -308,7 +308,8 @@
       padding: 0%;
    }
    .XtractPic{
-      width: 110%;
+      width: 100%;
+      height: 100%;
    }
    .XtractVideo{
       background-color: #306088;
@@ -321,16 +322,20 @@
       margin-left: -50%;
    }
    .XeominRec{
-      padding: 0% 10% 0% 10%;
+      padding: 0% 0% 0% 1%;
+      margin: 0%;
       /* font-size: calc(1.0rem + 1vw); */
    }
    .XeominRecText{
-      padding: 0% 10% 0% 5% !important;
-      
+      padding: 0% 0% 0% 5% !important;
+   }
+   .XeominRecText p{
+      margin: 0%;
    }
    .XeominVialPic{
-      width: 75%;
-      padding: 0% 0% 0% 20%;
+      width: 200%;
+      padding: 0% 0% 0% 0%;
+      margin: 0% 0% 0% -40%;
    }
    .XeominStepsBox{
       text-align: left;
@@ -353,13 +358,13 @@
       position: relative;
    }
    .XeominTipsDot{
-      height: 14px;
-      width: 14px;
+      height: 8px;
+      width: 8px;
       border-radius: 50%;
       position: absolute;
       background-color: #4478B8;
       top: 1%;
-      left: -8px;
+      left: -4px;
    }
    .XeominTipsBox{
       border-left: solid 1px #4478B8;
@@ -382,6 +387,10 @@
    .XeominImportant{
       background-color: #E7E7E7;
       text-align: center;
+      padding: 2% 0%;
+   }
+   .XeominImportant p{
+      margin: 0% 0%;
    }
    .Paso3Pic{
       display: block;
@@ -390,6 +399,11 @@
    }
    .VideoReconstitucion{
       background-color: #E7E7E7;
+      text-align: center;
+   }
+   .VideoReconstitucion p{
+      text-align: left;
+      margin-left: 15%;
    }
    .XeoTechnique{
       font-size: calc(0.5rem + 1vw);
@@ -420,6 +434,16 @@
    .VideoONE21{
       background-color: #003869;
       color: white;
+      padding: 5% 0%;
+      text-align: center;
+   }
+   .VideoONETitle{
+      text-align: left;
+      margin-left: 18%;
+   }
+   .VideoONE21 iframe{
+      width: 100%;
+      height: auto;
    }
    .list li::marker{
       color: #C2187E;

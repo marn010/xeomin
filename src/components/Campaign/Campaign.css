@@ -44,7 +44,6 @@
    color: #306085;
    padding: 20% 15% 0% 8%;
 }
-
 .VideoPuroyProbado{
    width: auto;
 }
@@ -104,12 +103,11 @@
    width: 100%;
    margin: 5% 0%;
 }
-.EmotionText{
-   padding: 0% 10%;
-   margin: 0%;
-   border-right: solid 3px #306088;
-}
+
 @media(min-width:769px){
+   .CampaignMov{
+      display: none;
+   }
    .VidPure{
       margin: 5% 0%;
       width: calc(640px + 5vw);
@@ -130,8 +128,25 @@
    .VidPurifyMov{
       display: none;
    }
+   .EmotionText{
+      padding: 0% 10%;
+      margin: 0%;
+      border-right: solid 3px #306088;
+   }
 }
 @media(max-width:768px){
+   .CampaignWeb{
+      display: none;  
+   }
+   .GwynethBox{
+      width: 100%;
+      text-align: center;
+      margin: 0%;
+      padding: 0%;
+   }
+   .GPBeauty{
+      width: 110%;
+   }
    .VidPure{
       margin: 5% 0%;
       width: 100%;
