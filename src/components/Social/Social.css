@@ -41,14 +41,17 @@
    .VisitBox{
       padding: 0% 1%;
       text-align: center;
+      width: 17%;      
    }
    .instaBox{
       padding: 0% 5px;
       text-align: center;
+      width: 40%;
    }
    .WebBox{
       padding: 0% 5px;
       text-align: center;
+      width: 40%;
    }
    .SocialBox div{
       margin: 0%;
