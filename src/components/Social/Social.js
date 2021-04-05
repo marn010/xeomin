@@ -8,7 +8,7 @@ export default class Social extends Component{
          <React.Fragment>
             <div className="row col-12 justify-content-center" style={{margin:"0%"}}>
                <div className="col-12 SocialBox">
-                  <div className="row col-12 " style={{padding:"0% 0% 0% 0.5%"}}>
+                  <div className="row col-12 justify-content-center" style={{padding:"0% 0% 0% 0.5%"}}>
                      <div className=" VisitBox font40">
                         <p>VISITE</p>
                      </div>
