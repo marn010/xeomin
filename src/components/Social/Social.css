@@ -9,7 +9,8 @@
 }
 .VisitBox{
    text-align: center;
-   padding: 0% 2%;   
+   padding: 0% 2%;
+   width: 16%;   
 }
 .VisitBox p{
    border-bottom: solid 2px white;
@@ -25,9 +26,11 @@
 }
 .instaBox{
    text-align: center;
+   width: 40%;
 }
 .WebBox{
    text-align: center;
+   width: 40%;
 }
 @media(max-width:768px){
    .InstaBlack{
