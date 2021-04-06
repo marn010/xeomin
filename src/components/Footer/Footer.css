@@ -25,7 +25,7 @@
       display: none;
    }
    .MERZBox{
-      padding: 1% 2% 0% 0%;
+      padding: 1% 2% 5% 0%;
    }
    .MerzSubtitle{
       font-size: calc(0.8rem + 0.1vw);/*0.6rem*/
@@ -41,7 +41,7 @@
       margin: auto;
    }
    .RegInvima{
-      margin: 1% auto 5% auto;
+      margin: 1% auto 1% auto;
       text-align: center;
    }
    .RegInvima p{

@@ -19,8 +19,18 @@
 @media(min-width:769px){
    .InfoXeo{
       width: 80%;
+      box-shadow: 15px 15px 5px rgba(24, 24, 27, 0.5);
+      margin-bottom: 5% ;
+   }
+   .InfoXeo:hover{
+      transform: scale(1.1);
    }
    .CampaingnGlobal{
       width: 80%;
+      box-shadow: 15px 15px 5px rgba(24, 24, 27, 0.5);
+      margin-bottom: 5% ;
+   }
+   .CampaingnGlobal:hover{
+      transform: scale(1.1);
    }
 }

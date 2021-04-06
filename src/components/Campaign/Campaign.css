@@ -138,6 +138,9 @@
    .CampaignWeb{
       display: none;  
    }
+   .CampaignMainBox{
+      overflow: hidden;
+   }
    .GwynethBox{
       width: 100%;
       text-align: center;

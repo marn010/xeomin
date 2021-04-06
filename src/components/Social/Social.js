@@ -19,9 +19,9 @@ export default class Social extends Component{
                         </a>
                      </div>
                      <div className=" font24 WebBox">
-                        <a href="https://www.merz.com/co" target="blank">
+                        <a href="https://merzaesthetics.com/" target="blank">
                            <img className="WebBlack" src="/assets/img/Pics/WebBlack.png" alt="Web" />
-                           <span>www.merz.com/co</span>
+                           <span>merzaesthetics.com</span>
                         </a>
                      </div>
                   </div>

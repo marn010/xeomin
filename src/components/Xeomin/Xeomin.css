@@ -41,8 +41,14 @@
    .XeominMainMovBox{
       display: none;
    }
+   .XeoSection{
+      margin: 5% 0%;
+   }
    .XeoBorderL{
       border-right: solid 2px #4478B8 ;  
+   }
+   .DrFrevert{
+      margin-left: 5%;
    }
    .DrFrevertPic{
       width: 100%;
@@ -72,6 +78,9 @@
       background-color: #306088;
       color: white;
       text-align: left;
+   }
+   .XtractVideo p{
+      padding: 10% 0% 0% 9%;
    }
    .ToxinaBlue2{
       width: 50%;
@@ -189,6 +198,15 @@
    .VideoONE21{
       background-color: #003869;
       color: white;
+      padding-top: 2%;
+   }
+   .VideoONE21T p {
+      text-align: center;
+   }
+   .VideoONE21 iframe{
+      display: block;
+      margin: 0% auto;
+      text-align: center;
    }
    .list li::marker{
       color: #C2187E;
@@ -233,6 +251,7 @@
    }
    .XeoDownloadBTN:hover{
       color: white;
+      transform: scale(1.05);
    }
 }
 /*CELL*/

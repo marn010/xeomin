@@ -16,18 +16,15 @@ export default class Home extends Component{
                </div>
                <div className="row col-12 justify-content-center font24">
                   <div className="col-5">
-                     <Link to="/xeomin">
+                     <Link to="/xeomin" target="_top">
                         <img className="InfoXeo" src="/assets/img/Pics/InfoXeomin.png" alt="Xeomin" />
                      </Link>
-                     {/* <a href="/xeomin">
-                        <img className="InfoXeo" src="/assets/img/Pics/InfoXeomin.png" alt="Xeomin" />
-                     </a> */}
                      <p>
                         Conozca más de Xeomin
                      </p>
                   </div>
                   <div className="col-5">
-                     <Link to="/campaign">
+                     <Link to="/campaign" target="_top">
                         <img className="CampaingnGlobal" src="/assets/img/Pics/HomeCampaing.png" alt="Campaign" />
                      </Link>
                      {/* <a href="/campaign">

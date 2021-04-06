@@ -17,11 +17,11 @@ export default class XeominWeb extends Component{
                   </div>
                   <div className="col-10 justify-content-center XeominText">
                      <div>
-                        <p className="XeominBlue XeominTitle Raleway font32"><b className="RalewayBold">XEOMIN<span className="trademark">&#174;</span></b> ES PARTE DE LA INVESTIGACIÓN DE TODA UNA VIDA</p>
-                        <p className="Raleway font24">
+                        <p className="XeominBlue XeominTitle Raleway font32 XeoSection"><b className="RalewayBold">XEOMIN<span className="trademark">&#174;</span></b> ES PARTE DE LA INVESTIGACIÓN DE TODA UNA VIDA</p>
+                        <p className="Raleway font24 XeoSection">
                            Hace casi 20 años, el Dr. Frevert se dio cuenta que el complejo proteico que rodea el núcleo de neurotoxinas no es necesario para su efecto terapéutico o modo de acción
                         </p>
-                        <div className="row col-12 justify-content-left">
+                        <div className="row col-12 justify-content-left XeoSection">
                            <div className="col-6 XeoBorderL ">
                               <p className="XeominBlue Raleway font24">
                                  <b className="RalewayBold ">"El complejo proteico que forma parte de una toxina botulinica es simplemente una impureza"</b>, explica el Dr. Frevert.
@@ -45,7 +45,7 @@ export default class XeominWeb extends Component{
                      <div className="col-2">
                         <img className="ToxinaBlue" src="/assets/img/Pics/ToxinaBlue.png" alt="ToxinaPura" />
                      </div>
-                     <div className="col-10">
+                     <div className="col-10 XeoSection">
                         <p className="XeominBlue Raleway font24">
                            <b className="RalewayBold">"Sabia que el complejo proteico puede estimular el sistema inmunológico para producir anticuerpos que neutralizan la neurotoxina"</b>, reveló
                         </p>  
@@ -68,7 +68,7 @@ export default class XeominWeb extends Component{
                   </div>
                </div>
                <div className="container">
-                  <p className="XeominBlue RalewayMedium font24 FrevertPostText">
+                  <p className="XeominBlue RalewayMedium font24 FrevertPostText XeoSection">
                      Hacia finales de la década de 1990, comenzó el proyecto que dio como resultado XEOMIN<span className="trademark">&#174;</span>. Realizando fermentaciones durante la semana, el Dr. Frevert pasó muchos fines de semana con colegas igualmente dedicados a purificar y experimentar nuevas formas de estabilizar la neurotoxina y descubrió que la sacarosa era el excipiente más efectivo en este sentido.
                   </p>
                </div>
@@ -86,7 +86,7 @@ export default class XeominWeb extends Component{
                   <div className="col-4">
                      <img className="XeominLabPic" src="/assets/img/Pics/XeominLab.png" alt="" />
                   </div>
-                  <div className="col-6 Raleway font24">
+                  <div className="col-6 Raleway font24 ">
                      <p>
                         XEOMIN<span className="trademark">&#174;</span> es un producto de alta calidad: de todos los pacientes tratados hasta la fecha <span className="XeominBlue"> ninguno ha desarrollado anticuerpos neutralizantes o se ha convertido en no respondedores secundarios </span>, lo que permite a los pacientes beneficiarse de tratamientos repetidos.
                      </p>
@@ -99,7 +99,7 @@ export default class XeominWeb extends Component{
                      <p className="font18">(Frevert J. Drugs R D 2010;10:67-73.)</p>
                   </div>
                </div>
-               <div className="row col-12 justify-content-center">
+               <div className="row col-12 justify-content-center XeoSection">
                   <p className="col-12 XeominBlue XeominLabFinalText RaleWayBold font32">
                      <b>El complejo proteico es simplemente una impureza</b>
                   </p>
@@ -168,7 +168,7 @@ export default class XeominWeb extends Component{
                   </div>
                </div>
                <div className="XeominStepsBox">
-                  <p className="XeominBlue XeominStepsTitle RalewayBold font32">
+                  <p className="XeominBlue XeominStepsTitle RalewayBold font32 XeoSection">
                      PASOS PARA UNA ADECUADA RECONSTITUCIÓN DE XEOMIN
                   </p>
                   <div className="row col-10 offset-1 font24">
@@ -193,7 +193,7 @@ export default class XeominWeb extends Component{
                         <span className="XeominTipsDot"></span>
                            Debido al proceso de sellado al vacio de XEOMIN<span className="trademark">&#174;</span>, la solución salina deberá ser aspirada al interior del vial por si sola.</p>
                      </div>
-                     <div className="col-5 Raleway">
+                     <div className="col-5 Raleway XeoSection">
                         <p className="XeominBlue RalewayBold">Paso 2:</p>
                         <p className="Paso2Text">Retire la aguja y realice movimientos circulares dejando que el liquido toque todas las paredes del vial y el tapón de goma, y regrese a su posición inicial, repitiendo estos movimientos varias veces hasta lograr una mezcla homogénea.</p>
                         <div className="XeominImportant XeominBlue RalewayMedium">
@@ -208,10 +208,10 @@ export default class XeominWeb extends Component{
                      <div className="col-7">
                         <img className="Paso2Pic" src="/assets/img/Pics/Paso2.png" alt="Paso 2" />
                      </div>
-                     <div className="col-5">
+                     <div className="col-5 XeoSection">
                         <img className="Paso3Pic" src="/assets/img/Pics/Paso3.png" alt="Paso 3" />
                      </div>
-                     <div className="col-7 XeominTips Raleway">
+                     <div className="col-7 XeominTips Raleway XeoSection">
                         <p className="XeominBlue RalewayBold">
                            Paso 3:
                         </p>
@@ -239,11 +239,11 @@ export default class XeominWeb extends Component{
                      </div>
                   </div>
                   <div className="XeoTechnique row justify-content-center">
-                     <p className="XeominBlue col-4 Raleway font32">
+                     <p className="XeominBlue col-4 Raleway font32 XeoSection">
                         DESTÁQUESE CON UNA <b>TÉCNICA PERSONALIZADA</b>
                      </p>
                   </div>
-                  <div className="row justify-content-center One21Box">
+                  <div className="row justify-content-center One21Box XeoSection">
                      <div className="col-4">
                         <img className="One21Pic" src="/assets/img/Pics/One21.png" alt="one21" />
                      </div>
@@ -254,9 +254,9 @@ export default class XeominWeb extends Component{
                      </div>
                   </div>
                   <div className="VideoONE21 row col-12 justify-content-center">
-                     <div className="col-6 Raleway font24">
-                        <p>Video One21 - Dra. Barrera</p>
-                        <iframe title="vimeo-player" src="https://player.vimeo.com/video/528575563" width="640" height="360" frameborder="0" allowfullscreen></iframe>
+                     <div className="col-6 RalewayBold font32 VideoONE21T justify-content-center">
+                        <p><b>Video One21 - Dra. Barrera</b></p>
+                        <iframe  title="vimeo-player" src="https://player.vimeo.com/video/528575563" width="640" height="360" frameborder="0" allowfullscreen></iframe>
                      </div>
                      <div className="col-5">
                         <p className="RalewayBold font40">El protocolo</p>
@@ -270,7 +270,7 @@ export default class XeominWeb extends Component{
                         </ol>
                      </div>
                   </div>
-                  <div className="container Raleway">
+                  <div className="container col-12 Raleway XeoSection">
                      <p className="XeominBlue XeoDownloadText font24">
                         Si desea conocer más de esta técnica descargue la guía paso a paso
                      </p>

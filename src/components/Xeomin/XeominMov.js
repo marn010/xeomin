@@ -8,7 +8,7 @@ export default class XeominMov extends Component{
       return(
          <div className="XeominMainMovBox ">
             <div className="col-">
-               <img className="XeominTitlePic" src="/assets/img/Background/XeominMain.png" alt="Xeomin" />
+               <img className="XeominTitlePic" src="/assets/img/Background/XeominMainMov.png" alt="Xeomin" />
             </div>
             <div className="">
                <div className="row col-12 FirstBox">

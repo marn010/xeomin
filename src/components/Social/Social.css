@@ -26,11 +26,11 @@
 }
 .instaBox{
    text-align: center;
-   width: 40%;
+   width: 30%;
 }
 .WebBox{
    text-align: center;
-   width: 40%;
+   width: 30%;
 }
 @media(max-width:768px){
    .InstaBlack{

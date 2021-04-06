@@ -8,11 +8,11 @@ import CampaignWeb from './CampaignWeb';
 export default class Campaign extends Component{
    render(){
       return(
-         <React.Fragment>
+         <div className="CampaignMainBox" id="Campaign">
             <CampaignWeb/>
             <CampaignMov/>
             <Footer/>
-         </React.Fragment>
+         </div>
       );
    }
 }
