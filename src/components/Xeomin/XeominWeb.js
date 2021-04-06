@@ -18,10 +18,10 @@ export default class XeominWeb extends Component{
                   <div className="col-10 justify-content-center XeominText">
                      <div>
                         <p className="XeominBlue XeominTitle Raleway font32 XeoSection"><b className="RalewayBold">XEOMIN<span className="trademark">&#174;</span></b> ES PARTE DE LA INVESTIGACIÓN DE TODA UNA VIDA</p>
-                        <p className="Raleway font24 XeoSection">
+                        <p className="Raleway font24 XeoSection" style={{display:"flex", margin:"5% 10.5%"}}>
                            Hace casi 20 años, el Dr. Frevert se dio cuenta que el complejo proteico que rodea el núcleo de neurotoxinas no es necesario para su efecto terapéutico o modo de acción
                         </p>
-                        <div className="row col-12 justify-content-left XeoSection">
+                        <div className="row col-10 justify-content-center XeoSection" style={{display:'flex', margin:"0% auto"}}>
                            <div className="col-6 XeoBorderL ">
                               <p className="XeominBlue Raleway font24">
                                  <b className="RalewayBold ">"El complejo proteico que forma parte de una toxina botulinica es simplemente una impureza"</b>, explica el Dr. Frevert.
@@ -40,9 +40,9 @@ export default class XeominWeb extends Component{
                   <img className="Toxina2" src="/assets/img/Pics/Toxina.png" alt="" />
                   </div>
                </div>
-               <div className="container col-10 justify-content-center">
-                  <div className="row col-12 justify-content-center">
-                     <div className="col-2">
+               <div className="container col-9 justify-content-center" style={{display:"flex", margin:"auto"}}>
+                  <div className="row col-12 justify-content-center" >
+                     <div className="col-2" style={{paddingTop:"4%"}}>
                         <img className="ToxinaBlue" src="/assets/img/Pics/ToxinaBlue.png" alt="ToxinaPura" />
                      </div>
                      <div className="col-10 XeoSection">
@@ -67,7 +67,7 @@ export default class XeominWeb extends Component{
                      </div>
                   </div>
                </div>
-               <div className="container">
+               <div className="XeoHistory">
                   <p className="XeominBlue RalewayMedium font24 FrevertPostText XeoSection">
                      Hacia finales de la década de 1990, comenzó el proyecto que dio como resultado XEOMIN<span className="trademark">&#174;</span>. Realizando fermentaciones durante la semana, el Dr. Frevert pasó muchos fines de semana con colegas igualmente dedicados a purificar y experimentar nuevas formas de estabilizar la neurotoxina y descubrió que la sacarosa era el excipiente más efectivo en este sentido.
                   </p>
@@ -115,29 +115,29 @@ export default class XeominWeb extends Component{
                   <iframe title="vimeo-player" src="https://player.vimeo.com/video/528570742" width="640" height="360" frameborder="0" allowfullscreen></iframe>
                   </div>
                </div>
-               <div className="container col-10 justify-content-center">
-               <div className="row XeoProc">
-                  <div className="col-2">
-                     <img className="ToxinaBlue2" src="/assets/img/Pics/ToxinaBlue.png" alt="toxin" />
-                  </div>
-                  <div className="col-9">
-                     <p className="XeominBlue Raleway font24">
-                        A través del proceso XTRACT Technology se consigue remover el complejo proteico, obteniendo una neurotoxina activa (150kDA) purificada que ofrece un menor riesgo de inmunogenicidad y una alta estabilidad.
-                     </p>
-                     <p className="font18">
-                        J Drugs Dermatol. 2019; 18 (1) : 52-57. S.K. Sharma. Toxicon 41 (2003) 321-331
-                     </p>
+               <div className="justify-content-center" style={{display:"flex",margin:"5% auto", width:"65%"}}>
+                  <div className="row XeoProc">
+                     <div className="col-2">
+                        <img className="ToxinaBlue2" src="/assets/img/Pics/ToxinaBlue.png" alt="toxin" />
+                     </div>
+                     <div className="col-10">
+                        <p className="XeominBlue Raleway font24">
+                           A través del proceso XTRACT Technology se consigue remover el complejo proteico, obteniendo una neurotoxina activa (150kDA) purificada que ofrece un menor riesgo de inmunogenicidad y una alta estabilidad.
+                        </p>
+                        <p className="font18">
+                           J Drugs Dermatol. 2019; 18 (1) : 52-57. S.K. Sharma. Toxicon 41 (2003) 321-331
+                        </p>
+                     </div>
                   </div>
                </div>
-               </div>
-               <div className="row -col-10 justify-content-center XeoRecBox">
-                  <div className="col-4">
+               <div className="justify-content-center XeoRecBox" style={{display:"flex",margin:"5% auto", width:"65%"}}>
+                  <div className="col-5">
                      <p className="XeominBlue XeominRec Raleway font32">
                         <b className="RalewayBold font40">XEOMIN<span className="trademark">&#174;</span>: </b>
                         RECONSTITUCIÓN Y DILUCIÓN
                      </p>
                   </div>
-                  <div className="col-6 XeominRecText">
+                  <div className="col-7 XeominRecText">
                      <p className="XeominBlue RalewayBold font32">
                         <b>
                            XEOMIN<span className="trademark">&#174;</span> puede ayudarlo a alcanzar el efecto deseado en sus pacientes.
@@ -148,7 +148,7 @@ export default class XeominWeb extends Component{
                      </p>
                   </div>
                </div>
-               <div className="row col-12">
+               <div className="row XeoDose">
                   <div className="col-3">
                      <img className="XeominVialPic" src="/assets/img/Pics/XeominVial.png" alt="" />
                   </div>
@@ -171,7 +171,7 @@ export default class XeominWeb extends Component{
                   <p className="XeominBlue XeominStepsTitle RalewayBold font32 XeoSection">
                      PASOS PARA UNA ADECUADA RECONSTITUCIÓN DE XEOMIN
                   </p>
-                  <div className="row col-10 offset-1 font24">
+                  <div className="row XeoSteps offset-1 font24">
                      <div className="col-5">
                         <p className="XeominBlue Paso1Text RalewayBold font32">Paso 1:</p>
                         <img className="Paso1Pic" src="/assets/img/Pics/Paso1.png" alt="Paso 1"  />
@@ -244,10 +244,10 @@ export default class XeominWeb extends Component{
                      </p>
                   </div>
                   <div className="row justify-content-center One21Box XeoSection">
-                     <div className="col-4">
+                     <div className="col-5">
                         <img className="One21Pic" src="/assets/img/Pics/One21.png" alt="one21" />
                      </div>
-                     <div className="col-6 Raleway font24 One21Text">
+                     <div className="col-7 Raleway font24 One21Text">
                         <p>
                            <b className="RalewayBold One21Full">one<span className="One21">2</span>1</b> es una exclusiva técnica que apunta a un tratamiento individualizado para el modelamiento de las cejas, tratamiento de arrugas frontales, glabelares y perioculares, basada en la anatomía y los resultados deseados por los pacientes.
                         </p>

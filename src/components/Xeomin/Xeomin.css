@@ -56,6 +56,11 @@
    .DrFrevertTextBox{
       padding: 5% 4% 5% 2% !important;
    }
+   .XeoHistory{
+      width: 65%;
+      display: block;
+      margin: 5% auto;
+   }
    .FrevertPostText{
       margin-bottom: 8%;
    }
@@ -90,7 +95,7 @@
       margin: 5% 0%;
    }
    .XeominRec{
-      padding: 0% 10% 0% 25%;      
+      padding: 0% 10% 0% 10%;      
    }
    .XeominRecText{
       padding: 0% 2% 0% 2% !important;
@@ -104,15 +109,25 @@
       left: 0%;
       bottom: 10%;
    }
+   .XeoDose{
+      display: flex;
+      width: 70%;
+      margin: 5% auto;
+   }
    .XeominVialPic{
-      width: 75%;
-      padding: 0% 0% 0% 20%;
+      width: 100%;
+      padding: 0% 0% 0% 0%;
    }
    .XeominStepsBox{
       text-align: left;
    }
    .XeominStepsTitle{
       text-align: center;
+   }
+   .XeoSteps{
+      width: 60%;  
+      display: flex;
+      margin: 5% auto;
    }
    .Paso1Text{
       display: block;
@@ -179,7 +194,9 @@
       text-align: center;
    }
    .One21Box{
-      margin: 0% 0% 4% 0%;
+      display: flex;
+      width: 65%;
+      margin: 0% auto 4% auto;
    }
    .One21Pic{
       display: block;

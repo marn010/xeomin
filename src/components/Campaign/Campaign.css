@@ -47,8 +47,10 @@
 .VideoPuroyProbado{
    width: auto;
 }
-.rowPurify{
+.rowPurify::after{
+   content: " ";
    border-bottom:solid 2px#306088;
+   width: 80%;
 }
 .VideoPurify{
    background-color: #457EB6;
@@ -108,12 +110,27 @@
    .CampaignMov{
       display: none;
    }
+   .GoPure{
+      display: block;
+      width: 65%;
+      margin: 5% auto;
+   }
+   .GPText{
+      width: 60%;
+      display: block;
+      margin: 5% auto;
+   }
    .VidPure{
       margin: 5% 0%;
       width: calc(640px + 5vw);
       max-width: 110%;
       height: calc(360px + 5vh);
       max-height: 110%;
+   }
+   .MerzText{
+      display: flex;
+      width: 65%;
+      margin: 5% auto;
    }
    .VidPurify{
       margin: 5% 0%;

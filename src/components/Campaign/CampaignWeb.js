@@ -10,7 +10,7 @@ export default class CampaignWeb extends Component{
                <div className="CampaignHeader">
                   <img className="HeaderCampaingn" src="/assets/img/Pics/HeaderCampaingn.png" alt="HeaderCampaign" />
                </div>
-               <div className="container">
+               <div className="GoPure">
                   <div className="row justify-content-center InitialCampaingnBox">
                      <div className="col-4 XeominBlue InitialCampaingn
                      ">
@@ -27,7 +27,7 @@ export default class CampaignWeb extends Component{
                <div className="GwynethBox container col-12">
                   <img className="GPBeauty" src="/assets/img/Pics/GPBeauty.png" alt="" />
                </div>
-               <div className="container Raleway font24">
+               <div className="GPText Raleway font24">
                   <p>
                      Paltrow es considerada ampliamente una autoridad en la belleza y el bienestar, por lo cual esta campaña se vincula a su filosofia sobre la belleza: las mujeres deben darse el permiso de hacer lo que quieran para sentirse bien.
                   </p>
@@ -57,7 +57,7 @@ export default class CampaignWeb extends Component{
                      </div>
                   </div>
                </div>
-               <div className="container">
+               <div className="MerzText">
                   <div className="row font24">
                      <div className="col-5 RalewayBold XeominBlue">
                         <p className="EmotionText">
@@ -72,7 +72,7 @@ export default class CampaignWeb extends Component{
                   </div>
                </div>
                <div className="container col-11 VideoPurify">
-                  <div className="row justify-content-center rowPurify VidPurifyWeb" style={{padding:"5% 0%"}}>
+                  <div className="row justify-content-center rowPurify VidPurifyWeb" style={{padding:"0% 0%"}}>
                      <div className="col-4">
                         <p className="VideoPurifyText Raleway font40">
                            Video GP - Me purifiqué
