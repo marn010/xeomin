@@ -45,8 +45,10 @@ export default class CampaignMov extends Component{
                   </div>
                   <div className="container col-11 VidPureMov">
                      <div className="col-12">
-                        <p className="VideoPureText Raleway fonrt 40">
-                           Video GP - Puro y comprobado
+                        <p className="VideoPureText RalewayBold fonrt 40">
+                           <b>
+                              Video GP - Puro y comprobado
+                           </b>
                         </p>
                      </div>
                      <div className="col-12">
@@ -81,8 +83,10 @@ export default class CampaignMov extends Component{
                   </div>
                   <div className="row justify-content-center rowPurify VidPurifyMov" style={{padding:"5% 0%"}}>
                      <div className="col-12">
-                        <p className="VideoPurifyText Raleway font40">
-                           Video GP - Me purifiqué
+                        <p className="VideoPurifyText RalewayBold font40">
+                           <b>
+                              Video GP - Me purifiqué
+                           </b>
                         </p>
                      </div>
                      <div className="col-12">

@@ -209,9 +209,11 @@ export default class XeominMov extends Component{
                      </div>
                   </div>
                   <div className="VideoReconstitucion">
-                     <div className="col-12 Raleway font40 XeominBlue">
+                     <div className="col-12 RalewayBold font40 XeominBlue">
                         <p>
-                           Video Reconstitución
+                           <b>
+                              Video Reconstitución
+                           </b>
                         </p>
                      </div>
                      <div className="col-12">
@@ -235,8 +237,8 @@ export default class XeominMov extends Component{
                   </div>
                   <img className="ProtocolMov" src="/assets/img/Pics/ProtocoloMov.png" alt="Protocolo" />
                   <div className="VideoONE21 row justify-content-center">
-                     <div className="col-12 Raleway font24">
-                        <p className="VideoONETitle">Video One21 - Dra. Barrera</p>
+                     <div className="col-12 RalewayBold font24">
+                        <p className="VideoONETitle"><b>Video One21 - Dra. Barrera</b></p>
                         <iframe title="vimeo-player" src="https://player.vimeo.com/video/528575563" frameborder="0" allowfullscreen></iframe>
                      </div>
                      <div className="container Raleway">

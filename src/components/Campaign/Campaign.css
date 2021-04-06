@@ -42,7 +42,7 @@
 .VideoPureText{
    text-align: left;
    color: #306085;
-   padding: 20% 15% 0% 8%;
+   padding: 0% 15% 0% 8%;
 }
 .VideoPuroyProbado{
    width: auto;
@@ -60,7 +60,7 @@
    width: 90%;
 }
 .VideoPurifyText{
-   padding: 20% 20% 0% 10%;
+   padding: 0% 20% 0% 10%;
 }
 .MerzAestheticsTextWBox{
    padding: 0% 5% 5% 8%;
@@ -109,6 +109,10 @@
 @media(min-width:769px){
    .CampaignMov{
       display: none;
+   }
+   .VideoTitle{
+      display: block;
+      margin: auto 0%;
    }
    .GoPure{
       display: block;

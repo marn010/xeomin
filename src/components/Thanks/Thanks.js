@@ -60,15 +60,15 @@ export default class Thanks extends Component{
                      <div className="row justify-content-center">
                         <div className="col-6 InstaBlueText font24">
                            <img className="InstaBlue" src="/assets/img/Pics/InstaBlue.png" alt="insta" />
-                           <span>
+                           <a href="https://www.instagram.com/?hl=es" target="blank">
                               @merzaesthetics_col
-                           </span>
+                           </a>
                         </div>
                         <div className="col-6 WebBlueText font24">
                            <img className="WebBlue" src="/assets/img/Pics/WebBlue.png" alt="web" />
-                           <span className="">
+                           <a href="https://merzaesthetics.com/" target="blank">
                               www.merz.com/co
-                           </span>
+                           </a>
                         </div>
                      </div>
                   </div>

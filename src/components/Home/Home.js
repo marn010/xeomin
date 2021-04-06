@@ -19,8 +19,8 @@ export default class Home extends Component{
                      <Link to="/xeomin" target="_top">
                         <img className="InfoXeo" src="/assets/img/Pics/InfoXeomin.png" alt="Xeomin" />
                      </Link>
-                     <p>
-                        Conozca más de Xeomin
+                     <p className="XeominBlue">
+                        Haga clic para conocer más de la ciencia detrás de Xeomin
                      </p>
                   </div>
                   <div className="col-5">
@@ -30,8 +30,8 @@ export default class Home extends Component{
                      {/* <a href="/campaign">
                         <img className="CampaingnGlobal" src="/assets/img/Pics/HomeCampaing.png" alt="Campaign" />
                      </a> */}
-                     <p>
-                        Campaña global
+                     <p className="XeominBlue">
+                        Haga clic para conocer la campaña global con Gwyneth Paltrow
                      </p>
                   </div>
                </div>

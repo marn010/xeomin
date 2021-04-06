@@ -1,4 +1,5 @@
 import React, { Component } from 'react';
+import { Link } from 'react-router-dom';
 
 import './Campaign.css';
 
@@ -37,22 +38,14 @@ export default class CampaignWeb extends Component{
                </div>
                <div className="container col-11 VideoPure">
                   <div className="row justify-content-center VidPureWeb">
-                     <div className="col-4">
-                        <p className="VideoPureText Raleway font40">
-                           Video GP - Puro y comprobado
+                     <div className="col-4 VideoTitle">
+                        <p className="VideoPureText RalewayBold font40" >
+                           <b>
+                              Video GP - Puro y comprobado
+                           </b>
                         </p>
                      </div>
                      <div className="col-6">
-                        <iframe title="vimeo-player" src="https://player.vimeo.com/video/529064794" className="VidPure " /* width="640" height="360" */ frameborder="0" allowfullscreen></iframe>
-                     </div>
-                  </div>
-                  <div className="container col-11 VidPureMov">
-                     <div className="col-12">
-                        <p className="VideoPureText Raleway fonrt 40">
-                           Video GP - Puro y comprobado
-                        </p>
-                     </div>
-                     <div className="col-12">
                         <iframe title="vimeo-player" src="https://player.vimeo.com/video/529064794" className="VidPure " /* width="640" height="360" */ frameborder="0" allowfullscreen></iframe>
                      </div>
                   </div>
@@ -73,22 +66,14 @@ export default class CampaignWeb extends Component{
                </div>
                <div className="container col-11 VideoPurify">
                   <div className="row justify-content-center rowPurify VidPurifyWeb" style={{padding:"0% 0%"}}>
-                     <div className="col-4">
-                        <p className="VideoPurifyText Raleway font40">
-                           Video GP - Me purifiqué
+                     <div className="col-4 VideoTitle">
+                        <p className="VideoPurifyText RalewayBold font40">
+                           <b>
+                              Video GP - Me purifiqué
+                           </b>
                         </p>
                      </div>
                      <div className="col-6">
-                     <iframe title="vimeo-player" src="https://player.vimeo.com/video/529064724" className="VidPurify" /* width="640" height="360" */ frameborder="0" allowfullscreen></iframe>
-                     </div>
-                  </div>
-                  <div className="row justify-content-center rowPurify VidPurifyMov" style={{padding:"5% 0%"}}>
-                     <div className="col-12">
-                        <p className="VideoPurifyText Raleway font40">
-                           Video GP - Me purifiqué
-                        </p>
-                     </div>
-                     <div className="col-12">
                      <iframe title="vimeo-player" src="https://player.vimeo.com/video/529064724" className="VidPurify" /* width="640" height="360" */ frameborder="0" allowfullscreen></iframe>
                      </div>
                   </div>
@@ -125,6 +110,27 @@ export default class CampaignWeb extends Component{
                </div>
                <div className=""> 
                   <img className="GPAbout" src="/assets/img/Pics/GPAbout.png" alt="" />
+               </div>
+               <div className="row col-12 justify-content-center font24">
+                  <div className="col-5">
+                     <Link to="/xeomin" target="_top">
+                        <img className="InfoXeo" src="/assets/img/Pics/InfoXeomin.png" alt="Xeomin" />
+                     </Link>
+                     <p className="XeominBlue">
+                        Haga clic para conocer más de la ciencia detrás de Xeomin
+                     </p>
+                  </div>
+                  <div className="col-5">
+                     <Link to="/home" target="_top">
+                        <img className="CampaingnGlobal" src="/assets/img/Pics/HomeCampaing.png" alt="Campaign" />
+                     </Link>
+                     {/* <a href="/campaign">
+                        <img className="CampaingnGlobal" src="/assets/img/Pics/HomeCampaing.png" alt="Campaign" />
+                     </a> */}
+                     <p className="XeominBlue">
+                        Haga clic para conocer la campaña con Carolina Aristizábal
+                     </p>
+                  </div>
                </div>
             </div>
          </React.Fragment>

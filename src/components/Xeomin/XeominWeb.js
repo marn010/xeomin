@@ -82,11 +82,11 @@ export default class XeominWeb extends Component{
                      </p>
                   </div>
                </div>
-               <div className="row col-12">
+               <div className="row XeoProd">
                   <div className="col-4">
                      <img className="XeominLabPic" src="/assets/img/Pics/XeominLab.png" alt="" />
                   </div>
-                  <div className="col-6 Raleway font24 ">
+                  <div className="col-8 Raleway font24">
                      <p>
                         XEOMIN<span className="trademark">&#174;</span> es un producto de alta calidad: de todos los pacientes tratados hasta la fecha <span className="XeominBlue"> ninguno ha desarrollado anticuerpos neutralizantes o se ha convertido en no respondedores secundarios </span>, lo que permite a los pacientes beneficiarse de tratamientos repetidos.
                      </p>
@@ -173,7 +173,9 @@ export default class XeominWeb extends Component{
                   </p>
                   <div className="row XeoSteps offset-1 font24">
                      <div className="col-5">
-                        <p className="XeominBlue Paso1Text RalewayBold font32">Paso 1:</p>
+                        <p className="XeominBlue Paso1Text RalewayBold font32">
+                           Paso 1:
+                        </p>
                         <img className="Paso1Pic" src="/assets/img/Pics/Paso1.png" alt="Paso 1"  />
                      </div>
                      <div className="col-7 XeominTips Raleway">
@@ -189,24 +191,24 @@ export default class XeominWeb extends Component{
                         <span className="XeominTipsDot"></span>
                            Limpie el tapón e introduzca la aguja aproximadamente a 45° en dirección a la pared del frasco, dejando salir el líquido lentamente.
                         </p>
-                        <p className="XeominTipsText">
+                        <p className="XeominTipsText" style={{paddingLeft:"4%"}}>
                         <span className="XeominTipsDot"></span>
                            Debido al proceso de sellado al vacio de XEOMIN<span className="trademark">&#174;</span>, la solución salina deberá ser aspirada al interior del vial por si sola.</p>
                      </div>
                      <div className="col-5 Raleway XeoSection">
                         <p className="XeominBlue RalewayBold">Paso 2:</p>
                         <p className="Paso2Text">Retire la aguja y realice movimientos circulares dejando que el liquido toque todas las paredes del vial y el tapón de goma, y regrese a su posición inicial, repitiendo estos movimientos varias veces hasta lograr una mezcla homogénea.</p>
-                        <div className="XeominImportant XeominBlue RalewayMedium">
-                           <p>
-                              IMPORTANTE:
-                           </p>
-                           <p>
-                              El frasco no debe ser agitado vigorosamente.
-                           </p>
-                        </div>
                      </div>
                      <div className="col-7">
                         <img className="Paso2Pic" src="/assets/img/Pics/Paso2.png" alt="Paso 2" />
+                     </div>
+                     <div className="XeominImportant XeominBlue RalewayMedium">
+                        <p>
+                           IMPORTANTE:
+                        </p>
+                        <p>
+                           El frasco no debe ser agitado vigorosamente.
+                        </p>
                      </div>
                      <div className="col-5 XeoSection">
                         <img className="Paso3Pic" src="/assets/img/Pics/Paso3.png" alt="Paso 3" />
@@ -229,9 +231,11 @@ export default class XeominWeb extends Component{
                      </div>
                   </div>
                   <div className="VideoReconstitucion row">
-                     <div className="col-5 Raleway font40 XeominBlue">
+                     <div className="col-5 RalewayBold font40 XeominBlue" style={{textAlign:"right"}}>
                         <p>
-                           Video Reconstitución
+                           <b>
+                              Video Reconstitución
+                           </b>
                         </p>
                      </div>
                      <div className="col-7 VidReconstitucion">
@@ -277,6 +281,27 @@ export default class XeominWeb extends Component{
                      <Link className="XeoDownloadBTN font21"  to={{pathname:"/assets/pdf/GUIIATECNICAPASOAPASO.pdf"}} target="_blank" >
                         Descargar
                      </Link>
+                  </div>
+                  <div className="row col-12 justify-content-center font24">
+                     <div className="col-5">
+                        <Link to="/home" target="_top">
+                           <img className="InfoXeo" src="/assets/img/Pics/InfoXeomin.png" alt="Xeomin" />
+                        </Link>
+                        <p className="XeominBlue">
+                           Haga clic para conocer la campaña con Carolina Aristizábal
+                        </p>
+                     </div>
+                     <div className="col-5">
+                        <Link to="/campaign" target="_top">
+                           <img className="CampaingnGlobal" src="/assets/img/Pics/HomeCampaing.png" alt="Campaign" />
+                        </Link>
+                        {/* <a href="/campaign">
+                           <img className="CampaingnGlobal" src="/assets/img/Pics/HomeCampaing.png" alt="Campaign" />
+                        </a> */}
+                        <p className="XeominBlue">
+                           Haga clic para conocer la campaña global con Gwyneth Paltrow
+                        </p>
+                     </div>
                   </div>
                </div>
             </div>

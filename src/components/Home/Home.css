@@ -11,15 +11,16 @@
 @media(max-width:768px){
    .InfoXeo{
       width: 100%;
+      box-shadow: 10px 10px 10px rgba(24, 24, 27, 0.2);
    }
    .CampaingnGlobal{
       width: 100%;
+      box-shadow: 10px 10px 10px rgba(24, 24, 27, 0.2);
    }
 }
 @media(min-width:769px){
    .InfoXeo{
       width: 80%;
-      box-shadow: 15px 15px 5px rgba(24, 24, 27, 0.5);
       margin-bottom: 5% ;
    }
    .InfoXeo:hover{
@@ -27,7 +28,7 @@
    }
    .CampaingnGlobal{
       width: 80%;
-      box-shadow: 15px 15px 5px rgba(24, 24, 27, 0.5);
+      
       margin-bottom: 5% ;
    }
    .CampaingnGlobal:hover{

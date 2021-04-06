@@ -54,7 +54,10 @@
       width: 100%;
    }
    .DrFrevertTextBox{
-      padding: 5% 4% 5% 2% !important;
+      padding: 5% 4% 0% 2% !important;
+   }
+   .DrFrevertText{
+      margin: 4% 0% 5% 0%;
    }
    .XeoHistory{
       width: 65%;
@@ -70,7 +73,14 @@
    .FrevertScientific{
       margin-bottom: 5%;   
    }
+   .XeoProd{
+      display: flex;
+      width: 80%;
+      margin: 5% auto;
+   }
    .XeominLabPic{
+      display: block;
+      margin: 0% auto;
       width: 100%;
    }
    .XeominLabFinalText{
@@ -83,6 +93,7 @@
       background-color: #306088;
       color: white;
       text-align: left;
+      padding: 5% 0%;
    }
    .XtractVideo p{
       padding: 10% 0% 0% 9%;
@@ -149,14 +160,22 @@
       border-radius: 50%;
       position: absolute;
       background-color: #4478B8;
-      top: 1%;
+      top: 7%;
       left: -8px;
    }
    .XeominTipsBox{
-      border-left: solid 1px #4478B8;
-      /* padding-left: 2%; */
+      /* border-left: solid 1px #4478B8; */
+      padding-left: 4%;
       margin-bottom: 0%;
       padding-bottom: 1%;
+   }
+   .XeominTipsBox::after{
+      content: "";
+      border-left: solid 1px #4478B8;
+      position: absolute;
+      left: -2px;
+      top: 14px;
+      bottom: -15px;
    }
    .XeominTips::after p{
       background-color: #4478B8;
@@ -171,7 +190,10 @@
       margin-bottom: 10%;
    }
    .XeominImportant{
+      padding: 0.5% 0%;
       background-color: #E7E7E7;
+      width: 100%;
+      text-align: center;
    }
    .Paso3Pic{
       display: block;
@@ -183,7 +205,7 @@
       padding: 2% 0%;
    }
    .VideoReconstitucion p{
-      text-align: center;
+      /* text-align: center; */
       padding: 18% 0% 0% 0%;
    }
    .VidReconstitucion{
@@ -215,7 +237,7 @@
    .VideoONE21{
       background-color: #003869;
       color: white;
-      padding-top: 2%;
+      padding: 2% 0%;
    }
    .VideoONE21T p {
       text-align: center;

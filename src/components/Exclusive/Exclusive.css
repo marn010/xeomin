@@ -1,18 +1,16 @@
 .ExclusiveBox{
    width: 100%;
    background-color: rgba(0, 0, 0, 0.8);
-   height: 10vh;
    position: fixed;
    bottom: 1%;
    color: white;
    text-align: center;
-   
+   padding: 1% 0%;
 }
 .ExclusiveText{
    opacity: 1;
    display: inline-block;
-   margin: 1.5% 0%;
-   /* font-size: calc(0.3rem + 1vw); */
+   margin: auto 0%;
 }
 @media(max-width:768px){
    .ExclusiveBox{
@@ -20,7 +18,7 @@
    }
    .ExclusiveBox p{
       display: block;
-      margin: 4% 0% 4% 0%;
+      margin: 1% 0%;
    }
 }
 @media(min-width:769px){
