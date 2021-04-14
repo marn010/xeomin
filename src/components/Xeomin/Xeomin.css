@@ -1,8 +1,14 @@
 .XeominMainWebBox{
    overflow: hidden;
+   color: #636362;
 }
 .XeominBlue{
  color: #4478B8;
+}
+.Merz_Azul{
+   display: block;
+   width: 25%;
+   margin: -4% auto 0% auto;
 }
 .XeominTitle{
    text-align: center;
@@ -14,22 +20,22 @@
    width: 100%;
 }
 .Toxina1{
-   width: 200%;
-   transform: scale(1,-1) rotate(10deg);
-   margin: -10% 0% 0% -150%;
+   width: 400%;
+   transform: scale(1,-1) rotate(20deg);
+   margin: -10% 0% 0% -260%;
 }
 .Toxina2{
-   width: 200%;
-   transform: scale(1,-1) rotate(-135deg);
-   margin: 0% 0% 0% 80%;
+   width: 400%;
+   transform: scale(1,-1) rotate(-134deg);
+   margin: 100% 0% 0% 50%;
 }
 .XeoProc{
    margin: 5% 0% 0% 0%;
 }
 .ToxinaBlue{
-   width: 70%;
+   width: 100%;
+   margin: -40% 0% 35% -50%;
    transform: rotate(40deg);
-   margin: -5% 0% 5% 0%;
 }
 .DrFrevert{
    background-color: #457EB9;
@@ -47,13 +53,33 @@
    .XeoBorderL{
       border-right: solid 2px #4478B8 ;  
    }
+   .XeoCiteBox{
+      display: flex;
+      width: 95%;
+      margin: 0% auto;
+   }
+   .XeoCitePic{
+      display: flex;
+      width: 10%;
+   }
+   .XeoCiteText{
+      display: flex;
+      width: 80%;
+   }
    .DrFrevert{
-      margin-left: 5%;
+      display: flex;
+      width: 90.5%;
+      margin: 0% auto 0% auto;
+   }
+   .DrFrevertBox{
+      width: 30%;
    }
    .DrFrevertPic{
       width: 100%;
+      margin: 0%;
    }
    .DrFrevertTextBox{
+      width: 70%;
       padding: 5% 4% 0% 2% !important;
    }
    .DrFrevertText{
@@ -75,8 +101,15 @@
    }
    .XeoProd{
       display: flex;
-      width: 80%;
-      margin: 5% auto;
+      width: 100%;
+      margin: 5% 3.5%;
+   }
+   .XeoProdLeft{
+      width: 30%;
+   }
+   .XeoProdRight{
+      padding: 0% 0% 0% 3%;
+      width: 70%;
    }
    .XeominLabPic{
       display: block;
@@ -86,14 +119,25 @@
    .XeominLabFinalText{
       text-align: center;
    }
+   .XeoProcLeft{
+      display: flex;
+      width: 40%;
+   }
+   .XeoProcRight{
+      display: block;
+      width: 60%;
+   }
    .XtractPic{
-      width: auto;
+      width: 100%;
    }
    .XtractVideo{
+      display: flex;
+      margin: 0% auto;
       background-color: #306088;
       color: white;
       text-align: left;
       padding: 5% 0%;
+      width: 90.5%;
    }
    .XtractVideo p{
       padding: 10% 0% 0% 9%;
@@ -134,21 +178,22 @@
    }
    .XeominStepsTitle{
       text-align: center;
+      padding: 0% 25%;
    }
    .XeoSteps{
-      width: 60%;  
+      width: 90%;  
       display: flex;
       margin: 5% auto;
    }
    .Paso1Text{
-      display: block;
+      display: flex;
       width: 50%;
-      margin: 0% auto 0% auto;
+      margin: 0% auto 0% 0%;
    }
    .Paso1Pic{
-      display: block;
+      display: flex;
       width: auto;
-      margin: 0% auto 5% auto
+      margin: -8% 10% 5% auto
    }
    .XeominTipsText{
       padding-left: 2%;
@@ -201,23 +246,27 @@
       margin: 0% auto 0% auto;
    }
    .VideoReconstitucion{
+      display: flex;
+      margin: 0% auto;
       background-color: #E7E7E7;
       padding: 2% 0%;
+      width: 90%;
    }
    .VideoReconstitucion p{
       /* text-align: center; */
-      padding: 18% 0% 0% 0%;
+      padding: 30% 8% 0% 25%;
    }
    .VidReconstitucion{
       text-align: center;
    }
    .XeoTechnique{
-      font-size: calc(0.5rem + 1vw);
+      /* font-size: calc(0.5rem + 1vw); */
       text-align: center;
+      margin: 0% 0% 5% 0%;
    }
    .One21Box{
       display: flex;
-      width: 65%;
+      width: 90%;
       margin: 0% auto 4% auto;
    }
    .One21Pic{
@@ -225,7 +274,14 @@
       width: auto;
       margin: -3.5% auto 0% auto;
    }
+   .OneBoxLeft{
+      width: 30%;
+   }
+   .OneBoxRight{
+      width: 70%;
+   }
    .One21Text{
+      padding: 2% 5% 0% 5%;
       color: #636362;
    }
    .One21Full{
@@ -240,7 +296,7 @@
       padding: 2% 0%;
    }
    .VideoONE21T p {
-      text-align: center;
+      text-align: left;
    }
    .VideoONE21 iframe{
       display: block;
@@ -292,6 +348,11 @@
       color: white;
       transform: scale(1.05);
    }
+   .BotonsXeoBox{
+      display: flex;
+      width: 90%;
+      margin: 0% auto;
+   }
 }
 /*CELL*/
 @media(max-width:768px){
@@ -300,6 +361,10 @@
    }
    .XeominMainWebBox{
       display: none;
+   }
+   .VideoMobile{
+      width: auto;
+      height: 168px;
    }
    .FirstBox{
       margin: 0%;
@@ -372,7 +437,9 @@
    .XtractVideo{
       background-color: #306088;
       color: white;
-      text-align: left;
+      text-align: center;
+      margin: 0%;
+      padding: 5% 0%;
    }
    .XtractTechPostText::after{
       content: "";
@@ -470,6 +537,7 @@
    .VideoReconstitucion{
       background-color: #E7E7E7;
       text-align: center;
+      padding: 3% 0% 5% 0%;
    }
    .VideoReconstitucion p{
       text-align: left;
@@ -554,6 +622,6 @@
       width: 40%;
       display: block;
       margin: 0% auto 0% auto;
-      border-radius: 10px;
+      border-radius: 3px;
    }
 }

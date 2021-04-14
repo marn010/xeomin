@@ -16,7 +16,8 @@ export default class Header extends Component{
                         <p className="TestimonyText">
                            <b className="Raleway ">
                               Testimonio personal 
-                           </b> de Carolina Aristizábal
+                           </b> 
+                           de Carolina Aristizábal
                         </p>
                      </div>
                      <div className="col-6">

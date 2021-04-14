@@ -1,21 +1,21 @@
 .form{
    background-color: rgba(177, 185, 197, 0.18) !important;
-   color: white !important;
+   color: #306088 !important;
 }
 #name::placeholder{
-   color: white;
+   color: #306088;
 }
 #email::placeholder{
-   color: white;
+   color: #306088;
 }
 #address::placeholder{
-   color: white;
+   color: #306088;
 }
 #Tel::placeholder{
-   color: white;
+   color: #306088;
 }
 .custom-select{
-   color: white;
+   color: #306088;
 }
 select,
 select option {

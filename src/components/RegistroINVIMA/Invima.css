@@ -8,11 +8,13 @@
    text-align: center;
 }
 .BackBTN{
+   display: block;
    background-color: #457EB9;
    text-align: center;
    padding: 4% 0%;
    color: white;
-   margin-bottom: 10%;
+   margin: 0% auto 10% auto;
+   width: 90%;
 }
 
 .BackBTNLink{

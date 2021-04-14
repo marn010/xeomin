@@ -13,12 +13,13 @@ export default class Footer extends Component{
             <div className="MainBox">
                <div className="MainWebBox container">
                   <div className="container">
+                     <img className="X" src="/assets/img/Background/X.svg" alt="X" />
                      <div className="row justify-content-center Raleway font24">
-                        <div className="col-5">
-                           <img className="pencilPic" src="/assets/img/Pics/pencil.png" alt="pencil" />
-                           <p className="pencilText">Si está interesado en vivir una experiencia tan única como sus pacientes, <b className="RalewayBold"> diligencie sus datos para recibir una muestra de producto</b></p>
+                        <div className="col-6">
+                           <img className="pencilPic" src="/assets/img/Pics/pencil.svg" alt="pencil" />
+                           <p className="pencilText">Si está interesado en que sus pacientes vivan una experiencia como la de Carolina, <b className="RalewayBold"> diligencie el siguiente formulario </b>para recibir una muestra de producto. </p>
                         </div>
-                        <div className="col-5 font18">
+                        <div className="col-6 font18">
                            <Forms/>
                         </div>
                      </div>
@@ -29,7 +30,7 @@ export default class Footer extends Component{
                      <div className="col-12 justify-content-center Raleway">
                         <div className="col-11">
                            <img className="pencilPic" src="/assets/img/Pics/pencil.png" alt="pencil" />
-                           <p className="pencilText">Si está interesado en vivir una experiencia tan única como sus pacientes, <b className="RalewayBold"> diligencie sus datos para recibir una muestra de producto</b></p>
+                           <p className="pencilText">Si está interesado en que sus pacientes vivan una experiencia como la de Carolina, <b className="RalewayBold"> diligencie el siguiente formulario </b> para recibir una muestra de producto.</p>
                         </div>
                         <div className="col-11">
                            <Forms/>
@@ -37,6 +38,7 @@ export default class Footer extends Component{
                      </div>
                   </div>
                </div>
+            </div>
                <div className="RegInvima container Raleway font18">
                   <div className="row col-12 justify-content-center">
                      <Link to="/invima">
@@ -48,8 +50,12 @@ export default class Footer extends Component{
                </div>
                <div className="MERZBox">
                   <img className="EndForm" src="/assets/img/Pics/EndForm.png" alt="" />
+                  <p>Merz Colombia S.A.S. Carrera 11 No. 87-51 Oficina. 302 - Teléfono: +57 1 3904707<br/>
+                  <span>
+                     Email: servicioalcliente@merz.com - Bogotá Colombia
+                     </span>
+                  </p>
                </div>
-            </div>
          </React.Fragment>
       );
    }

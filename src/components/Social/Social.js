@@ -7,7 +7,7 @@ export default class Social extends Component{
       return(
          <React.Fragment>
             <div className="row col-12 justify-content-center" style={{margin:"0%"}}>
-               <div className="col-12 SocialBox">
+               <div className="SocialBox">
                   <div className="row col-12 justify-content-center" style={{padding:"0% 0% 0% 0.5%"}}>
                      <div className=" VisitBox font40">
                         <p>VISITE</p>
@@ -26,6 +26,11 @@ export default class Social extends Component{
                      </div>
                   </div>
                </div>
+            </div>
+            <div>
+               <p className="UniqueExp font32"> 
+                  ¿ Y SUS PACIENTES HAN VIVIDO UNA EXPERIENCIA ÚNICA?
+               </p>
             </div>
          </React.Fragment>
       );

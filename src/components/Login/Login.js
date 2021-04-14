@@ -23,17 +23,17 @@ export default function Login({setToken}){
       <div className="loginBox">
          <div className="MainLogBox">
             <h1>¡BIENVENIDO!</h1>
-            <div className="FormBox">
-               <form onSubmit={handleSubmit}>
+            <form onSubmit={handleSubmit}>
+               <div className="FormBox">
                   <label className="Raleway">
                      <p><b>Ingrese el código</b> de acceso para conocer y vivir una experiencia única</p>
                      <input type="password" onChange={e => setPassword(e.target.value)} />
                   </label>
-                  <div>
-                     <button type="submit">Submit</button>
-                  </div>
-               </form>
-            </div>
+               </div>
+               <div>
+                  <button className="LogBTN" type="submit">Ingresar</button>
+               </div>
+            </form>
          </div>
          <img className="ColorsLog" src="/assets/img/Pics/LogoHome.png" alt="" />
          <p className="LoginExclusiveText">

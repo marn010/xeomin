@@ -17,8 +17,10 @@ export default class XeominWeb extends Component{
                   </div>
                   <div className="col-10 justify-content-center XeominText">
                      <div>
-                        <p className="XeominBlue XeominTitle Raleway font32 XeoSection"><b className="RalewayBold">XEOMIN<span className="trademark">&#174;</span></b> ES PARTE DE LA INVESTIGACIÓN DE TODA UNA VIDA</p>
-                        <p className="Raleway font24 XeoSection" style={{display:"flex", margin:"5% 10.5%"}}>
+                        <p className="XeominBlue XeominTitle Raleway font32 XeoSection RalewayBold">UNA HISTORIA QUE MARCÓ LA DIFERENCIA </p>
+                        <img className="Merz_Azul" src="/assets/img/Pics/merz_azul.svg" alt="" />
+                        <p className="Raleway font24 XeoSection" style={{display:"block", margin:"5% 10.5%"}}>
+                           <span><b>XEOMIN</b><span className="trademark">&#174;</span>  es parte de la investigación de toda una vida. </span>
                            Hace casi 20 años, el Dr. Frevert se dio cuenta que el complejo proteico que rodea el núcleo de neurotoxinas no es necesario para su efecto terapéutico o modo de acción
                         </p>
                         <div className="row col-10 justify-content-center XeoSection" style={{display:'flex', margin:"0% auto"}}>
@@ -40,31 +42,27 @@ export default class XeominWeb extends Component{
                   <img className="Toxina2" src="/assets/img/Pics/Toxina.png" alt="" />
                   </div>
                </div>
-               <div className="container col-9 justify-content-center" style={{display:"flex", margin:"auto"}}>
-                  <div className="row col-12 justify-content-center" >
-                     <div className="col-2" style={{paddingTop:"4%"}}>
+               <div className="XeoCiteBox justify-content-center" style={{display:"flex", margin:"auto"}}>
+                     <div className="XeoCitePic" style={{paddingTop:"4%"}}>
                         <img className="ToxinaBlue" src="/assets/img/Pics/ToxinaBlue.png" alt="ToxinaPura" />
                      </div>
-                     <div className="col-10 XeoSection">
+                     <div className="XeoCiteText XeoSection">
                         <p className="XeominBlue Raleway font24">
                            <b className="RalewayBold">"Sabia que el complejo proteico puede estimular el sistema inmunológico para producir anticuerpos que neutralizan la neurotoxina"</b>, reveló
                         </p>  
                      </div>
-                  </div>
                </div>
                <div className="DrFrevert col-11">
-                  <div className="row col-12">
-                     <div className="col-4">
+                     <div className="DrFrevertBox">
                         <img className="DrFrevertPic" src="/assets/img/Pics/Dr_Frevert.png" alt="DrFrevert" />
                      </div>
-                     <div className="col-7 offset-1 DrFrevertTextBox">
+                     <div className="DrFrevertTextBox">
                         <h3 className="DrFrevertText RalewayBold font32">
                            El Dr. Jurgen Frevert podria ser descrito como el padre de XEOMIN<span className="trademark">&#174;</span>.
                         </h3>
                         <p className="Raleway font24">
                            Hace más de 30 años, el Dr. formaba parte de una investigfacion doctoral y se le encomendó <b>purificar</b> la toxina botulinica tipo A con la que trabajaba en ese momento (Onabotulinim Toxin A).
                         </p>
-                     </div>
                   </div>
                </div>
                <div className="XeoHistory">
@@ -72,21 +70,18 @@ export default class XeominWeb extends Component{
                      Hacia finales de la década de 1990, comenzó el proyecto que dio como resultado XEOMIN<span className="trademark">&#174;</span>. Realizando fermentaciones durante la semana, el Dr. Frevert pasó muchos fines de semana con colegas igualmente dedicados a purificar y experimentar nuevas formas de estabilizar la neurotoxina y descubrió que la sacarosa era el excipiente más efectivo en este sentido.
                   </p>
                </div>
-               <div className="row col-12 FrevertScientific">
-                  <div className="col-2 XeominBlockBLue">
-                     <img src="" alt="" />
-                  </div>
-                  <div className="col-9 offset-1 ">
+               <div className="FrevertScientific XeoHistory">
+                  <div className="XeoSection ">
                      <p className="XeominBlue Raleway font24 ">
                         "Como cientifico, bioquímico, es muy satisfactorio haber desarrollado un producto, con mis propias manos".
                      </p>
                   </div>
                </div>
-               <div className="row XeoProd">
-                  <div className="col-4">
+               <div className="col-11 XeoProd">
+                  <div className="XeoProdLeft">
                      <img className="XeominLabPic" src="/assets/img/Pics/XeominLab.png" alt="" />
                   </div>
-                  <div className="col-8 Raleway font24">
+                  <div className="XeoProdRight Raleway font21"/*font24 */>
                      <p>
                         XEOMIN<span className="trademark">&#174;</span> es un producto de alta calidad: de todos los pacientes tratados hasta la fecha <span className="XeominBlue"> ninguno ha desarrollado anticuerpos neutralizantes o se ha convertido en no respondedores secundarios </span>, lo que permite a los pacientes beneficiarse de tratamientos repetidos.
                      </p>
@@ -99,11 +94,12 @@ export default class XeominWeb extends Component{
                      <p className="font18">(Frevert J. Drugs R D 2010;10:67-73.)</p>
                   </div>
                </div>
+               <hr/>
                <div className="row col-12 justify-content-center XeoSection">
                   <p className="col-12 XeominBlue XeominLabFinalText RaleWayBold font32">
-                     <b>El complejo proteico es simplemente una impureza</b>
+                     <b>LA TECNOLOGÍA DETRÁS DE LA INNOVACIÓN</b>
                   </p>
-                  <img className="XtractPic" src="/assets/img/Pics/Xtract.png" alt="Xtract" />
+                  
                </div>
                <div className="XtractVideo row justify-content-center">
                   <div className="col-5 Raleway font40">
@@ -115,12 +111,12 @@ export default class XeominWeb extends Component{
                   <iframe title="vimeo-player" src="https://player.vimeo.com/video/528570742" width="640" height="360" frameborder="0" allowfullscreen></iframe>
                   </div>
                </div>
-               <div className="justify-content-center" style={{display:"flex",margin:"5% auto", width:"65%"}}>
+               <div className="justify-content-center" style={{display:"flex",margin:"5% auto", width:"90.5%"}}>
                   <div className="row XeoProc">
-                     <div className="col-2">
-                        <img className="ToxinaBlue2" src="/assets/img/Pics/ToxinaBlue.png" alt="toxin" />
+                     <div className="XeoProcLeft">
+                        <img className="XtractPic" src="/assets/img/Pics/Xtract.png" alt="Xtract" />
                      </div>
-                     <div className="col-10">
+                     <div className="XeoProcRight">
                         <p className="XeominBlue Raleway font24">
                            A través del proceso XTRACT Technology se consigue remover el complejo proteico, obteniendo una neurotoxina activa (150kDA) purificada que ofrece un menor riesgo de inmunogenicidad y una alta estabilidad.
                         </p>
@@ -130,7 +126,8 @@ export default class XeominWeb extends Component{
                      </div>
                   </div>
                </div>
-               <div className="justify-content-center XeoRecBox" style={{display:"flex",margin:"5% auto", width:"65%"}}>
+               <hr/>
+               {/* <div className="justify-content-center XeoRecBox" style={{display:"flex",margin:"5% auto", width:"65%"}}>
                   <div className="col-5">
                      <p className="XeominBlue XeominRec Raleway font32">
                         <b className="RalewayBold font40">XEOMIN<span className="trademark">&#174;</span>: </b>
@@ -147,8 +144,8 @@ export default class XeominWeb extends Component{
                         XEOMIN<span className="trademark">&#174;</span> (incobotulinumtoxinaA) Summary of Product Characteristics. MerzPharmaceuticals GmbH.
                      </p>
                   </div>
-               </div>
-               <div className="row XeoDose">
+               </div> */}
+               {/* <div className="row XeoDose">
                   <div className="col-3">
                      <img className="XeominVialPic" src="/assets/img/Pics/XeominVial.png" alt="" />
                   </div>
@@ -166,16 +163,17 @@ export default class XeominWeb extends Component{
                         <span className="XeominBlue">No existe una técnica única de aplicación </span> que funcione para todos los médicos y pacientes.
                      </p>
                   </div>
-               </div>
+               </div> */}
                <div className="XeominStepsBox">
                   <p className="XeominBlue XeominStepsTitle RalewayBold font32 XeoSection">
-                     PASOS PARA UNA ADECUADA RECONSTITUCIÓN DE XEOMIN
+                     PASOS PARA UNA ADECUADA RECONSTITUCIÓN Y DILUCIÓN DE XEOMIN<span className="trademark">&#174;</span>
                   </p>
+                  <img className="Merz_Azul" src="/assets/img/Pics/merz_azul.svg" alt="" />
                   <div className="row XeoSteps offset-1 font24">
                      <div className="col-5">
-                        <p className="XeominBlue Paso1Text RalewayBold font32">
+                        <span className="XeominBlue Paso1Text RalewayBold font32">
                            Paso 1:
-                        </p>
+                        </span>
                         <img className="Paso1Pic" src="/assets/img/Pics/Paso1.png" alt="Paso 1"  />
                      </div>
                      <div className="col-7 XeominTips Raleway">
@@ -231,7 +229,7 @@ export default class XeominWeb extends Component{
                      </div>
                   </div>
                   <div className="VideoReconstitucion row">
-                     <div className="col-5 RalewayBold font40 XeominBlue" style={{textAlign:"right"}}>
+                     <div className="col-5 RalewayBold font40 XeominBlue" style={{textAlign:"left"}}>
                         <p>
                            <b>
                               Video Reconstitución
@@ -242,30 +240,30 @@ export default class XeominWeb extends Component{
                         <iframe title="vimeo-player" src="https://player.vimeo.com/video/528571892" width="640" height="359" frameborder="0" allowfullscreen></iframe>
                      </div>
                   </div>
-                  <div className="XeoTechnique row justify-content-center">
-                     <p className="XeominBlue col-4 Raleway font32 XeoSection">
-                        DESTÁQUESE CON UNA <b>TÉCNICA PERSONALIZADA</b>
+                  <div className="XeoTechnique justify-content-center">
+                     <p className="XeominBlue Raleway font32 XeoSection">
+                        <b>GUÍA PÁSO A PASO: TÉCNICA #ONE21</b>
                      </p>
+                     <img className="Merz_Azul" src="/assets/img/Pics/merz_azul.svg" alt="" />
                   </div>
-                  <div className="row justify-content-center One21Box XeoSection">
-                     <div className="col-5">
+                  <div className="justify-content-center One21Box XeoSection">
+                     <div className="OneBoxLeft">
                         <img className="One21Pic" src="/assets/img/Pics/One21.png" alt="one21" />
                      </div>
-                     <div className="col-7 Raleway font24 One21Text">
+                     <div className="OneBoxRight Raleway font24 One21Text">
                         <p>
                            <b className="RalewayBold One21Full">one<span className="One21">2</span>1</b> es una exclusiva técnica que apunta a un tratamiento individualizado para el modelamiento de las cejas, tratamiento de arrugas frontales, glabelares y perioculares, basada en la anatomía y los resultados deseados por los pacientes.
                         </p>
                      </div>
                   </div>
-                  <div className="VideoONE21 row col-12 justify-content-center">
-                     <div className="col-6 RalewayBold font32 VideoONE21T justify-content-center">
-                        <p><b>Video One21 - Dra. Barrera</b></p>
-                        <iframe  title="vimeo-player" src="https://player.vimeo.com/video/528575563" width="640" height="360" frameborder="0" allowfullscreen></iframe>
-                     </div>
-                     <div className="col-5">
-                        <p className="RalewayBold font40">El protocolo</p>
+                  <div className="VideoONE21 row justify-content-center">
+                     <div className="col-4 RalewayBold font32 VideoONE21T justify-content-center">
+                        <p className="RalewayBold font40">
+                           La técnica <br/> 
+                           #ONE21
+                        </p>
                         <p className="RalewayBold font24">
-                           de la técnica #ONE21 se divide en 3 importantes pasos:
+                           se divide en 3 importantes pasos:
                         </p>
                         <ol className="list Raleway font24">
                            <li>Evaluación</li>
@@ -273,34 +271,28 @@ export default class XeominWeb extends Component{
                            <li>Personalización</li>
                         </ol>
                      </div>
+                     <div className="col-6">
+                        <iframe  title="vimeo-player" src="https://player.vimeo.com/video/528575563" width="640" height="360" frameborder="0" allowfullscreen></iframe>
+                     </div>
                   </div>
                   <div className="container col-12 Raleway XeoSection">
                      <p className="XeominBlue XeoDownloadText font24">
-                        Si desea conocer más de esta técnica descargue la guía paso a paso
+                        Si desea conocer más de esta técnica <b>descargue</b> la guía paso a paso
                      </p>
                      <Link className="XeoDownloadBTN font21"  to={{pathname:"/assets/pdf/GUIIATECNICAPASOAPASO.pdf"}} target="_blank" >
                         Descargar
                      </Link>
                   </div>
-                  <div className="row col-12 justify-content-center font24">
-                     <div className="col-5">
+                  <div className="BotonsXeoBox justify-content-center font24">
+                     <div className="InfoXeoBox">
                         <Link to="/home" target="_top">
-                           <img className="InfoXeo" src="/assets/img/Pics/InfoXeomin.png" alt="Xeomin" />
+                           <img className="InfoXeo" src="/assets/img/Pics/BotonHome.png" alt="Xeomin" />
                         </Link>
-                        <p className="XeominBlue">
-                           Haga clic para conocer la campaña con Carolina Aristizábal
-                        </p>
                      </div>
-                     <div className="col-5">
+                     <div className="CampaingnGlobalBox">
                         <Link to="/campaign" target="_top">
-                           <img className="CampaingnGlobal" src="/assets/img/Pics/HomeCampaing.png" alt="Campaign" />
+                           <img className="CampaingnGlobal" src="/assets/img/Pics/BotonGP.png" alt="Campaign" />
                         </Link>
-                        {/* <a href="/campaign">
-                           <img className="CampaingnGlobal" src="/assets/img/Pics/HomeCampaing.png" alt="Campaign" />
-                        </a> */}
-                        <p className="XeominBlue">
-                           Haga clic para conocer la campaña global con Gwyneth Paltrow
-                        </p>
                      </div>
                   </div>
                </div>

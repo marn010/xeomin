@@ -16,9 +16,6 @@ export default class Invima extends Component{
                <Link className="BackBTNLink" to="/home">
                   Regresar
                </Link>
-               {/* <a href="/home">
-                  Regresar
-               </a> */}
             </div>
          </React.Fragment>
       );

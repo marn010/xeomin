@@ -2,7 +2,9 @@
    width: 100%;
 }
 .InitialCampaingnBox{
-   padding: 5% 0% 0% 0%;
+   padding: 2% 0% 1% 0%;
+   background-color: #457EB9;
+   color: white;
 }
 .InitialCampaingn{
    font-size: calc(1.0rem + 1vw);
@@ -13,6 +15,10 @@
    line-height: 1.2;
 }
 .InitialCampaingnText p{
+   text-align: center;
+   display: block;
+   width: 60%;
+   margin: 0% auto;
    font-size: calc(0.5rem + 1vw);  
 }
 .InitialCite{
@@ -42,7 +48,7 @@
 .VideoPureText{
    text-align: left;
    color: #306085;
-   padding: 0% 15% 0% 8%;
+   padding: 0% 0% 0% 0%;
 }
 .VideoPuroyProbado{
    width: auto;
@@ -55,20 +61,30 @@
 .VideoPurify{
    background-color: #457EB6;
    color: white;
-   margin-top: 5%;
-   margin-left: 5%;
-   width: 90%;
 }
 .VideoPurifyText{
    padding: 0% 20% 0% 10%;
 }
+.MerzAestheticsBoxMain{
+   display: flex;
+   width: 90%;
+   margin: 0% auto;
+}
 .MerzAestheticsTextWBox{
-   padding: 0% 5% 5% 8%;
+   width: 50%;
+   padding: 0% 2% 0% 0%;
 }
 .MerzAestheticsTextBox{
+   width: 50%;
    background-color: #306088;
    color: white;
-   padding: 5% 10% 5% 5%;
+   padding: 4% 0% 0% 3%;
+}
+.BotonsGPBox{
+   display: flex;
+   width: 90%;
+   margin: 5% auto 0% auto;
+
 }
 .MERZBox2{
    padding: 1% 2% 0% 0%;
@@ -105,7 +121,7 @@
    width: 100%;
    margin: 5% 0%;
 }
-
+/*WEB*/
 @media(min-width:769px){
    .CampaignMov{
       display: none;
@@ -116,13 +132,21 @@
    }
    .GoPure{
       display: block;
-      width: 65%;
-      margin: 5% auto;
+      width: 100%;
+      margin: 0% auto 3% auto;
+   }
+   .GwynethBox{
+      display: block;
+      width: 90%;
+      margin: 0% auto;
+   }
+   .GPBeauty{
+      width: 100%;
    }
    .GPText{
       width: 60%;
       display: block;
-      margin: 5% auto;
+      margin: 1% auto;
    }
    .VidPure{
       margin: 5% 0%;
@@ -135,6 +159,13 @@
       display: flex;
       width: 65%;
       margin: 5% auto;
+   }
+   .VideoPurify{
+      background-color: #457EB6;
+      color: white;
+      margin-top: 5%;
+      margin-left: 5%;
+      width: 90%;
    }
    .VidPurify{
       margin: 5% 0%;
@@ -155,7 +186,9 @@
       border-right: solid 3px #306088;
    }
 }
+/*MOBILE*/
 @media(max-width:768px){
+   
    .CampaignWeb{
       display: none;  
    }
@@ -173,26 +206,24 @@
    }
    .VidPure{
       margin: 5% 0%;
-      width: 100%;
-      height: auto;
    }
-   .VidPurify{
-      width: 100%;
-      height: auto;
-   }
-   .VidPureWeb{
-      display: none;
+   .VideoPurify{
+    text-align: left; 
    }
    .VideoPureText{
-      text-align: center;
+      text-align: left;
       color: #306085;
       padding: 5% 0% 0% 0%;
+   }
+   .VidPurify{
+      display: block;
+      margin: 0% auto;
    }
    .VidPurifyWeb{
       display: none;
    }
    .VideoPurifyText{
-      padding: 0%;
-      text-align: center;
+      padding: 0% 0% 0% 10%;
+      text-align: left;
    }
 }

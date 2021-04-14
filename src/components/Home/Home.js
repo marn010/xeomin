@@ -9,30 +9,21 @@ export default class Home extends Component{
    render(){
       return(
          <React.Fragment>
+            <Header/>
             <div className="HomeMainWebBox">
-               <Header/>
                <div className="KnowMoreXeo font40">
                   <img className="XeominHomeTitlePic" src="/assets/img/Pics/Xeomin.png" alt="" />
                </div>
-               <div className="row col-12 justify-content-center font24">
-                  <div className="col-5">
+               <div className="BotonsBox justify-content-center font24">
+                  <div className="InfoXeoBox">
                      <Link to="/xeomin" target="_top">
-                        <img className="InfoXeo" src="/assets/img/Pics/InfoXeomin.png" alt="Xeomin" />
+                        <img className="InfoXeo" src="/assets/img/Pics/BotonXeo.png" alt="Xeomin" />
                      </Link>
-                     <p className="XeominBlue">
-                        Haga clic para conocer más de la ciencia detrás de Xeomin
-                     </p>
                   </div>
-                  <div className="col-5">
+                  <div className="CampaingnGlobalBox">
                      <Link to="/campaign" target="_top">
-                        <img className="CampaingnGlobal" src="/assets/img/Pics/HomeCampaing.png" alt="Campaign" />
+                        <img className="CampaingnGlobal" src="/assets/img/Pics/BotonGP.png" alt="Campaign" />
                      </Link>
-                     {/* <a href="/campaign">
-                        <img className="CampaingnGlobal" src="/assets/img/Pics/HomeCampaing.png" alt="Campaign" />
-                     </a> */}
-                     <p className="XeominBlue">
-                        Haga clic para conocer la campaña global con Gwyneth Paltrow
-                     </p>
                   </div>
                </div>
             </div>

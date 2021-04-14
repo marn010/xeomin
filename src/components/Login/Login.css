@@ -19,21 +19,32 @@
    font-size: calc(2.0rem + 1vw);
 }
 .FormBox{
+   display: block;
+   margin: 0% auto;
+   width: 60%;
    background-color: rgba(255, 255, 255, 0.6);
    border-radius: 20px;
-   padding: 2% 2% 2% 2%;
+   padding: 3% 2% 2% 2%;
    color: black;
    text-align: center;
 }
 .FormBox p{
-   padding: 0% 5%;
+   padding: 0% 8%;
 }
 .FormBox input{
    border-radius: 10px;
+   width: 90%;
    border-color: transparent;
 }
-.FormBox button{
-   display: none;
+.LogBTN{
+   display: block;
+   width: 50%;
+   margin: 3% auto 0% auto;
+   background-color: #457EB2;
+   border-radius: 10px;
+   border-style: hidden;
+   color: white;
+   padding: 1% 0%;
 }
 hr{
    background-color: white;
@@ -46,4 +57,25 @@ hr{
 }
 .LoginExclusiveText{
    text-align: center;
+}
+@media(max-width:768px){
+   .MainLogBox{
+      background-color: transparent;
+   }
+   .MainLogBox h1{
+      margin-bottom: 8%;
+   }
+   .FormBox{
+      display: block;
+      margin: 0% auto;
+      width: 80%;
+      padding: 5% 0%;
+   }
+   .FormBox p{
+      padding: 3% 10%;
+   }
+   .FormBox input{
+      border-radius: 5px;
+      width: 80%;
+   }
 }

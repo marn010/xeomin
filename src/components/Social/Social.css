@@ -3,6 +3,7 @@
    color: white;
    padding: 2% 0% 2% 0%;
    margin: 3% 0% 5% 0%;
+   width: 92.5%;
 }
 .SocialBox a{
    color: white;
@@ -31,6 +32,11 @@
 .WebBox{
    text-align: center;
    width: 30%;
+}
+.UniqueExp{
+   display: table;
+   color: #306088;
+   margin: 2% auto;
 }
 @media(max-width:768px){
    .InstaBlack{

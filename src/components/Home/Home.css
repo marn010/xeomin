@@ -19,19 +19,37 @@
    }
 }
 @media(min-width:769px){
-   .InfoXeo{
-      width: 80%;
-      margin-bottom: 5% ;
+   .HomeMainWebBox{
+      display: block;
+      width: 90%;
+      margin: 0% auto;
    }
-   .InfoXeo:hover{
+   
+   .InfoXeoBox{
+      display: inline-block;
+      width: 50%;
+   }
+   .CampaingnGlobalBox{
+      text-align: end;
+      display: inline-block;
+      width: 50%;
+   }
+   .InfoXeo{
+      text-align: left;
+      width: 95%;
+      margin-bottom: 0% ;
+      box-shadow: 10px 10px 10px rgba(24, 24, 27, 0.2);
+   }
+   .InfoXeoBox:hover .InfoXeo{
       transform: scale(1.1);
    }
    .CampaingnGlobal{
-      width: 80%;
-      
-      margin-bottom: 5% ;
+      text-align: right;
+      width: 95%;
+      margin-bottom: 0% ;
+      box-shadow: 10px 10px 10px rgba(24, 24, 27, 0.2);
    }
-   .CampaingnGlobal:hover{
+   .CampaingnGlobalBox:hover .CampaingnGlobal{
       transform: scale(1.1);
    }
 }

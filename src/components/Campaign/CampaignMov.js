@@ -10,14 +10,14 @@ export default class CampaignMov extends Component{
                <div className="CampaignHeader">
                   <img className="HeaderCampaingn" src="/assets/img/Pics/HeaderCampaingnMov.png" alt="HeaderCampaign" />
                </div>
-               <div className="container">
-                  <div className="justify-content-center InitialCampaingnBox">
-                     <div className="XeominBlue InitialCampaingn
+               <div className="container col-12">
+                  <div className="row justify-content-center InitialCampaingnBox">
+                     <div className="col-12 XeominBlue InitialCampaingn MerzAestheticsTextWBox
                      ">
                         <span className="RalewayBold font32"><b>GO PURE</b></span>
                         <span className="Raleway font32"> - Gwyneth Paltrow</span>
                      </div>
-                     <div className="InitialCampaingnText Raleway font24">
+                     <div className="col-12 InitialCampaingnText Raleway font24 MerzAestheticsTextWBox">
                         <p>
                            Merz Aesthetics, la empresa más grande dedicada a la estética médica a nivel mundial ha anunciado una sociedad con Gwyneth Paltrow, actriz, autora y empresaria, ganadora de un Óscar y un premio Emmy, para el lanzamiento de la primera campaña mundial sobre belleza. Paltrow, la cara visible y global de Merz Aesthetics, apoya a las mujeres que eligen la bellleza en sus propios términos y lo hacen con productos de eficacia comprobada.
                         </p>
@@ -27,22 +27,16 @@ export default class CampaignMov extends Component{
                <div className="GwynethBox">
                   <img className="GPBeauty" src="/assets/img/Pics/GPBeautyMov.png" alt="" />
                </div>
-               <div className="container Raleway font24">
-                  <p>
-                     Paltrow es considerada ampliamente una autoridad en la belleza y el bienestar, por lo cual esta campaña se vincula a su filosofia sobre la belleza: las mujeres deben darse el permiso de hacer lo que quieran para sentirse bien. Paltrow y personas influyentes de las redes sociuales incentivarán a a las mujeres a tomarse el tiempo para si mismas y priorizar el autocuidado, especialmente ahora. Paltrow compartirá detalles sobre lo que hace para verse y sentirse mejor, y pedirá a las mujeres que hagan lo mismo en las redes sociales usando el hastag <span> #GoPureStayReal.</span>
-                  </p>
-               </div>
-               <div className="container col-11 VideoPure">
-                  <div className="row justify-content-center VidPureWeb">
-                     <div className="col-4">
-                        <p className="VideoPureText Raleway font40">
-                           Video GP - Puro y comprobado
+               <div className="container col-12 justify-content-center Raleway font24">
+                  <div className="row">   
+                     <div className="col-12 MerzAestheticsTextWBox">
+                        <p>
+                           Paltrow es considerada ampliamente una autoridad en la belleza y el bienestar, por lo cual esta campaña se vincula a su filosofia sobre la belleza: las mujeres deben darse el permiso de hacer lo que quieran para sentirse bien. Paltrow y personas influyentes de las redes sociuales incentivarán a a las mujeres a tomarse el tiempo para si mismas y priorizar el autocuidado, especialmente ahora. Paltrow compartirá detalles sobre lo que hace para verse y sentirse mejor, y pedirá a las mujeres que hagan lo mismo en las redes sociales usando el hastag <span> #GoPureStayReal.</span>
                         </p>
                      </div>
-                     <div className="col-6">
-                        <iframe title="vimeo-player" src="https://player.vimeo.com/video/529064794" className="VidPure " /* width="640" height="360" */ frameborder="0" allowfullscreen></iframe>
-                     </div>
                   </div>
+               </div>
+               <div className="container col-12 VideoPure">
                   <div className="container col-11 VidPureMov">
                      <div className="col-12">
                         <p className="VideoPureText RalewayBold fonrt 40">
@@ -52,35 +46,25 @@ export default class CampaignMov extends Component{
                         </p>
                      </div>
                      <div className="col-12">
-                        <iframe title="vimeo-player" src="https://player.vimeo.com/video/529064794" className="VidPure " /* width="640" height="360" */ frameborder="0" allowfullscreen></iframe>
+                        <iframe className="VideoMobile VidPure" title="vimeo-player" src="https://player.vimeo.com/video/529064794" /* width="640" height="360" */ frameborder="0" allowfullscreen></iframe>
                      </div>
                   </div>
                </div>
-               <div className="container">
-                  <div className="row font24">
-                     <div className="col-10 offset-1 RalewayBold XeominBlue">
+               <div className="container col-12 justify-content-center">
+                  <div className="row font24 ">
+                     <div className="col-12 RalewayBold XeominBlue MerzAestheticsTextWBox">
                         <p className="EmotionText">
                            "Es un momento muy emocionante para Merz Aesthetics", dijo Bob Rhatigan. Director Ejecutivo Global de Merz Aesthetics.
                         </p>
                      </div>
-                     <div className="col-10 offset-1 Raleway">
+                     <div className="col-12 Raleway MerzAestheticsTextWBox">
                         <p>
                            "La pasión de Gwyneth por le conocimiento y el parendizaje, su perspectiva profundamente personal sobre la belleza y el envejecimiento, y su estándar puro de belleza, son cualidades que admiramos en Merz Aesthetics y son los valores que compartimos como empresa"
                         </p>
                      </div>
                   </div>
                </div>
-               <div className="container col-11 VideoPurify">
-                  <div className="row justify-content-center rowPurify VidPurifyWeb" style={{padding:"5% 0%"}}>
-                     <div className="col-4">
-                        <p className="VideoPurifyText Raleway font40">
-                           Video GP - Me purifiqué
-                        </p>
-                     </div>
-                     <div className="col-6">
-                     <iframe title="vimeo-player" src="https://player.vimeo.com/video/529064724" className="VidPurify" /* width="640" height="360" */ frameborder="0" allowfullscreen></iframe>
-                     </div>
-                  </div>
+               <div className=" col-12 VideoPurify">
                   <div className="row justify-content-center rowPurify VidPurifyMov" style={{padding:"5% 0%"}}>
                      <div className="col-12">
                         <p className="VideoPurifyText RalewayBold font40">
@@ -90,7 +74,7 @@ export default class CampaignMov extends Component{
                         </p>
                      </div>
                      <div className="col-12">
-                     <iframe title="vimeo-player" src="https://player.vimeo.com/video/529064724" className="VidPurify" /* width="640" height="360" */ frameborder="0" allowfullscreen></iframe>
+                     <iframe title="vimeo-player" src="https://player.vimeo.com/video/529064724" className="VideoMobile VidPurify" /* width="640" height="360" */ frameborder="0" allowfullscreen></iframe>
                      </div>
                   </div>
                </div>

@@ -95,8 +95,7 @@ export default class XeominMov extends Component{
                </div>
 
                <div className="XtractVideo row col-12 justify-content-center">
-
-                  <iframe title="vimeo-player" src="https://player.vimeo.com/video/528570742" width="640" height="360" frameborder="0" allowfullscreen></iframe>
+                  <iframe className="VideoMobile" title="vimeo-player" src="https://player.vimeo.com/video/528570742"  frameborder="0" allowfullscreen></iframe>
                </div>
                <div className="container col-12 justify-content-center XtractTechPostText">
                <div className="row col-12" style={{margin:"5% 0%"}}>
@@ -217,7 +216,7 @@ export default class XeominMov extends Component{
                         </p>
                      </div>
                      <div className="col-12">
-                     <iframe title="vimeo-player" src="https://player.vimeo.com/video/528571892" frameborder="0" allowfullscreen></iframe>
+                     <iframe className="VideoMobile" title="vimeo-player" src="https://player.vimeo.com/video/528571892" frameborder="0" allowfullscreen></iframe>
                      </div>
                   </div>
                   <div className="col-12 justify-content-around">
@@ -239,7 +238,7 @@ export default class XeominMov extends Component{
                   <div className="VideoONE21 row justify-content-center">
                      <div className="col-12 RalewayBold font24">
                         <p className="VideoONETitle"><b>Video One21 - Dra. Barrera</b></p>
-                        <iframe title="vimeo-player" src="https://player.vimeo.com/video/528575563" frameborder="0" allowfullscreen></iframe>
+                        <iframe className="VideoMobile" title="vimeo-player" src="https://player.vimeo.com/video/528575563" frameborder="0" allowfullscreen></iframe>
                      </div>
                      <div className="container Raleway">
                      <p className="XeominBlue XeoDownloadText font24">
