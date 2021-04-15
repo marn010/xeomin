@@ -38,31 +38,44 @@
    color: #306088;
    margin: 2% auto;
 }
+@media(min-width:769px){
+   .SocialMov{
+      display: none;
+   }
+}
+/*MOBILE*/
 @media(max-width:768px){
-   .InstaBlack{
-      width: 20%;
-      margin: 5% 0%;
+   .SocialWeb{
+      display: none;
    }
-   .WebBlack{
-      width: 20%;
-      margin: 5% 0%;
+   .SocialMov{
+      display: block;
+      width: 90%;
+      margin: 0% auto;
    }
-   .VisitBox{
-      padding: 0% 1%;
+   .SocialBox{
+      position: relative;
+      background-color: transparent;
+      width: 100%;
+   }
+   .InstaMov{
+      /* border: solid red 3px; */
+      position: absolute;
+      top: 25%;
+      bottom: 25%;
+      left: 32%;
+      right: 38%;
+   }
+   .WebMov{
+      /* border: solid purple 3px; */
+      position: absolute;
+      top: 25%;
+      bottom: 25%;
+      left: 64%;
+      right: 8%;
+   }
+   .UniqueExp{
       text-align: center;
-      width: 17%;      
    }
-   .instaBox{
-      padding: 0% 5px;
-      text-align: center;
-      width: 40%;
-   }
-   .WebBox{
-      padding: 0% 5px;
-      text-align: center;
-      width: 40%;
-   }
-   .SocialBox div{
-      margin: 0%;
-   }
+   
 }

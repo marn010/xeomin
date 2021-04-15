@@ -26,13 +26,13 @@ export default class Footer extends Component{
                   </div>
                </div>
                <div className="MainMovBox">
-                  <div className="container col-11 offset-1">
+                  <div className="container col-12 ">
                      <div className="col-12 justify-content-center Raleway">
-                        <div className="col-11">
-                           <img className="pencilPic" src="/assets/img/Pics/pencil.png" alt="pencil" />
+                        <div className="col-12">
+                           <img className="pencilPic" src="/assets/img/Pics/pencil.svg" alt="pencil" />
                            <p className="pencilText">Si está interesado en que sus pacientes vivan una experiencia como la de Carolina, <b className="RalewayBold"> diligencie el siguiente formulario </b> para recibir una muestra de producto.</p>
                         </div>
-                        <div className="col-11">
+                        <div className="col-12">
                            <Forms/>
                         </div>
                      </div>

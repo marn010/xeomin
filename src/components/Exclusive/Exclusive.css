@@ -15,6 +15,7 @@
 @media(max-width:768px){
    .ExclusiveBox{
       height: auto;
+      width: 100vw;
    }
    .ExclusiveBox p{
       display: block;

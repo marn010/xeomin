@@ -9,6 +9,14 @@
 }
 
 @media(max-width:768px){
+   .HomeMainWebBox{
+      display: none;
+   }
+   .HomeMainWMovBox{
+      display: block;
+      width: 90%;
+      margin: 0% auto;
+   }
    .InfoXeo{
       width: 100%;
       box-shadow: 10px 10px 10px rgba(24, 24, 27, 0.2);
@@ -19,6 +27,9 @@
    }
 }
 @media(min-width:769px){
+   .HomeMainWMovBox{
+      display: none;
+   }
    .HomeMainWebBox{
       display: block;
       width: 90%;

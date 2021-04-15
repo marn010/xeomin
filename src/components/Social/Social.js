@@ -6,7 +6,7 @@ export default class Social extends Component{
    render(){
       return(
          <React.Fragment>
-            <div className="row col-12 justify-content-center" style={{margin:"0%"}}>
+            <div className="row col-12 justify-content-center SocialWeb" style={{margin:"0%"}}>
                <div className="SocialBox">
                   <div className="row col-12 justify-content-center" style={{padding:"0% 0% 0% 0.5%"}}>
                      <div className=" VisitBox font40">
@@ -27,9 +27,18 @@ export default class Social extends Component{
                   </div>
                </div>
             </div>
+            <div className="SocialMov" >
+               <div className="SocialBox">
+                  <img className="" src="/assets/img/Pics/Banner_redes.svg" alt="" />
+                  <a className="InstaMov" href="https://www.instagram.com/?hl=es" target="blank">
+                  </a>
+                  <a className="WebMov" href="https://merzaesthetics.com/" target="blank">
+                  </a>
+               </div>
+            </div>
             <div>
-               <p className="UniqueExp font32"> 
-                  ¿ Y SUS PACIENTES HAN VIVIDO UNA EXPERIENCIA ÚNICA?
+               <p className="UniqueExp font21"> 
+                  ¿Y SUS PACIENTES HAN VIVIDO UNA EXPERIENCIA ÚNICA?
                </p>
             </div>
          </React.Fragment>

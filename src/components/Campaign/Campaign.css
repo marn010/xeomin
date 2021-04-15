@@ -188,32 +188,66 @@
 }
 /*MOBILE*/
 @media(max-width:768px){
-   
    .CampaignWeb{
       display: none;  
    }
    .CampaignMainBox{
       overflow: hidden;
    }
-   .GwynethBox{
+   .CampaignHeaderText{
       width: 100%;
-      text-align: center;
-      margin: 0%;
+   }
+   .InitialCampaingnText{
+      display: block;
+      width: 100%;
+      margin: 0% auto 0% auto;
+   }
+   .InitialCampaingnText p{
+      text-align: left;
+      display: block;
+      width: 80%;
+      margin: 0% auto 5% auto;
+      font-size: calc(0.5rem + 1vw);  
+   }
+   .GwynethBox{
+      display: block;
+      width: 80%;
+      margin: 5% auto 0% auto;
       padding: 0%;
    }
    .GPBeauty{
-      width: 110%;
+      width: 100%;
+   }
+   .GwynethPostText{
+      display: block;
+      width: 80%;
+      margin: 0% auto 0% auto;
    }
    .VidPure{
       margin: 5% 0%;
    }
+   .VideoPurePostTextBox{
+      display: block;
+      width: 80%;
+      margin: 0% auto 0% auto;
+   }
    .VideoPurify{
     text-align: left; 
    }
+   .VideoPurifyPostTextBox{
+      display: block;
+      width: 80%;
+      margin: 5% auto 0% auto;
+   }
    .VideoPureText{
-      text-align: left;
+      text-align: center;
       color: #306085;
       padding: 5% 0% 0% 0%;
+   }
+   .MerzAestheticsBoxMain{
+      display: block;
+      width: 80%;
+      margin: 0% auto 0% auto;
    }
    .VidPurify{
       display: block;

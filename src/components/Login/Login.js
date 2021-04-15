@@ -26,7 +26,7 @@ export default function Login({setToken}){
             <form onSubmit={handleSubmit}>
                <div className="FormBox">
                   <label className="Raleway">
-                     <p><b>Ingrese el código</b> de acceso para conocer y vivir una experiencia única</p>
+                     <p><b className="RalewayBold">Ingrese el código</b> de acceso para conocer y vivir una experiencia única</p>
                      <input type="password" onChange={e => setPassword(e.target.value)} />
                   </label>
                </div>

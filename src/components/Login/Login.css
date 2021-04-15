@@ -60,7 +60,8 @@ hr{
 }
 @media(max-width:768px){
    .MainLogBox{
-      background-color: transparent;
+      width: 80%;
+      margin: 10% 0% 30% 0%;
    }
    .MainLogBox h1{
       margin-bottom: 8%;

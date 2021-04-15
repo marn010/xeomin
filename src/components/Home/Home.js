@@ -16,19 +16,33 @@ export default class Home extends Component{
                </div>
                <div className="BotonsBox justify-content-center font24">
                   <div className="InfoXeoBox">
-                     <Link to="/xeomin" target="_top">
+                     <Link to="/xeomin" target="_top" rel="noreferrer">
                         <img className="InfoXeo" src="/assets/img/Pics/BotonXeo.png" alt="Xeomin" />
                      </Link>
                   </div>
                   <div className="CampaingnGlobalBox">
-                     <Link to="/campaign" target="_top">
+                     <Link to="/campaign" target="_top" rel="noreferrer">
                         <img className="CampaingnGlobal" src="/assets/img/Pics/BotonGP.png" alt="Campaign" />
                      </Link>
                   </div>
                </div>
             </div>
             <div className="HomeMainWMovBox">
-
+               <div className="KnowMoreXeo font40">
+                  <img className="XeominHomeTitlePic" src="/assets/img/Pics/XeominMov.png" alt="" />
+               </div>
+               <div className="BotonsBox justify-content-center font24">
+                  <div className="InfoXeoBox">
+                     <Link to="/xeomin" target="_top" rel="noreferrer">
+                        <img className="InfoXeo" src="/assets/img/Pics/BotonXeo.png" alt="Xeomin" />
+                     </Link>
+                  </div>
+                  <div className="CampaingnGlobalBox">
+                     <Link to="/campaign" target="_top" rel="noreferrer">
+                        <img className="CampaingnGlobal" src="/assets/img/Pics/BotonGP.png" alt="Campaign" />
+                     </Link>
+                  </div>
+               </div>
             </div>
             <Footer/>
          </React.Fragment>

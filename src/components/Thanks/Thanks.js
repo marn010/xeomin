@@ -27,13 +27,13 @@ export default class Thanks extends Component{
                         </div>
                         <div className="col-4 InstaBlueText">
                            <img className="InstaBlue" src="/assets/img/Pics/InstaBlue.png" alt="insta" />
-                           <a href="https://www.instagram.com/?hl=es" target="_blank" >
+                           <a href="https://www.instagram.com/?hl=es" target="_blank" rel="noreferrer">
                               @merzaesthetics_col
                            </a>
                         </div>
                         <div className="col-4 WebBlueText">
                            <img className="WebBlue" src="/assets/img/Pics/WebBlue.png" alt="web" />
-                           <a href="https://merzaesthetics.com/" target="_blank">
+                           <a href="https://merzaesthetics.com/" target="_blank" rel="noreferrer">
                               merzaesthetics.com
                            </a>
                         </div>
@@ -60,13 +60,13 @@ export default class Thanks extends Component{
                      <div className="row justify-content-center">
                         <div className="col-6 InstaBlueText font24">
                            <img className="InstaBlue" src="/assets/img/Pics/InstaBlue.png" alt="insta" />
-                           <a href="https://www.instagram.com/?hl=es" target="_blank">
+                           <a href="https://www.instagram.com/?hl=es" target="_blank" rel="noreferrer">
                               @merzaesthetics_col
                            </a>
                         </div>
                         <div className="col-6 WebBlueText font24">
                            <img className="WebBlue" src="/assets/img/Pics/WebBlue.png" alt="web" />
-                           <a href="https://merzaesthetics.com/" target="_blank">
+                           <a href="https://merzaesthetics.com/" target="_blank" rel="noreferrer">
                               merzaesthetics.com
                            </a>
                         </div>
