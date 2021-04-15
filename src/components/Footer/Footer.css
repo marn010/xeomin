@@ -27,7 +27,7 @@
    }
    .MERZBox{
       padding: 1% 2% 5% 0%;
-      background-color: rgba(26, 26, 26, 0.8);
+      background-color: #363636/* rgba(26, 26, 26, 0.8) */;
       color: white;
       text-align: center;
    }

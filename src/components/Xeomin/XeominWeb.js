@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
 import { Link } from 'react-router-dom';
+import { FadeTransform } from 'react-animation-components';
 
 import './Xeomin.css';
 
@@ -19,10 +20,23 @@ export default class XeominWeb extends Component{
                      <div>
                         <p className="XeominBlue XeominTitle Raleway font32 XeoSection RalewayBold">UNA HISTORIA QUE MARCÓ LA DIFERENCIA </p>
                         <img className="Merz_Azul" src="/assets/img/Pics/merz_azul.svg" alt="" />
-                        <p className="Raleway font24 XeoSection" style={{display:"block", margin:"5% 10.5%"}}>
-                           <span><b>XEOMIN</b><span className="trademark">&#174;</span>  es parte de la investigación de toda una vida. </span>
-                           Hace casi 20 años, el Dr. Frevert se dio cuenta que el complejo proteico que rodea el núcleo de neurotoxinas no es necesario para su efecto terapéutico o modo de acción
-                        </p>
+                        <FadeTransform in
+                           transformProps={{
+                              enterTransform: 'translateX(0px)',
+                              exitTransform: 'translateX(-100px)',
+                              duration:"3000"
+                           }}
+                           fadeProps={{
+                              enterOpacity: 1.0,
+                              delay: "200",
+                              duration: "3000"
+                           }}
+                        >
+                           <p className="Raleway font24 XeoSection" style={{display:"block", margin:"5% 10.5%"}}>
+                              <span><b>XEOMIN</b><span className="trademark">&#174;</span>  es parte de la investigación de toda una vida. </span>
+                              Hace casi 20 años, el Dr. Frevert se dio cuenta que el complejo proteico que rodea el núcleo de neurotoxinas no es necesario para su efecto terapéutico o modo de acción
+                           </p>
+                        </FadeTransform>
                         <div className="row col-10 justify-content-center XeoSection" style={{display:'flex', margin:"0% auto"}}>
                            <div className="col-6 XeoBorderL ">
                               <p className="XeominBlue Raleway font24">

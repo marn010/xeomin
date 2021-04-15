@@ -6,7 +6,7 @@ export default class Social extends Component{
    render(){
       return(
          <React.Fragment>
-            <div className="row col-12 justify-content-center SocialWeb" style={{margin:"0%"}}>
+            <div className="SocialWeb justify-content-center " >
                <div className="SocialBox">
                   <div className="row col-12 justify-content-center" style={{padding:"0% 0% 0% 0.5%"}}>
                      <div className=" VisitBox font40">

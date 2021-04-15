@@ -3,7 +3,7 @@
    color: white;
    padding: 2% 0% 2% 0%;
    margin: 3% 0% 5% 0%;
-   width: 92.5%;
+   
 }
 .SocialBox a{
    color: white;
@@ -41,6 +41,15 @@
 @media(min-width:769px){
    .SocialMov{
       display: none;
+   }
+   .SocialWeb{
+      display: block;
+      width: 70%;
+      margin: 0% auto 0% auto;
+   }
+   .SocialBox{
+      display: block;
+      margin: 5% auto 5% auto;
    }
 }
 /*MOBILE*/
