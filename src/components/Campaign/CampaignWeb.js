@@ -28,7 +28,7 @@ export default class CampaignWeb extends Component{
                      Durante esta campaña incentivará a las mujeres a tomarse el tiempo para sí mismas y priorizar el autocuidado, especialmente ahora; compartirá detalles sobre lo que hace para <span className="XeominBlue"><b>verse y sentirse mejor, </b></span> y pedirá a las mujeres que hagan lo mismo en las redes sociales usando el hashtag <span className="XeominBlue"><b> #GoPureStayReal.</b></span>
                   </p>
                </div>
-               <div className="container col-11 VideoPure">
+               <div className=" VideoPure">
                   <div className="row justify-content-center VidPureWeb">
                      <div className="col-4 VideoTitle">
                         <p className="VideoPureText RalewayBold font40" >
@@ -56,7 +56,7 @@ export default class CampaignWeb extends Component{
                      </div>
                   </div>
                </div>
-               <div className="container col-11 VideoPurify">
+               <div className=" VideoPurify">
                   <div className="row justify-content-center rowPurify VidPurifyWeb" style={{padding:"0% 0%"}}>
                      <div className="col-4 VideoTitle">
                         <p className="VideoPurifyText RalewayBold font40">
@@ -71,7 +71,7 @@ export default class CampaignWeb extends Component{
                   </div>
                </div>               
                <div className="row justify-content-center Raleway font24 XeominBlue">
-                  <div className="col-8" style={{padding:"2% 0%"}}>
+                  <div className="col-7" style={{padding:"2% 0%"}}>
                   <p>
                      Esta será la primera <b>campaña global de marketing para Merz Aesthetics</b> desde que la compañia anunció en noviembre de 2019 que operaria de forma independiente como el mayor negocio dedicado a la estética médica a nivel mundial
                   </p>

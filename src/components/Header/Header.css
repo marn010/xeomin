@@ -11,9 +11,30 @@
 .TestimonyText{
    padding: 5% 8% 5% 8%;
 }
+.VidCarolina{
+   margin: 5% 0%;
+   width: calc(480px );
+   /* max-width: 110%; */
+   height: calc(270px);
+   /* max-height: 110%; */
+}
 @media(min-width:769px){
    .HeaderMovPic{
       display: none;
+   }
+   .TestimonyVid{
+      display: flex;
+   }
+   .TestimonyTextBox{
+      display: block;
+      width: 40%;
+      margin: 0% auto 0% auto;
+      padding: 5% 0% 0% 10%;
+   }
+   .TestimonyVideoBox{
+      display: block;
+      width: 45%;
+      margin: 0% auto 0% auto;
    }
 }
 @media(max-width:768px){

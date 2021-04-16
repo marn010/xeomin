@@ -41,9 +41,10 @@
 }
 .VideoPure{
    background-color: #E7E7E7;
-   margin-top: 5%;
-   margin-bottom: 5%;
    text-align: center;
+   display: block;
+   width: 80%;
+   margin: 5% auto;
 }
 .VideoPureText{
    text-align: left;
@@ -67,7 +68,7 @@
 }
 .MerzAestheticsBoxMain{
    display: flex;
-   width: 90%;
+   width: 80%;
    margin: 0% auto;
 }
 .MerzAestheticsTextWBox{
@@ -82,7 +83,7 @@
 }
 .BotonsGPBox{
    display: flex;
-   width: 90%;
+   width: 65%;
    margin: 5% auto 0% auto;
 
 }
@@ -137,7 +138,7 @@
    }
    .GwynethBox{
       display: block;
-      width: 90%;
+      width: 80%;
       margin: 0% auto;
    }
    .GPBeauty{
@@ -161,11 +162,11 @@
       margin: 5% auto;
    }
    .VideoPurify{
+      display: block;
       background-color: #457EB6;
       color: white;
-      margin-top: 5%;
-      margin-left: 5%;
-      width: 90%;
+      width: 80%;
+      margin: 5% auto;
    }
    .VidPurify{
       margin: 5% 0%;

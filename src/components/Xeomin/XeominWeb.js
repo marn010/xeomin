@@ -91,7 +91,7 @@ export default class XeominWeb extends Component{
                      </p>
                   </div>
                </div>
-               <div className="col-11 XeoProd">
+               <div className="XeoProd">
                   <div className="XeoProdLeft">
                      <img className="XeominLabPic" src="/assets/img/Pics/XeominLab.png" alt="" />
                   </div>
@@ -105,27 +105,32 @@ export default class XeominWeb extends Component{
                      <p>
                         Esto significa que, si bien hay una menor carga proteica en el vial, <span className="XeominBlue">XEOMIN<span className="trademark">&#174;</span> al contener unicamente la neurotoxina purificada tiene la mayor potencia específica </span> en comparación con otros productos de toxina botulinica".
                      </p>
-                     <p className="font18">(Frevert J. Drugs R D 2010;10:67-73.)</p>
+                     <p className="font18">
+                        (Frevert J. Drugs R D 2010;10:67-73.)
+                     </p>
                   </div>
                </div>
                <hr/>
                <div className="row col-12 justify-content-center XeoSection">
-                  <p className="col-12 XeominBlue XeominLabFinalText RaleWayBold font32">
+                  <p className="col-12 XeominBlue XeominLabFinalText RaleWayBold font36">
                      <b>LA TECNOLOGÍA DETRÁS DE LA INNOVACIÓN</b>
                   </p>
-                  
+                  <img className="Merz_Azul2" src="/assets/img/Pics/merz_azul.svg" alt="" />
                </div>
                <div className="XtractVideo row justify-content-center">
-                  <div className="col-5 Raleway font40">
+                  <div className="col-5 Raleway font36">
                      <p>
-                        <b className="RalewayBold">XTRACT TECHNOLOGY </b>
-                        PROCESO DE MANUFACTURA Y PRODUCCIÓN</p>
+                        <b className="RalewayBold">
+                           XTRACT TECHNOLOGY </b>
+                        PROCESO DE MANUFACTURA Y PRODUCCIÓN
+                        </p>
                   </div>
-                  <div className="col-7">
-                  <iframe title="vimeo-player" src="https://player.vimeo.com/video/528570742" width="640" height="360" frameborder="0" allowfullscreen></iframe>
+                  {/*Video  Responsive*/}
+                  <div className="col-7 XtractVidBox">
+                  <iframe title="vimeo-player" src="https://player.vimeo.com/video/528570742" className="XtractVid" width="640" height="360" frameborder="0" allowfullscreen ></iframe>
                   </div>
                </div>
-               <div className="justify-content-center" style={{display:"flex",margin:"5% auto", width:"90.5%"}}>
+               <div className="justify-content-center" style={{display:"flex",margin:"0% auto", width:"85.0%"}}>
                   <div className="row XeoProc">
                      <div className="XeoProcLeft">
                         <img className="XtractPic" src="/assets/img/Pics/Xtract.png" alt="Xtract" />
