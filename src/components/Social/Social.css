@@ -51,6 +51,13 @@
       display: block;
       margin: 5% auto 5% auto;
    }
+   .UniqueExp{
+      display: table;
+      color: #306088;
+      margin: 2% auto;
+      padding: 0% 26%;
+      text-align: center;
+   }
 }
 /*MOBILE*/
 @media(max-width:768px){

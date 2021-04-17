@@ -126,8 +126,8 @@ export default class XeominWeb extends Component{
                         </p>
                   </div>
                   {/*Video  Responsive*/}
-                  <div className="col-7 XtractVidBox">
-                  <iframe title="vimeo-player" src="https://player.vimeo.com/video/528570742" className="XtractVid" width="640" height="360" frameborder="0" allowfullscreen ></iframe>
+                  <div className="col-7 WebVidBox">
+                  <iframe title="vimeo-player" src="https://player.vimeo.com/video/528570742"  frameborder="0" allowfullscreen ></iframe>
                   </div>
                </div>
                <div className="justify-content-center" style={{display:"flex",margin:"0% auto", width:"85.0%"}}>
@@ -247,36 +247,38 @@ export default class XeominWeb extends Component{
                         </p>
                      </div>
                   </div>
-                  <div className="VideoReconstitucion row">
-                     <div className="col-5 RalewayBold font40 XeominBlue" style={{textAlign:"left"}}>
-                        <p>
-                           <b>
-                              Video Reconstitución
-                           </b>
-                        </p>
-                     </div>
-                     <div className="col-7 VidReconstitucion">
-                        <iframe title="vimeo-player" src="https://player.vimeo.com/video/528571892" width="640" height="359" frameborder="0" allowfullscreen></iframe>
-                     </div>
-                  </div>
-                  <div className="XeoTechnique justify-content-center">
-                     <p className="XeominBlue Raleway font32 XeoSection">
-                        <b>GUÍA PÁSO A PASO: TÉCNICA #ONE21</b>
+               </div>
+               <div className="VideoReconstitucion row">
+                  <div className="col-5 RalewayBold font40 XeominBlue" style={{textAlign:"left"}}>
+                     <p>
+                        <b>
+                           Video Reconstitución
+                        </b>
                      </p>
-                     <img className="Merz_Azul" src="/assets/img/Pics/merz_azul.svg" alt="" />
                   </div>
-                  <div className="justify-content-center One21Box XeoSection">
-                     <div className="OneBoxLeft">
-                        <img className="One21Pic" src="/assets/img/Pics/One21.png" alt="one21" />
-                     </div>
-                     <div className="OneBoxRight Raleway font24 One21Text">
-                        <p>
-                           <b className="RalewayBold One21Full">one<span className="One21">2</span>1</b> es una exclusiva técnica que apunta a un tratamiento individualizado para el modelamiento de las cejas, tratamiento de arrugas frontales, glabelares y perioculares, basada en la anatomía y los resultados deseados por los pacientes.
-                        </p>
-                     </div>
+                  <div className="col-7 WebVidBox">
+                     <iframe title="vimeo-player" src="https://player.vimeo.com/video/528571892" width="640" height="359" frameborder="0" allowfullscreen></iframe>
                   </div>
-                  <div className="VideoONE21 row justify-content-center">
-                     <div className="col-4 RalewayBold font32 VideoONE21T justify-content-center">
+               </div>
+               <div className="XeoTechnique justify-content-center">
+                  <p className="XeominBlue Raleway font32 XeoSection">
+                     <b>GUÍA PÁSO A PASO: TÉCNICA #ONE21</b>
+                  </p>
+                  <img className="Merz_Azul" src="/assets/img/Pics/merz_azul.svg" alt="" />
+               </div>
+               <div className="justify-content-center One21Box XeoSection">
+                  <div className="OneBoxLeft">
+                     <img className="One21Pic" src="/assets/img/Pics/One21.png" alt="one21" />
+                  </div>
+                  <div className="OneBoxRight Raleway font24 One21Text">
+                     <p>
+                        <b className="RalewayBold One21Full">one<span className="One21">2</span>1</b> es una exclusiva técnica que apunta a un tratamiento individualizado para el modelamiento de las cejas, tratamiento de arrugas frontales, glabelares y perioculares, basada en la anatomía y los resultados deseados por los pacientes.
+                     </p>
+                  </div>
+               </div>
+               <div className="VideoONE21 justify-content-center">
+                  <div className="VideoONE21Inner justify-content-center">
+                     <div className="RalewayBold font32 VideoONE21T justify-content-center">
                         <p className="RalewayBold font40">
                            La técnica <br/> 
                            #ONE21
@@ -290,10 +292,11 @@ export default class XeominWeb extends Component{
                            <li>Personalización</li>
                         </ol>
                      </div>
-                     <div className="col-6">
+                     <div className="VideoOneBox WebVidBox">
                         <iframe  title="vimeo-player" src="https://player.vimeo.com/video/528575563" width="640" height="360" frameborder="0" allowfullscreen></iframe>
                      </div>
                   </div>
+               </div>
                   <div className="container col-12 Raleway XeoSection">
                      <p className="XeominBlue XeoDownloadText font24">
                         Si desea conocer más de esta técnica <b>descargue</b> la guía paso a paso
@@ -316,7 +319,7 @@ export default class XeominWeb extends Component{
                   </div>
                </div>
             </div>
-         </div>
+         /* </div> */
       );
    }
 }

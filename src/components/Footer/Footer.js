@@ -48,7 +48,7 @@ export default class Footer extends Component{
                      </Link>
                   </div>
                </div>
-               <div className="MERZBox">
+               <div className="MERZBox font21">
                   <img className="EndForm" src="/assets/img/Pics/EndForm.png" alt="" />
                   <p>Merz Colombia S.A.S. Carrera 11 No. 87-51 Oficina. 302 - Teléfono: +57 1 3904707<br/>
                   <span>

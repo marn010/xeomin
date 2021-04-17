@@ -71,6 +71,7 @@
    .XeoCiteText{
       display: flex;
       width: 80%;
+      padding: 0% 10% 0% 0%;
    }
    .DrFrevert{
       display: flex;
@@ -170,13 +171,13 @@
       vertical-align: middle;
       margin: auto 0% auto 15%;
    }
-   .XtractVidBox{
+   .WebVidBox{
       position: relative;
       padding-bottom: 25%;
       /* padding-top: 0px; */
       height: 0;
    }
-   .XtractVidBox iframe{
+   .WebVidBox iframe{
       position: absolute;
       top: 0;
       left: 0;
@@ -336,14 +337,22 @@
       background-color: #003869;
       color: white;
       padding: 2% 0%;
+      width: 100%;
+      margin: 0% auto;
+   }
+   .VideoONE21Inner{
+      display: flex;
+      width: 80%;
+      margin: 0% auto;
+   }
+   .VideoONE21T{
+      width: 40%;
    }
    .VideoONE21T p {
       text-align: left;
    }
-   .VideoONE21 iframe{
-      display: block;
-      margin: 0% auto;
-      text-align: center;
+   .VideoOneBox{
+      width: 50%;
    }
    .list li::marker{
       color: #C2187E;
@@ -544,14 +553,14 @@
       margin: 0%;
       padding: 5% 0%;
    }
-   .XtractTechPostText::after{
+   /* .XtractTechPostText::after{
       content: "";
       border-bottom: solid 3px #306088;
       position: absolute;
       left: 20%;
       right: 20%;
       bottom: 5%;
-   }
+   } */
    .XeominSteptsTitle{
       display: block;
       width: 70%;
@@ -679,6 +688,7 @@
       display: flex;
       width: 85%;
       margin: 0% auto 4% auto;
+      align-items: center;
    }
    .One21PicBox{
       width: 45%;
@@ -691,6 +701,9 @@
    }
    .One21TextBox{
       width: 55%;
+   }
+   .One21TextBox p{
+      margin: 0%;
    }
    .One21Text{
       color: #636362;

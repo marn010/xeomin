@@ -31,7 +31,7 @@ export default class CampaignWeb extends Component{
                <div className=" VideoPure">
                   <div className="row justify-content-center VidPureWeb">
                      <div className="col-4 VideoTitle">
-                        <p className="VideoPureText RalewayBold font40" >
+                        <p className="VideoPureText RalewayBold font36" >
                            <b>
                               "Ayudar a las mujeres a encontrar productos puros hace parte de mi rutina"
                            </b>

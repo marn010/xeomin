@@ -85,7 +85,6 @@
    display: flex;
    width: 65%;
    margin: 5% auto 0% auto;
-
 }
 .MERZBox2{
    padding: 1% 2% 0% 0%;
@@ -223,6 +222,9 @@
       display: block;
       width: 80%;
       margin: 0% auto 0% auto;
+   }
+   .VideoPure{
+      width: 100%;
    }
    .VidPure{
       margin: 5% 0%;

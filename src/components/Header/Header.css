@@ -11,13 +11,7 @@
 .TestimonyText{
    padding: 5% 8% 5% 8%;
 }
-.VidCarolina{
-   margin: 5% 0%;
-   width: calc(480px );
-   /* max-width: 110%; */
-   height: calc(270px);
-   /* max-height: 110%; */
-}
+
 @media(min-width:769px){
    .HeaderMovPic{
       display: none;
@@ -36,6 +30,13 @@
       width: 45%;
       margin: 0% auto 0% auto;
    }
+   .VidCarolina{
+      margin: 5% 0%;
+      width: calc(480px );
+      /* max-width: 110%; */
+      height: calc(270px);
+      /* max-height: 110%; */
+   }
 }
 @media(max-width:768px){
    .HeaderPic{
@@ -43,5 +44,9 @@
    }
    .HeaderMovPic{
       width: 100%;
+   }
+   .VidCarolina{
+      width: auto;
+      height: 168px;
    }
 }

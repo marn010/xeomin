@@ -37,7 +37,7 @@ export default class Social extends Component{
                </div>
             </div>
             <div>
-               <p className="UniqueExp font21"> 
+               <p className="UniqueExp font40"> 
                   ¿Y SUS PACIENTES HAN VIVIDO UNA EXPERIENCIA ÚNICA?
                </p>
             </div>
