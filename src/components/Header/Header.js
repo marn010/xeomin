@@ -13,6 +13,7 @@ export default class Header extends Component{
                alt="" />
                <img className="HeaderMovPic" src="/assets/img/Pics/HeaderMov.png" alt="" />
                <div className="TestimonyVid Raleway font32">
+                  <div className="TestimonyBox">
                      <div className="TestimonyTextBox">
                         <p className="TestimonyText">
                            <b className="Raleway ">
@@ -23,6 +24,7 @@ export default class Header extends Component{
                      <div className="TestimonyVideoBox">
                         <iframe title="vimeo-player" src="https://player.vimeo.com/video/529064794" className="VidCarolina " /* width="640" height="360" */ frameborder="0" allowfullscreen></iframe>
                      </div>
+                  </div>
                </div>
             </div>
          </React.Fragment>

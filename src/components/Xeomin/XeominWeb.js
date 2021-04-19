@@ -36,7 +36,7 @@ export default class XeominWeb extends Component{
                               <span><b>XEOMIN</b><span className="trademark">&#174;</span>  es parte de la investigación de toda una vida. </span>
                               Hace casi 20 años, el Dr. Frevert se dio cuenta que el complejo proteico que rodea el núcleo de neurotoxinas no es necesario para su efecto terapéutico o modo de acción
                            </p>
-                        </FadeTransform>
+                        
                         <div className="row col-10 justify-content-center XeoSection" style={{display:'flex', margin:"0% auto"}}>
                            <div className="col-6 XeoBorderL ">
                               <p className="XeominBlue Raleway font24">
@@ -49,7 +49,7 @@ export default class XeominWeb extends Component{
                               </p>
                            </div>
                         </div>
-                        
+                        </FadeTransform>
                      </div>
                   </div>
                   <div className="col-1">
@@ -57,24 +57,46 @@ export default class XeominWeb extends Component{
                   </div>
                </div>
                <div className="XeoCiteBox justify-content-center" style={{display:"flex", margin:"auto"}}>
+                  
                      <div className="XeoCitePic" style={{paddingTop:"4%"}}>
                         <img className="ToxinaBlue" src="/assets/img/Pics/ToxinaBlue.png" alt="ToxinaPura" />
                      </div>
                      <div className="XeoCiteText XeoSection">
+                     <FadeTransform in
+                     transformProps={{
+                        enterTransform: 'translateX(0px)',
+                        exitTransform: 'translateX(200px)',
+                        duration:"2000",
+                     }}
+                     fadeProps={{
+                        enterOpacity:1.0,
+                        delay:"500",
+                        duration: "2500"
+                     }}
+                  >
                         <p className="XeominBlue Raleway font24">
                            <b className="RalewayBold">"Sabia que el complejo proteico puede estimular el sistema inmunológico para producir anticuerpos que neutralizan la neurotoxina"</b>, reveló
                         </p>  
+                     </FadeTransform>
                      </div>
                </div>
                <div className="DrFrevert col-11">
                      <div className="DrFrevertBox">
+                        <FadeTransform in
+                           fadeProps={{
+                              enterOpacity: 1.0,
+                              delay:"1000",
+                              duration:"2500"
+                           }}
+                        >
                         <img className="DrFrevertPic" src="/assets/img/Pics/Dr_Frevert.png" alt="DrFrevert" />
+                        </FadeTransform>
                      </div>
                      <div className="DrFrevertTextBox">
-                        <h3 className="DrFrevertText RalewayBold font32">
+                        <h3 className="DrFrevertText RalewayBold font30">
                            El Dr. Jurgen Frevert podria ser descrito como el padre de XEOMIN<span className="trademark">&#174;</span>.
                         </h3>
-                        <p className="Raleway font24">
+                        <p className="Raleway font21">
                            Hace más de 30 años, el Dr. formaba parte de una investigfacion doctoral y se le encomendó <b>purificar</b> la toxina botulinica tipo A con la que trabajaba en ese momento (Onabotulinim Toxin A).
                         </p>
                   </div>
@@ -118,7 +140,7 @@ export default class XeominWeb extends Component{
                   <img className="Merz_Azul2" src="/assets/img/Pics/merz_azul.svg" alt="" />
                </div>
                <div className="XtractVideo row justify-content-center">
-                  <div className="col-5 Raleway font36">
+                  <div className="col-5 Raleway font30">
                      <p>
                         <b className="RalewayBold">
                            XTRACT TECHNOLOGY </b>
@@ -130,65 +152,29 @@ export default class XeominWeb extends Component{
                   <iframe title="vimeo-player" src="https://player.vimeo.com/video/528570742"  frameborder="0" allowfullscreen ></iframe>
                   </div>
                </div>
-               <div className="justify-content-center" style={{display:"flex",margin:"0% auto", width:"85.0%"}}>
+               <div className="justify-content-center" style={{display:"flex",margin:"0% auto", width:"65.0%"}}>
                   <div className="row XeoProc">
                      <div className="XeoProcLeft">
                         <img className="XtractPic" src="/assets/img/Pics/Xtract.png" alt="Xtract" />
                      </div>
                      <div className="XeoProcRight">
-                        <p className="XeominBlue Raleway font24">
+                        <p className="XeominBlue Raleway font21">
                            A través del proceso XTRACT Technology se consigue remover el complejo proteico, obteniendo una neurotoxina activa (150kDA) purificada que ofrece un menor riesgo de inmunogenicidad y una alta estabilidad.
                         </p>
-                        <p className="font18">
+                        <p className="font16">
                            J Drugs Dermatol. 2019; 18 (1) : 52-57. S.K. Sharma. Toxicon 41 (2003) 321-331
                         </p>
                      </div>
                   </div>
                </div>
                <hr/>
-               {/* <div className="justify-content-center XeoRecBox" style={{display:"flex",margin:"5% auto", width:"65%"}}>
-                  <div className="col-5">
-                     <p className="XeominBlue XeominRec Raleway font32">
-                        <b className="RalewayBold font40">XEOMIN<span className="trademark">&#174;</span>: </b>
-                        RECONSTITUCIÓN Y DILUCIÓN
-                     </p>
-                  </div>
-                  <div className="col-7 XeominRecText">
-                     <p className="XeominBlue RalewayBold font32">
-                        <b>
-                           XEOMIN<span className="trademark">&#174;</span> puede ayudarlo a alcanzar el efecto deseado en sus pacientes.
-                        </b>
-                     </p>
-                     <p className="XeominBlue font18">
-                        XEOMIN<span className="trademark">&#174;</span> (incobotulinumtoxinaA) Summary of Product Characteristics. MerzPharmaceuticals GmbH.
-                     </p>
-                  </div>
-               </div> */}
-               {/* <div className="row XeoDose">
-                  <div className="col-3">
-                     <img className="XeominVialPic" src="/assets/img/Pics/XeominVial.png" alt="" />
-                  </div>
-                  <div className="col-9 Raleway font24">
-                     <p>
-                        El resultado final <span className="XeominBlue"> dependerá de la dosis y la técnica utilizada.</span>
-                     </p>
-                     <p>
-                        La dosis óptima en el plano adecuado y con la cantidad necesaria de puntos de aplicación las determina de manera individualizada el médico tratante.
-                     </p>
-                     <p>
-                        <span className="XeominBlue">Pueden existir variaciones </span> en cada paciente de acuerdo a su <span className="XeominBlue"> patrón de contracción y fuerza muscular, entre otros.</span>
-                     </p>
-                     <p>
-                        <span className="XeominBlue">No existe una técnica única de aplicación </span> que funcione para todos los médicos y pacientes.
-                     </p>
-                  </div>
-               </div> */}
+               
                <div className="XeominStepsBox">
                   <p className="XeominBlue XeominStepsTitle RalewayBold font32 XeoSection">
                      PASOS PARA UNA ADECUADA RECONSTITUCIÓN Y DILUCIÓN DE XEOMIN<span className="trademark">&#174;</span>
                   </p>
                   <img className="Merz_Azul" src="/assets/img/Pics/merz_azul.svg" alt="" />
-                  <div className="row XeoSteps offset-1 font24">
+                  <div className="row XeoSteps offset-1 font21">
                      <div className="col-5">
                         <span className="XeominBlue Paso1Text RalewayBold font32">
                            Paso 1:
@@ -323,3 +309,40 @@ export default class XeominWeb extends Component{
       );
    }
 }
+{/* <div className="justify-content-center XeoRecBox" style={{display:"flex",margin:"5% auto", width:"65%"}}>
+                  <div className="col-5">
+                     <p className="XeominBlue XeominRec Raleway font32">
+                        <b className="RalewayBold font40">XEOMIN<span className="trademark">&#174;</span>: </b>
+                        RECONSTITUCIÓN Y DILUCIÓN
+                     </p>
+                  </div>
+                  <div className="col-7 XeominRecText">
+                     <p className="XeominBlue RalewayBold font32">
+                        <b>
+                           XEOMIN<span className="trademark">&#174;</span> puede ayudarlo a alcanzar el efecto deseado en sus pacientes.
+                        </b>
+                     </p>
+                     <p className="XeominBlue font18">
+                        XEOMIN<span className="trademark">&#174;</span> (incobotulinumtoxinaA) Summary of Product Characteristics. MerzPharmaceuticals GmbH.
+                     </p>
+                  </div>
+               </div> */}
+               {/* <div className="row XeoDose">
+                  <div className="col-3">
+                     <img className="XeominVialPic" src="/assets/img/Pics/XeominVial.png" alt="" />
+                  </div>
+                  <div className="col-9 Raleway font24">
+                     <p>
+                        El resultado final <span className="XeominBlue"> dependerá de la dosis y la técnica utilizada.</span>
+                     </p>
+                     <p>
+                        La dosis óptima en el plano adecuado y con la cantidad necesaria de puntos de aplicación las determina de manera individualizada el médico tratante.
+                     </p>
+                     <p>
+                        <span className="XeominBlue">Pueden existir variaciones </span> en cada paciente de acuerdo a su <span className="XeominBlue"> patrón de contracción y fuerza muscular, entre otros.</span>
+                     </p>
+                     <p>
+                        <span className="XeominBlue">No existe una técnica única de aplicación </span> que funcione para todos los médicos y pacientes.
+                     </p>
+                  </div>
+               </div> */}

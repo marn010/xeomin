@@ -43,7 +43,7 @@
    background-color: #E7E7E7;
    text-align: center;
    display: block;
-   width: 80%;
+   width: 65%;
    margin: 5% auto;
 }
 .VideoPureText{
@@ -137,7 +137,7 @@
    }
    .GwynethBox{
       display: block;
-      width: 80%;
+      width: 65%;
       margin: 0% auto;
    }
    .GPBeauty{
@@ -164,7 +164,7 @@
       display: block;
       background-color: #457EB6;
       color: white;
-      width: 80%;
+      width: 65%;
       margin: 5% auto;
    }
    .VidPurify{
@@ -184,6 +184,9 @@
       padding: 0% 10%;
       margin: 0%;
       border-right: solid 3px #306088;
+   }
+   .MerzAestheticsBoxMain{
+      width: 65%;
    }
 }
 /*MOBILE*/

@@ -31,7 +31,7 @@ export default class CampaignWeb extends Component{
                <div className=" VideoPure">
                   <div className="row justify-content-center VidPureWeb">
                      <div className="col-4 VideoTitle">
-                        <p className="VideoPureText RalewayBold font36" >
+                        <p className="VideoPureText RalewayBold font30" >
                            <b>
                               "Ayudar a las mujeres a encontrar productos puros hace parte de mi rutina"
                            </b>
@@ -43,13 +43,13 @@ export default class CampaignWeb extends Component{
                   </div>
                </div>
                <div className="MerzText">
-                  <div className="row font24">
-                     <div className="col-5 RalewayBold ">
+                  <div className="row font21">
+                     <div className="col-6 RalewayBold ">
                         <p className="EmotionText">
                            <b className="XeominBlue">Paltrow</b> es considerada ampliamente una <b className="XeominBlue"> autoridad en la belleza y el bienestar,</b> por lo cual esta campaña se vincula a su filosofía sobre la belleza: <b className="XeominBlue">"las mujeres deben darse el permiso de hacer lo que quieran para sentirse bien".</b>
                         </p>
                      </div>
-                     <div className="col-7 Raleway">
+                     <div className="col-6 Raleway">
                         <p>
                            "La pasión de Gwyneth por le conocimiento y el aprendizaje, su perspectiva profundamente personal sobre la belleza y el envejecimiento, y su estándar puro de belleza, son cualidades que admiramos en Merz Aesthetics y son los valores que compartimos como empresa"<b className="XeominBlue">dijo Bob Rhatigan. Director Ejecutivo Global de Merz Aesthetics.</b>
                         </p>

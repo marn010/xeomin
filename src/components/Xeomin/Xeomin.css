@@ -71,19 +71,19 @@
    .XeoCiteText{
       display: flex;
       width: 80%;
-      padding: 0% 10% 0% 0%;
+      padding: 0% 10% 0% 1%;
    }
    .DrFrevert{
       display: flex;
-      width: 80.5%;
+      width: 65%;
       margin: 0% auto 0% auto;
    }
    .DrFrevertBox{
       width: 30%;
    }
    .DrFrevertPic{
-      width: 100%;
-      margin: 0% 0% 0% -5%;
+      width: 101%;
+      margin: 0% 0% 0% -6%;
    }
    .DrFrevertTextBox{
       display: block;
@@ -92,7 +92,7 @@
       margin: auto 4%;
    }
    .DrFrevertText{
-      margin: 4% 0% 5% 0%;
+      margin: 4% 0% 3% 0%;
    }
    .XeoHistory{
       width: 65%;
@@ -110,12 +110,12 @@
    }
    .XeoProd{
       display: flex;
-      width: 80%;
+      width: 65%;
       margin: 5% auto;
-      line-height: 1.25;
+      line-height: 1.2;
    }
    .XeoProdLeft{
-      width: 30%;
+      width: 45%;
       overflow: hidden;
    }
    .XeoProdRight{
@@ -126,7 +126,7 @@
       display: block;
       margin: 0% auto 0% auto;
       
-      width: 100%;
+      width: 128%;
       /* max-height: 404px;
       max-width: 354px; */
    }
@@ -163,7 +163,7 @@
       color: white;
       text-align: left;
       padding: 5% 0%;
-      width: 80.0%;
+      width: 65.0%;
       align-items: center;
    }
    .XtractVideo p{
@@ -223,9 +223,10 @@
       padding: 0% 25%;
    }
    .XeoSteps{
-      width: 80%;  
+      width: 65%;  
       display: flex;
       margin: 5% auto 0% auto;
+      align-items: center;
    }
    .Paso1Text{
       display: flex;
@@ -234,8 +235,8 @@
    }
    .Paso1Pic{
       display: flex;
-      width: auto;
-      margin: -8% 10% 5% auto
+      width: 70%;
+      margin: 0% 10% 5% auto
    }
    .XeominTipsText{
       padding-left: 4%;
@@ -270,7 +271,7 @@
    }
    .Paso2Pic{
       display: block;
-      width: auto;
+      width: 75%;
       margin: 10% auto 5% auto;
    }
    .Paso2Text{
@@ -284,7 +285,7 @@
    }
    .Paso3Pic{
       display: block;
-      width: auto;
+      height:  85%;
       margin: 0% auto 0% auto;
    }
    .VideoReconstitucion{
@@ -292,7 +293,7 @@
       margin: 0% auto;
       background-color: #E7E7E7;
       padding: 2% 0%;
-      width: 80%;
+      width: 65%;
       align-items: center;
    }
    .VideoReconstitucion p{
@@ -309,12 +310,12 @@
    }
    .One21Box{
       display: flex;
-      width: 80%;
+      width: 65%;
       margin: 0% auto 4% auto;
    }
    .One21Pic{
       display: block;
-      width: auto;
+      width: 100%;
       margin: -3.5% auto 0% auto;
    }
    .OneBoxLeft{
@@ -342,7 +343,7 @@
    }
    .VideoONE21Inner{
       display: flex;
-      width: 80%;
+      width: 72%;
       margin: 0% auto;
    }
    .VideoONE21T{

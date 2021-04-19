@@ -4,7 +4,7 @@
 .TestimonyVid{
  background-color: rgba(54, 54, 54, 0.95); 
  color: white;
- padding: 2% 2% 2% 2%;
+ /* padding: 2% 2% 2% 2%; */
  margin: 0% 0% 5% 0%;
  width: 100%; 
 }
@@ -19,11 +19,20 @@
    .TestimonyVid{
       display: flex;
    }
+   .TestimonyBox{
+      display: flex;
+      width: 65%;
+      margin: 0% auto;
+      align-items: center;
+   }
    .TestimonyTextBox{
       display: block;
-      width: 40%;
+      width: 36%;
       margin: 0% auto 0% auto;
-      padding: 5% 0% 0% 10%;
+   }
+   .TestimonyText{
+      display: block;
+      width: 70%;
    }
    .TestimonyVideoBox{
       display: block;
@@ -31,7 +40,7 @@
       margin: 0% auto 0% auto;
    }
    .VidCarolina{
-      margin: 5% 0%;
+      margin: 5% 0% 5% -11%;
       width: calc(480px );
       /* max-width: 110%; */
       height: calc(270px);
