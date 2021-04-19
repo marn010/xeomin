@@ -1,12 +1,17 @@
 import React, { Component } from 'react';
 import { Link } from 'react-router-dom';
-import { FadeTransform } from 'react-animation-components';
-
+/* import { FadeTransform } from 'react-animation-components'; */
+import { Animate, AnimateGroup } from 'react-simple-animate';
 import './Xeomin.css';
 
 export default class XeominWeb extends Component{
    render(){
+      const props ={
+       start:{ opacity: 0},
+       end: { opacity: 1}
+      }
       return(
+         <AnimateGroup play>
          <div className="XeominMainWebBox">
             <div className="col-">
                <img className="XeominTitlePic" src="/assets/img/Background/XeominMain.png" alt="Xeomin" />
@@ -18,25 +23,37 @@ export default class XeominWeb extends Component{
                   </div>
                   <div className="col-10 justify-content-center XeominText">
                      <div>
-                        <p className="XeominBlue XeominTitle Raleway font32 XeoSection RalewayBold">UNA HISTORIA QUE MARCÓ LA DIFERENCIA </p>
+                     
+                        <Animate 
+                           start={{opacity:"0"}} 
+                           end={{opacity:"1"}} 
+                           duration={1.5} 
+                           sequenceIndex={0} 
+                        >
+                        <p key="XeoTitle" className="XeominBlue XeominTitle Raleway font32 XeoSection RalewayBold">UNA HISTORIA QUE MARCÓ LA DIFERENCIA </p>
                         <img className="Merz_Azul" src="/assets/img/Pics/merz_azul.svg" alt="" />
-                        <FadeTransform in
-                           transformProps={{
-                              enterTransform: 'translateX(0px)',
-                              exitTransform: 'translateX(-100px)',
-                              duration:"3000"
-                           }}
-                           fadeProps={{
-                              enterOpacity: 1.0,
-                              delay: "200",
-                              duration: "3000"
-                           }}
+                        </Animate>
+                        <Animate 
+                           start={{opacity:"0"}}
+                           end={{opacity:"1"}}
+                           duration={1.5}
+                           sequenceIndex={1} 
                         >
                            <p className="Raleway font24 XeoSection" style={{display:"block", margin:"5% 10.5%"}}>
                               <span><b>XEOMIN</b><span className="trademark">&#174;</span>  es parte de la investigación de toda una vida. </span>
                               Hace casi 20 años, el Dr. Frevert se dio cuenta que el complejo proteico que rodea el núcleo de neurotoxinas no es necesario para su efecto terapéutico o modo de acción
                            </p>
-                        
+                        </Animate>
+                        <Animate
+                           start={{ opacity:"0",
+                                    transform: 'translateX(100px)'
+                                 }}
+                           end={{   opacity:"1",
+                                    transform: "translateX(0px)"
+                                 }}
+                           duration={1.0}
+                           sequenceIndex={2}
+                        >
                         <div className="row col-10 justify-content-center XeoSection" style={{display:'flex', margin:"0% auto"}}>
                            <div className="col-6 XeoBorderL ">
                               <p className="XeominBlue Raleway font24">
@@ -49,7 +66,8 @@ export default class XeominWeb extends Component{
                               </p>
                            </div>
                         </div>
-                        </FadeTransform>
+                        </Animate>
+                     
                      </div>
                   </div>
                   <div className="col-1">
@@ -62,35 +80,38 @@ export default class XeominWeb extends Component{
                         <img className="ToxinaBlue" src="/assets/img/Pics/ToxinaBlue.png" alt="ToxinaPura" />
                      </div>
                      <div className="XeoCiteText XeoSection">
-                     <FadeTransform in
-                     transformProps={{
-                        enterTransform: 'translateX(0px)',
-                        exitTransform: 'translateX(200px)',
-                        duration:"2000",
-                     }}
-                     fadeProps={{
-                        enterOpacity:1.0,
-                        delay:"500",
-                        duration: "2500"
-                     }}
-                  >
+                     <Animate
+                        start={{
+                           opacity:"0",
+                           transform:"translateX(-200px)"
+                        }}
+                        end={{
+                           opacity:"1",
+                           transform:"translateX(0px)"
+                        }}
+                        duration={1.5}
+                        sequenceIndex={3}
+                     >
                         <p className="XeominBlue Raleway font24">
                            <b className="RalewayBold">"Sabia que el complejo proteico puede estimular el sistema inmunológico para producir anticuerpos que neutralizan la neurotoxina"</b>, reveló
-                        </p>  
-                     </FadeTransform>
+                        </p>
+                     </Animate>
                      </div>
                </div>
                <div className="DrFrevert col-11">
                      <div className="DrFrevertBox">
-                        <FadeTransform in
-                           fadeProps={{
-                              enterOpacity: 1.0,
-                              delay:"1000",
-                              duration:"2500"
+                        <Animate 
+                           start={{
+                              opacity:"0"
                            }}
+                           end={{
+                              opacity:"1"
+                           }}
+                           duration={1.5}
+                           sequenceIndex={3}
                         >
                         <img className="DrFrevertPic" src="/assets/img/Pics/Dr_Frevert.png" alt="DrFrevert" />
-                        </FadeTransform>
+                        </Animate>
                      </div>
                      <div className="DrFrevertTextBox">
                         <h3 className="DrFrevertText RalewayBold font30">
@@ -305,6 +326,7 @@ export default class XeominWeb extends Component{
                   </div>
                </div>
             </div>
+            </AnimateGroup>
          /* </div> */
       );
    }
