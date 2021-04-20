@@ -11,7 +11,7 @@ export default class Xeomin extends Component{
          <div className="XeominMainBox" id="Xeomin">
             <XeominWeb/>
             <XeominMov/>
-            <Footer/>
+            <Footer />
          </div>
       );
    }

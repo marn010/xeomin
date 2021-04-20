@@ -7,11 +7,12 @@ import CampaignWeb from './CampaignWeb';
 
 export default class Campaign extends Component{
    render(){
+      
       return(
          <div className="CampaignMainBox" id="Campaign">
-            <CampaignWeb/>
+            <CampaignWeb />
             <CampaignMov/>
-            <Footer/>
+            <Footer />
          </div>
       );
    }

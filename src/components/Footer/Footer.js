@@ -7,6 +7,7 @@ import './Footer.css'
 
 export default class Footer extends Component{
    render(){
+      let hScreen= this.props.hScreen;
       return(
          <React.Fragment>
             <Social/>
@@ -20,7 +21,7 @@ export default class Footer extends Component{
                            <p className="pencilText">Si está interesado en que sus pacientes vivan una experiencia como la de Carolina, <b className="RalewayBold"> diligencie el siguiente formulario </b>para recibir una muestra de producto. </p>
                         </div>
                         <div className="col-6 font18">
-                           <Forms/>
+                           <Forms hScreen={hScreen}/>
                         </div>
                      </div>
                   </div>
@@ -33,7 +34,7 @@ export default class Footer extends Component{
                            <p className="pencilText">Si está interesado en que sus pacientes vivan una experiencia como la de Carolina, <b className="RalewayBold"> diligencie el siguiente formulario </b> para recibir una muestra de producto.</p>
                         </div>
                         <div className="col-12">
-                           <Forms/>
+                           <Forms hScreen={hScreen}/>
                         </div>
                      </div>
                   </div>

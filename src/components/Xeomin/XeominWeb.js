@@ -6,7 +6,6 @@ import './Xeomin.css';
 
 export default class XeominWeb extends Component{
    render(){
-      
       return(
          <AnimateGroup play>
          <div className="XeominMainWebBox">
@@ -20,7 +19,6 @@ export default class XeominWeb extends Component{
                   </div>
                   <div className="col-10 justify-content-center XeominText">
                      <div>
-                     
                         <Animate 
                            start={{opacity:"0"}} 
                            end={{opacity:"1"}} 

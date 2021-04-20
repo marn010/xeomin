@@ -13,7 +13,6 @@ import Invima from './RegistroINVIMA/Invima';
 
 export default function Main(){
    let { token, setToken } = useToken();
-   
    if(!token) {
       return <Login setToken={setToken} />
    }

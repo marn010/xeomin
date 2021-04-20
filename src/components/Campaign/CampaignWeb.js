@@ -40,7 +40,7 @@ export default class CampaignWeb extends Component{
                      end={{
                         opacity:"1.0"
                      }}
-                     duration={1.5}
+                     duration={1.0}
                      sequenceIndex={1}
                   >
                   <img className="GPBeauty" src="/assets/img/Pics/GPBeauty.png" alt="" />
@@ -54,7 +54,7 @@ export default class CampaignWeb extends Component{
                      end={{
                         opacity:"1.0"
                      }}
-                     duration={1.5}
+                     duration={1.0}
                      sequenceIndex={2}
                   >
                   <p>
@@ -73,7 +73,7 @@ export default class CampaignWeb extends Component{
                               end={{
                                  opacity:"1.0"
                               }}
-                              duration={1.5}
+                              duration={1.0}
                               sequenceIndex={3}
                            >
                            <b>
@@ -88,6 +88,18 @@ export default class CampaignWeb extends Component{
                   </div>
                </div>
                <div className="MerzText">
+               <Animate 
+                  start={{
+                     opacity:"0.1",
+                     transform: "translateX(-200px)"
+                  }}
+                  end={{
+                     opacity:"1.0",
+                     transform: "translateX(0px)"
+                  }}
+                  duration={1.5}
+                  sequenceIndex={4}
+               >
                   <div className="row font18">
                      <div className="col-6 RalewayBold ">
                         <p className="EmotionText">
@@ -100,6 +112,7 @@ export default class CampaignWeb extends Component{
                         </p>
                      </div>
                   </div>
+               </Animate>
                </div>
                <div className=" VideoPurify">
                   <div className="row justify-content-center rowPurify VidPurifyWeb" style={{padding:"0% 0%"}}>
@@ -114,7 +127,19 @@ export default class CampaignWeb extends Component{
                      <iframe title="vimeo-player" src="https://player.vimeo.com/video/529064724" className="VidPurify" /* width="640" height="360" */ frameborder="0" allowfullscreen></iframe>
                      </div>
                   </div>
-               </div>               
+               </div>
+               <Animate 
+                  start={{
+                     opacity:"0.2",
+                     transform:"translateY(-200px)"
+                  }}
+                  end={{
+                     opacity:"1.0",
+                     transform:"translateY(0px)"
+                  }}
+                  duration={1.0}
+                  sequenceIndex={5}
+               >
                <div className="row justify-content-center Raleway font24 XeominBlue">
                   <div className="col-7" style={{padding:"2% 0%"}}>
                   <p>
@@ -122,26 +147,54 @@ export default class CampaignWeb extends Component{
                   </p>
                   </div>
                </div>
+               </Animate>
                <div className="MERZBox2">
                   <img src="/assets/img/Pics/LogoMerz.png" alt="" />
                </div>
                <div className="MerzAestheticsBoxMain font21">
                   <div className="MerzAestheticsTextWBox Raleway ">
+                  <Animate
+                     start={{
+                        opacity:"0.2",
+                        transform:"translateX(-200px)"
+                     }}
+                     end={{
+                        opacity:"1.0",
+                        transform:"translateX(0px)"
+                     }}
+                     duration={1.0}
+                     sequenceIndex={6}
+                  >
                      <p>
                         Merz Aesthetics es una compañia de estética médica con más de 110 años de experiencia en el mercado. Nuestra sede global se encuentra en Raleigh, Carolina del Norte, Estados Unidos. Contamos con oficinas en 32 países de todo el mundo y hacemos parte de Merz Group, una empresa familiar fundada en 1908 y con sede en Frankfurt, Alemania.
                      </p>
                      <p>
                         Somos conocidos por construir relaciones únicas con clientes y empleados basados en la confianza para que se sientan parte de nuestra familia.
                      </p>
+                  </Animate>
                   </div>
                   <div className="MerzAestheticsTextBox Raleway">
+                  <Animate
+                     start={{
+                        opacity:"0.2",
+                        transform:"translateX(200px)"
+                     }}
+                     end={{
+                        opacity:"1.0",
+                        transform:"translateX(0px)"
+                     }}
+                     duration={1.0}
+                     sequenceIndex={6}
+                  >
                      <p>
                         Contamos con un amplio portafolio de productos probados científicamente que ioncluye inyectables, dispositivos médicos y tratamientos para el cuidado de la piel, diseñados para satisfacer las necesidades de cada paciente con los más altos estándares de seguridad y eficacia.
                      </p>
                      <p>
                         <b>Para mayor información visita <a href="https://merzaesthetics.com/" target="blank">www.merzaesthetics.com</a></b>
                      </p>
+                  </Animate>
                   </div>
+               
                </div>
                <div className="BotonsGPBox justify-content-center font24">
                      <div className="InfoXeoBox">

@@ -3,6 +3,7 @@ import { Form, FormGroup, Input, Button, Row, Col, Label } from 'reactstrap';
 import axios from 'axios'
 import Modal from 'react-modal';
 import Thanks from '../Thanks/Thanks'
+import { Animate, AnimateKeyframes  } from 'react-simple-animate';
 
 import './Form.css';
 
@@ -30,6 +31,7 @@ export default class Forms extends Component{
       this.handleAggree = this.handleAggree.bind(this);
 
    }
+   
    handleName(){
       this.setState({Name: true});
    }
@@ -76,9 +78,10 @@ export default class Forms extends Component{
          }
       })
    }
-   render(){
+   render(){     
       let id=-1;
       let FormAvaible = "1";
+      let play=false;
       if(this.state.Name && this.state.Email && this.state.Address && this.state.Tel && this.state.City && this.state.Aggree){
          FormAvaible="";
       }else{
@@ -95,6 +98,21 @@ export default class Forms extends Component{
             >
                <Thanks />               
             </Modal>
+            <AnimateKeyframes
+               play
+               iterationCount="3"
+               direction="normal"
+               easeType="ease-in"
+               delay={1}
+               duration={5}
+               keyframes={[
+                  { 0: "transform-origin: 0 100%; opacity: 0.8"},
+                  {
+                     50: "transform-origin: 0 100%; transform:scale(1.1)"
+                  },
+                  { 100: "transform-origin: 0 100%; opacity: 1"},
+               ]}
+            >
             <Form className="" onSubmit={(e)=>this.handleSubmit(e)}>
                <FormGroup>
                   <Input className="form" type="name" name="name" id="name"
@@ -150,6 +168,7 @@ export default class Forms extends Component{
                   </Button>
                </FormGroup>
             </Form>
+            </AnimateKeyframes >     
          </React.Fragment>
       );
    }
