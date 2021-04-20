@@ -574,12 +574,14 @@
       width: 85%;
       margin: 0% auto 0% auto;
       text-align: left;
+      align-items: center;
    }
    .Step1{
       display: flex;
       width: 100%;
       margin: 0% auto;
       text-align: left;
+      align-items: center;
    }
    .Step1L{
       display: block;
@@ -602,6 +604,7 @@
       display: flex;
       width: 100%;
       margin: 0% auto;
+      align-items: center;
    }
    .Step2L{
       display: inline-block;
@@ -632,6 +635,7 @@
       display: flex;
       width: 100%;
       margin: 0% auto;
+      align-items: center;
    }
    .Step3L{
       width: 60%;

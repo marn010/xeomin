@@ -6,10 +6,7 @@ import './Xeomin.css';
 
 export default class XeominWeb extends Component{
    render(){
-      const props ={
-       start:{ opacity: 0},
-       end: { opacity: 1}
-      }
+      
       return(
          <AnimateGroup play>
          <div className="XeominMainWebBox">
@@ -122,6 +119,16 @@ export default class XeominWeb extends Component{
                         </p>
                   </div>
                </div>
+               <Animate
+                  start={{
+                     opacity:"0"
+                  }}
+                  end={{
+                     opacity:"1.0"
+                  }}
+                  duration={1.5}
+                  sequenceIndex={4}
+               >
                <div className="XeoHistory">
                   <p className="XeominBlue RalewayMedium font24 FrevertPostText XeoSection">
                      Hacia finales de la década de 1990, comenzó el proyecto que dio como resultado XEOMIN<span className="trademark">&#174;</span>. Realizando fermentaciones durante la semana, el Dr. Frevert pasó muchos fines de semana con colegas igualmente dedicados a purificar y experimentar nuevas formas de estabilizar la neurotoxina y descubrió que la sacarosa era el excipiente más efectivo en este sentido.
@@ -134,11 +141,22 @@ export default class XeominWeb extends Component{
                      </p>
                   </div>
                </div>
+               </Animate>
                <div className="XeoProd">
                   <div className="XeoProdLeft">
                      <img className="XeominLabPic" src="/assets/img/Pics/XeominLab.png" alt="" />
                   </div>
                   <div className="XeoProdRight Raleway font21"/*font24 */>
+                  <Animate
+                  start={{
+                     opacity:"0"
+                  }}
+                  end={{
+                     opacity:"1.0"
+                  }}
+                  duration={1.0}
+                  sequenceIndex={5}
+                  >
                      <p>
                         XEOMIN<span className="trademark">&#174;</span> es un producto de alta calidad: de todos los pacientes tratados hasta la fecha <span className="XeominBlue"> ninguno ha desarrollado anticuerpos neutralizantes o se ha convertido en no respondedores secundarios </span>, lo que permite a los pacientes beneficiarse de tratamientos repetidos.
                      </p>
@@ -151,6 +169,7 @@ export default class XeominWeb extends Component{
                      <p className="font18">
                         (Frevert J. Drugs R D 2010;10:67-73.)
                      </p>
+                  </Animate>
                   </div>
                </div>
                <hr/>
@@ -195,6 +214,16 @@ export default class XeominWeb extends Component{
                      PASOS PARA UNA ADECUADA RECONSTITUCIÓN Y DILUCIÓN DE XEOMIN<span className="trademark">&#174;</span>
                   </p>
                   <img className="Merz_Azul" src="/assets/img/Pics/merz_azul.svg" alt="" />
+                  <Animate
+                  start={{
+                     opacity:"0"
+                  }}
+                  end={{
+                     opacity:"1.0"
+                  }}
+                  duration={1.0}
+                  sequenceIndex={6}
+                  >
                   <div className="row XeoSteps offset-1 font21">
                      <div className="col-5">
                         <span className="XeominBlue Paso1Text RalewayBold font32">
@@ -254,6 +283,7 @@ export default class XeominWeb extends Component{
                         </p>
                      </div>
                   </div>
+                  </Animate>
                </div>
                <div className="VideoReconstitucion row">
                   <div className="col-5 RalewayBold font40 XeominBlue" style={{textAlign:"left"}}>
@@ -331,7 +361,7 @@ export default class XeominWeb extends Component{
       );
    }
 }
-{/* <div className="justify-content-center XeoRecBox" style={{display:"flex",margin:"5% auto", width:"65%"}}>
+/* <div className="justify-content-center XeoRecBox" style={{display:"flex",margin:"5% auto", width:"65%"}}>
                   <div className="col-5">
                      <p className="XeominBlue XeominRec Raleway font32">
                         <b className="RalewayBold font40">XEOMIN<span className="trademark">&#174;</span>: </b>
@@ -348,8 +378,8 @@ export default class XeominWeb extends Component{
                         XEOMIN<span className="trademark">&#174;</span> (incobotulinumtoxinaA) Summary of Product Characteristics. MerzPharmaceuticals GmbH.
                      </p>
                   </div>
-               </div> */}
-               {/* <div className="row XeoDose">
+               </div> */
+               /* <div className="row XeoDose">
                   <div className="col-3">
                      <img className="XeominVialPic" src="/assets/img/Pics/XeominVial.png" alt="" />
                   </div>
@@ -367,4 +397,4 @@ export default class XeominWeb extends Component{
                         <span className="XeominBlue">No existe una técnica única de aplicación </span> que funcione para todos los médicos y pacientes.
                      </p>
                   </div>
-               </div> */}
+               </div> */
