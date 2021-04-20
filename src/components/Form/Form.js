@@ -98,21 +98,7 @@ export default class Forms extends Component{
             >
                <Thanks />               
             </Modal>
-            <AnimateKeyframes
-               play
-               iterationCount="3"
-               direction="normal"
-               easeType="ease-in"
-               delay={1}
-               duration={5}
-               keyframes={[
-                  { 0: "transform-origin: 0 100%; opacity: 0.8"},
-                  {
-                     50: "transform-origin: 0 100%; transform:scale(1.1)"
-                  },
-                  { 100: "transform-origin: 0 100%; opacity: 1"},
-               ]}
-            >
+            
             <Form className="" onSubmit={(e)=>this.handleSubmit(e)}>
                <FormGroup>
                   <Input className="form" type="name" name="name" id="name"
@@ -168,7 +154,7 @@ export default class Forms extends Component{
                   </Button>
                </FormGroup>
             </Form>
-            </AnimateKeyframes >     
+            
          </React.Fragment>
       );
    }

@@ -214,10 +214,12 @@ export default class XeominWeb extends Component{
                   <img className="Merz_Azul" src="/assets/img/Pics/merz_azul.svg" alt="" />
                   <Animate
                   start={{
-                     opacity:"0"
+                     opacity:"0.3",
+                     transform:"translateX(-300px)"
                   }}
                   end={{
-                     opacity:"1.0"
+                     opacity:"1.0",
+                     transform:"translateX(0px)"
                   }}
                   duration={1.0}
                   sequenceIndex={6}
@@ -246,6 +248,21 @@ export default class XeominWeb extends Component{
                         <span className="XeominTipsDot"></span>
                            Debido al proceso de sellado al vacio de XEOMIN<span className="trademark">&#174;</span>, la solución salina deberá ser aspirada al interior del vial por si sola.</p>
                      </div>
+                  </div>
+                  </Animate>
+                  <Animate
+                  start={{
+                     opacity:"0.3",
+                     transform:"translateX(300px)"
+                  }}
+                  end={{
+                     opacity:"1.0",
+                     transform:"translateX(0px)"
+                  }}
+                  duration={1.0}
+                  sequenceIndex={6}
+                  >
+                  <div className="row XeoSteps offset-1 font21">
                      <div className="col-5 Raleway XeoSection">
                         <p className="XeominBlue RalewayBold">Paso 2:</p>
                         <p className="Paso2Text">Retire la aguja y realice movimientos circulares dejando que el liquido toque todas las paredes del vial y el tapón de goma, y regrese a su posición inicial, repitiendo estos movimientos varias veces hasta lograr una mezcla homogénea.</p>
@@ -253,6 +270,9 @@ export default class XeominWeb extends Component{
                      <div className="col-7">
                         <img className="Paso2Pic" src="/assets/img/Pics/Paso2.png" alt="Paso 2" />
                      </div>
+                  </div>
+                  </Animate>
+                  <div className="row XeoSteps offset-1 font21">
                      <div className="XeominImportant XeominBlue RalewayMedium">
                         <p>
                            IMPORTANTE:
@@ -261,6 +281,20 @@ export default class XeominWeb extends Component{
                            El frasco no debe ser agitado vigorosamente.
                         </p>
                      </div>
+                  </div>
+                  <Animate
+                  start={{
+                     opacity:"0.3",
+                     transform:"translateX(-300px)"
+                  }}
+                  end={{
+                     opacity:"1.0",
+                     transform:"translateX(0px)"
+                  }}
+                  duration={1.0}
+                  sequenceIndex={6}
+                  >
+                  <div className="row XeoSteps offset-1 font21">
                      <div className="col-5 XeoSection">
                         <img className="Paso3Pic" src="/assets/img/Pics/Paso3.png" alt="Paso 3" />
                      </div>

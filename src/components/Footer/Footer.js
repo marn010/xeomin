@@ -2,7 +2,7 @@ import React, { Component } from 'react';
 import { Link } from 'react-router-dom';
 import Forms from '../Form/Form';
 import Social from '../Social/Social';
-
+import { Animate, AnimateKeyframes  } from 'react-simple-animate';
 import './Footer.css'
 
 export default class Footer extends Component{
@@ -11,10 +11,26 @@ export default class Footer extends Component{
       return(
          <React.Fragment>
             <Social/>
+            
             <div className="MainBox">
                <div className="MainWebBox container">
                   <div className="container">
                      <img className="X" src="/assets/img/Background/X.svg" alt="X" />
+                     <AnimateKeyframes
+                        play
+                        iterationCount="3"
+                        direction="normal"
+                        easeType="ease-in"
+                        delay={1}
+                        duration={5}
+                        keyframes={[
+                           { 0: "transform-origin: 0 100%; opacity: 0.8"},
+                           {
+                              50: "transform-origin: 0 100%; transform:scale(1.05)"
+                           },
+                           { 100: "transform-origin: 0 100%; opacity: 1"},
+                        ]}
+                     >
                      <div className="row justify-content-center Raleway font24">
                         <div className="col-6">
                            <img className="pencilPic" src="/assets/img/Pics/pencil.svg" alt="pencil" />
@@ -24,6 +40,7 @@ export default class Footer extends Component{
                            <Forms hScreen={hScreen}/>
                         </div>
                      </div>
+                     </AnimateKeyframes >
                   </div>
                </div>
                <div className="MainMovBox">
@@ -57,6 +74,7 @@ export default class Footer extends Component{
                      </span>
                   </p>
                </div>
+               
          </React.Fragment>
       );
    }
