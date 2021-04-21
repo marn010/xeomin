@@ -238,7 +238,7 @@
       margin: 0% auto 0% auto;
    }
    .VideoPurify{
-    text-align: left; 
+    text-align: center; 
    }
    .VideoPurifyPostTextBox{
       display: block;
@@ -246,9 +246,12 @@
       margin: 5% auto 0% auto;
    }
    .VideoPureText{
+      display: block;
       text-align: center;
       color: #306085;
       padding: 5% 0% 0% 0%;
+      width: 80%;
+      margin: 0% auto;
    }
    .MerzAestheticsBoxMain{
       display: block;
@@ -263,7 +266,7 @@
       display: none;
    }
    .VideoPurifyText{
-      padding: 0% 0% 0% 10%;
-      text-align: left;
+      padding: 0% 0% 0% 0%;
+      
    }
 }

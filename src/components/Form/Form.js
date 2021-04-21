@@ -3,7 +3,7 @@ import { Form, FormGroup, Input, Button, Row, Col, Label } from 'reactstrap';
 import axios from 'axios'
 import Modal from 'react-modal';
 import Thanks from '../Thanks/Thanks'
-import { Animate, AnimateKeyframes  } from 'react-simple-animate';
+
 
 import './Form.css';
 
@@ -81,7 +81,7 @@ export default class Forms extends Component{
    render(){     
       let id=-1;
       let FormAvaible = "1";
-      let play=false;
+      
       if(this.state.Name && this.state.Email && this.state.Address && this.state.Tel && this.state.City && this.state.Aggree){
          FormAvaible="";
       }else{

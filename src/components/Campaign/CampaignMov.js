@@ -36,7 +36,7 @@ export default class CampaignMov extends Component{
                      <iframe className="VideoMobile VidPure" title="vimeo-player" src="https://player.vimeo.com/video/529064794" /* width="640" height="360" */ frameborder="0" allowfullscreen></iframe>
                   </div>
                </div>
-               <div className="VideoPurePostTextBox justify-content-center font24">
+               <div className="VideoPurePostTextBox justify-content-center Raleway font24">
                   <p className="EmotionText">
                      <b className="XeominBlue">Paltrow</b> es considerada ampliamente una <b className="XeominBlue"> autoridad en la belleza y el bienestar,</b> por lo cual esta campaña se vincula a su filosofía sobre la belleza: <b className="XeominBlue">"las mujeres deben darse el permiso de hacer lo que quieran para sentirse bien".</b>
                   </p>

@@ -2,7 +2,7 @@ import React, { Component } from 'react';
 import { Link } from 'react-router-dom';
 import Forms from '../Form/Form';
 import Social from '../Social/Social';
-import { Animate, AnimateKeyframes  } from 'react-simple-animate';
+import { AnimateKeyframes  } from 'react-simple-animate';
 import './Footer.css'
 
 export default class Footer extends Component{
@@ -11,7 +11,6 @@ export default class Footer extends Component{
       return(
          <React.Fragment>
             <Social/>
-            
             <div className="MainBox">
                <div className="MainWebBox container">
                   <div className="container">
@@ -21,8 +20,8 @@ export default class Footer extends Component{
                         iterationCount="3"
                         direction="normal"
                         easeType="ease-in"
-                        delay={1}
-                        duration={5}
+                        delay={5}
+                        duration={4}
                         keyframes={[
                            { 0: "transform-origin: 0 100%; opacity: 0.8"},
                            {

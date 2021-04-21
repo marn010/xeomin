@@ -20,9 +20,11 @@ export default class Header extends Component{
                         <Animate
                            start={{
                               opacity:"0.2",
+                              transform:"translateX(-200px)"
                            }}
                            end={{
                               opacity:"1.0",
+                              transform:"translateX(0px)"
                            }}
                            duration={1.8}
                            sequenceIndex={0}
@@ -46,6 +48,22 @@ export default class Header extends Component{
                         >
                         <iframe title="vimeo-player" src="https://player.vimeo.com/video/529064794" className="VidCarolina " /* width="640" height="360" */ frameborder="0" allowfullscreen></iframe>
                         </Animate>
+                     </div>
+                  </div>
+               </div>
+               <div className="TestimonyMovVid Raleway font32">
+                  <div className="TestimonyBox">
+                     <div className="TestimonyTextBox">
+                        <p className="TestimonyText">
+                           <b className="Raleway ">
+                              Testimonio personal </b> 
+                            de Carolina Aristizábal
+                        </p>
+                     </div>
+                     <div className="TestimonyVideoBox">
+                        
+                        <iframe title="vimeo-player" src="https://player.vimeo.com/video/529064794" className="VidCarolina " /* width="640" height="360" */ frameborder="0" allowfullscreen></iframe>
+                        
                      </div>
                   </div>
                </div>
