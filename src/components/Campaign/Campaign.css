@@ -54,11 +54,7 @@
 .VideoPuroyProbado{
    width: auto;
 }
-.rowPurify::after{
-   content: " ";
-   border-bottom:solid 2px#306088;
-   width: 80%;
-}
+
 .VideoPurify{
    background-color: #457EB6;
    color: white;

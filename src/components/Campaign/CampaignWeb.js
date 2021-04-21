@@ -138,6 +138,7 @@ export default class CampaignWeb extends Component{
                      transform:"translateY(0px)"
                   }}
                   duration={1.0}
+                  delay={2.0}
                   sequenceIndex={5}
                >
                <div className="row justify-content-center Raleway font24 XeominBlue">
@@ -163,6 +164,7 @@ export default class CampaignWeb extends Component{
                         transform:"translateX(0px)"
                      }}
                      duration={1.0}
+                     delay={2.0}
                      sequenceIndex={6}
                   >
                      <p>
@@ -184,6 +186,7 @@ export default class CampaignWeb extends Component{
                         transform:"translateX(0px)"
                      }}
                      duration={1.0}
+                     delay={2.0}
                      sequenceIndex={6}
                   >
                      <p>
