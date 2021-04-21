@@ -15,15 +15,15 @@ export default class Home extends Component{
                <div className="KnowMoreXeo font40">
                <Animate 
                   start={{
-                     opacity:"0.02",
-                     transform:"translateY(-200px)"
+                     opacity:"0.0",
+                     transform:"translateX(-200px)"
                   }}
                   end={{
                      opacity:"1.0",
-                     transform:"translateY(0px)"
+                     transform:"translateX(0px)"
                   }}
                   duration={1.5}
-                  delay={1}
+                  delay={0.8}
                   sequenceIndex={0}
                >
                   <img className="XeominHomeTitlePic" src="/assets/img/Pics/Xeomin.png" alt="" />
