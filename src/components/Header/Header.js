@@ -46,7 +46,8 @@ export default class Header extends Component{
                            duration={1.8}
                            sequenceIndex={0}
                         >
-                        <iframe title="vimeo-player" src="https://player.vimeo.com/video/529064794" className="VidCarolina " /* width="640" height="360" */ frameborder="0" allowfullscreen></iframe>
+                        <iframe title="vimeo-player" src="https://player.vimeo.com/video/539871734" width="640" height="360" frameborder="0" allowfullscreen></iframe>
+                        {/* <iframe title="vimeo-player" src="https://player.vimeo.com/video/529064794" className="VidCarolina "   frameborder="0" allowfullscreen></iframe> */}
                         </Animate>
                      </div>
                   </div>
