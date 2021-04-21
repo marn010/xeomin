@@ -2,7 +2,7 @@ import React, { Component } from 'react';
 import { Link } from 'react-router-dom'
 import Footer from '../Footer/Footer';
 import Header from '../Header/Header';
-
+import { Animate, AnimateGroup } from 'react-simple-animate';
 import './Home.css';
 
 export default class Home extends Component{
@@ -10,9 +10,24 @@ export default class Home extends Component{
       return(
          <React.Fragment>
             <Header/>
+            <AnimateGroup play>
             <div className="HomeMainWebBox">
                <div className="KnowMoreXeo font40">
+               <Animate 
+                  start={{
+                     opacity:"0.02",
+                     transform:"translateY(-200px)"
+                  }}
+                  end={{
+                     opacity:"1.0",
+                     transform:"translateY(0px)"
+                  }}
+                  duration={1.5}
+                  delay={1}
+                  sequenceIndex={0}
+               >
                   <img className="XeominHomeTitlePic" src="/assets/img/Pics/Xeomin.png" alt="" />
+               </Animate>
                </div>
                <div className="BotonsBox justify-content-center font24">
                   <div className="InfoXeoBox">
@@ -44,6 +59,7 @@ export default class Home extends Component{
                   </div>
                </div>
             </div>
+            </AnimateGroup>
             <Footer/>
          </React.Fragment>
       );

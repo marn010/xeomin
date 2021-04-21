@@ -24,7 +24,7 @@ export default class Header extends Component{
                            end={{
                               opacity:"1.0",
                            }}
-                           duration={1.5}
+                           duration={1.8}
                            sequenceIndex={0}
                         >
                            <b className="Raleway ">
@@ -41,7 +41,7 @@ export default class Header extends Component{
                            end={{
                               opacity:"1.0",
                            }}
-                           duration={1.5}
+                           duration={1.8}
                            sequenceIndex={0}
                         >
                         <iframe title="vimeo-player" src="https://player.vimeo.com/video/529064794" className="VidCarolina " /* width="640" height="360" */ frameborder="0" allowfullscreen></iframe>

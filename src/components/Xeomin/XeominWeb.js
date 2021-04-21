@@ -271,7 +271,7 @@ export default class XeominWeb extends Component{
                   }}
                   duration={1.0}
                   delay={1.0}
-                  sequenceIndex={6}
+                  sequenceIndex={7}
                   >
                   <div className="row XeoSteps offset-1 font21">
                      <div className="col-5 Raleway XeoSection">
@@ -304,7 +304,7 @@ export default class XeominWeb extends Component{
                   }}
                   duration={1.0}
                   delay={1.0}
-                  sequenceIndex={6}
+                  sequenceIndex={8}
                   >
                   <div className="row XeoSteps offset-1 font21">
                      <div className="col-5 XeoSection">
