@@ -187,7 +187,7 @@ export default class CampaignWeb extends Component{
                      sequenceIndex={6}
                   >
                      <p>
-                        Contamos con un amplio portafolio de productos probados científicamente que ioncluye inyectables, dispositivos médicos y tratamientos para el cuidado de la piel, diseñados para satisfacer las necesidades de cada paciente con los más altos estándares de seguridad y eficacia.
+                        Contamos con un amplio portafolio de productos probados científicamente que incluye inyectables, dispositivos médicos y tratamientos para el cuidado de la piel, diseñados para satisfacer las necesidades de cada paciente con los más altos estándares de seguridad y eficacia.
                      </p>
                      <p>
                         <b>Para mayor información visita <a href="https://merzaesthetics.com/" target="blank">www.merzaesthetics.com</a></b>

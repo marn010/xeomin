@@ -20,8 +20,12 @@ export default class XeominWeb extends Component{
                   <div className="col-10 justify-content-center XeominText">
                      <div>
                         <Animate 
-                           start={{opacity:"0"}} 
-                           end={{opacity:"1"}} 
+                           start={{
+                              opacity:"0.2"
+                           }} 
+                           end={{
+                              opacity:"1"
+                           }} 
                            duration={1.5} 
                            sequenceIndex={0} 
                         >
@@ -29,8 +33,12 @@ export default class XeominWeb extends Component{
                         <img className="Merz_Azul" src="/assets/img/Pics/merz_azul.svg" alt="" />
                         </Animate>
                         <Animate 
-                           start={{opacity:"0"}}
-                           end={{opacity:"1"}}
+                           start={{
+                              opacity:"0.2"
+                           }}
+                           end={{
+                              opacity:"1"
+                           }}
                            duration={1.5}
                            sequenceIndex={1} 
                         >
@@ -40,7 +48,7 @@ export default class XeominWeb extends Component{
                            </p>
                         </Animate>
                         <Animate
-                           start={{ opacity:"0",
+                           start={{ opacity:"0.2",
                                     transform: 'translateX(100px)'
                                  }}
                            end={{   opacity:"1",
@@ -77,7 +85,7 @@ export default class XeominWeb extends Component{
                      <div className="XeoCiteText XeoSection">
                      <Animate
                         start={{
-                           opacity:"0",
+                           opacity:"0.2",
                            transform:"translateX(-200px)"
                         }}
                         end={{
@@ -97,7 +105,7 @@ export default class XeominWeb extends Component{
                      <div className="DrFrevertBox">
                         <Animate 
                            start={{
-                              opacity:"0"
+                              opacity:"0.2"
                            }}
                            end={{
                               opacity:"1"
@@ -119,7 +127,7 @@ export default class XeominWeb extends Component{
                </div>
                <Animate
                   start={{
-                     opacity:"0"
+                     opacity:"0.2"
                   }}
                   end={{
                      opacity:"1.0"
@@ -147,12 +155,13 @@ export default class XeominWeb extends Component{
                   <div className="XeoProdRight Raleway font21"/*font24 */>
                   <Animate
                   start={{
-                     opacity:"0"
+                     opacity:"0.2"
                   }}
                   end={{
                      opacity:"1.0"
                   }}
                   duration={1.0}
+                  delay={1.0}
                   sequenceIndex={5}
                   >
                      <p>
@@ -222,6 +231,7 @@ export default class XeominWeb extends Component{
                      transform:"translateX(0px)"
                   }}
                   duration={1.0}
+                  delay={1.0}
                   sequenceIndex={6}
                   >
                   <div className="row XeoSteps offset-1 font21">
@@ -260,6 +270,7 @@ export default class XeominWeb extends Component{
                      transform:"translateX(0px)"
                   }}
                   duration={1.0}
+                  delay={1.0}
                   sequenceIndex={6}
                   >
                   <div className="row XeoSteps offset-1 font21">
@@ -292,6 +303,7 @@ export default class XeominWeb extends Component{
                      transform:"translateX(0px)"
                   }}
                   duration={1.0}
+                  delay={1.0}
                   sequenceIndex={6}
                   >
                   <div className="row XeoSteps offset-1 font21">
@@ -339,7 +351,7 @@ export default class XeominWeb extends Component{
                   <div className="OneBoxLeft">
                      <img className="One21Pic" src="/assets/img/Pics/One21.png" alt="one21" />
                   </div>
-                  <div className="OneBoxRight Raleway font24 One21Text">
+                  <div className="OneBoxRight Raleway One21Text font21">
                      <p>
                         <b className="RalewayBold One21Full">one<span className="One21">2</span>1</b> es una exclusiva técnica que apunta a un tratamiento individualizado para el modelamiento de las cejas, tratamiento de arrugas frontales, glabelares y perioculares, basada en la anatomía y los resultados deseados por los pacientes.
                      </p>
@@ -348,14 +360,14 @@ export default class XeominWeb extends Component{
                <div className="VideoONE21 justify-content-center">
                   <div className="VideoONE21Inner justify-content-center">
                      <div className="RalewayBold font32 VideoONE21T justify-content-center">
-                        <p className="RalewayBold font40">
+                        <p className="RalewayBold font36">
                            La técnica 
                            #ONE21
                         </p>
-                        <p className="RalewayBold font24">
+                        <p className="RalewayBold font21">
                            se divide en 3 importantes pasos:
                         </p>
-                        <ol className="list Raleway font24">
+                        <ol className="list Raleway font21">
                            <li>Evaluación</li>
                            <li>Adaptación</li>
                            <li>Personalización</li>

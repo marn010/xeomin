@@ -72,7 +72,7 @@ export default class CampaignMov extends Component{
                      Somos conocidos por construir relaciones únicas con clientes y empleados basados en la confianza para que se sientan parte de nuestra familia.
                   </p>
                   <p>
-                     Contamos con un amplio portafolio de productos probados científicamente que ioncluye inyectables, dispositivos médicos y tratamientos para el cuidado de la piel, diseñados para satisfacer las necesidades de cada paciente con los más altos estándares de seguridad y eficacia.
+                     Contamos con un amplio portafolio de productos probados científicamente que incluye inyectables, dispositivos médicos y tratamientos para el cuidado de la piel, diseñados para satisfacer las necesidades de cada paciente con los más altos estándares de seguridad y eficacia.
                   </p>
                   <p className="XeominBlue">
                      Para mayor información visita <a href="https://merzaesthetics.com/" target="blank">merzaesthetics.com</a>
