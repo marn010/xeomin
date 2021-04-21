@@ -349,7 +349,7 @@ export default class XeominWeb extends Component{
                   <div className="VideoONE21Inner justify-content-center">
                      <div className="RalewayBold font32 VideoONE21T justify-content-center">
                         <p className="RalewayBold font40">
-                           La técnica <br/> 
+                           La técnica 
                            #ONE21
                         </p>
                         <p className="RalewayBold font24">

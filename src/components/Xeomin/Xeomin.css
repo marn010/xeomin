@@ -313,6 +313,7 @@
       display: flex;
       width: 65%;
       margin: 0% auto 4% auto;
+      align-items: center;
    }
    .One21Pic{
       display: block;
@@ -346,6 +347,7 @@
       display: flex;
       width: 72%;
       margin: 0% auto;
+      align-items: center;
    }
    .VideoONE21T{
       width: 40%;
