@@ -26,6 +26,11 @@ export default class Social extends Component{
                      </div>
                   </div>
                </div>
+               <div>
+                  <p className="RalewayBold UniqueExp font40"> 
+                     ¿Y SUS PACIENTES HAN VIVIDO UNA EXPERIENCIA ÚNICA?
+                  </p>
+               </div>
             </div>
             <div className="SocialMov" >
                <div className="SocialBox">

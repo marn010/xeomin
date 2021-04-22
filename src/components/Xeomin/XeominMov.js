@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
 import { Link } from 'react-router-dom';
+import Social from '../Social/Social';
 
 import "./Xeomin.css";
 
@@ -235,6 +236,7 @@ export default class XeominMov extends Component{
                         <img className="CampaingnGlobal" src="/assets/img/Pics/BotonGP.png" alt="Campaign" />
                      </Link>
                   </div>
+               <Social />
                </div>
             </div>
          </div>

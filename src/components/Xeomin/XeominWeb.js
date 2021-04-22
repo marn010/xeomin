@@ -2,6 +2,7 @@ import React, { Component } from 'react';
 import { Link } from 'react-router-dom';
 /* import { FadeTransform } from 'react-animation-components'; */
 import { Animate, AnimateGroup } from 'react-simple-animate';
+import Social from '../Social/Social';
 import './Xeomin.css';
 
 export default class XeominWeb extends Component{
@@ -397,6 +398,9 @@ export default class XeominWeb extends Component{
                            <img className="CampaingnGlobal" src="/assets/img/Pics/BotonGP.png" alt="Campaign" />
                         </Link>
                      </div>
+                  </div>
+                  <div style={{width:"65%",display:"block",margin:"0% auto"}}>
+                     <Social/>
                   </div>
                </div>
             </div>

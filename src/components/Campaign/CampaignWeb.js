@@ -1,6 +1,7 @@
 import React, { Component } from 'react';
 import { Link } from 'react-router-dom';
 import { Animate, AnimateGroup } from 'react-simple-animate';
+import Social from '../Social/Social';
 import './Campaign.css';
 
 export default class CampaignWeb extends Component{
@@ -200,17 +201,20 @@ export default class CampaignWeb extends Component{
                
                </div>
                <div className="BotonsGPBox justify-content-center font24">
-                     <div className="InfoXeoBox">
-                        <Link to="/home" target="_top">
-                           <img className="InfoXeo" src="/assets/img/Pics/BotonHome.png" alt="Xeomin" />
-                        </Link>
-                     </div>
-                     <div className="CampaingnGlobalBox">
-                        <Link to="/xeomin" target="_top">
-                           <img className="CampaingnGlobal" src="/assets/img/Pics/BotonXeo.png" alt="Xeomin" />
-                        </Link>
-                     </div>
+                  <div className="InfoXeoBox">
+                     <Link to="/home" target="_top">
+                        <img className="InfoXeo" src="/assets/img/Pics/BotonHome.png" alt="Xeomin" />
+                     </Link>
                   </div>
+                  <div className="CampaingnGlobalBox">
+                     <Link to="/xeomin" target="_top">
+                        <img className="CampaingnGlobal" src="/assets/img/Pics/BotonXeo.png" alt="Xeomin" />
+                     </Link>
+                  </div>
+               </div>
+               <div style={{display:"block",width:"65%",margin:"0% auto"}}>
+                  <Social/>
+               </div>
             </AnimateGroup>
             </div>
          </React.Fragment>

@@ -44,7 +44,7 @@
    }
    .SocialWeb{
       display: block;
-      width: 65%;
+      width: 100%;
       margin: 0% auto 0% auto;
    }
    .SocialBox{
@@ -55,7 +55,7 @@
       display: table;
       color: #306088;
       margin: 2% auto;
-      padding: 0% 26%;
+      padding: 0% 10%;
       text-align: center;
    }
 }
@@ -66,7 +66,7 @@
    }
    .SocialMov{
       display: block;
-      width: 80%;
+      width: 100%;
       margin: 0% auto;
    }
    .SocialBox{
@@ -93,6 +93,7 @@
    }
    .UniqueExp{
       text-align: center;
+      width: 93%;
    }
    
 }

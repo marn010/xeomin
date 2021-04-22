@@ -10,7 +10,7 @@ export default class Footer extends Component{
       let hScreen= this.props.hScreen;
       return(
          <React.Fragment>
-            <Social/>
+            {/* <Social/> */}
             <div className="MainBox">
                <div className="MainWebBox container">
                   <div className="container">

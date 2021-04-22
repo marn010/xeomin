@@ -4,6 +4,7 @@ import Footer from '../Footer/Footer';
 import Header from '../Header/Header';
 import { Animate, AnimateGroup } from 'react-simple-animate';
 import './Home.css';
+import Social from '../Social/Social';
 
 export default class Home extends Component{
    render(){
@@ -41,6 +42,7 @@ export default class Home extends Component{
                      </Link>
                   </div>
                </div>
+               <Social/>
             </div>
             <div className="HomeMainWMovBox">
                <div className="KnowMoreXeo font40">
@@ -58,6 +60,7 @@ export default class Home extends Component{
                      </Link>
                   </div>
                </div>
+               <Social/>
             </div>
             </AnimateGroup>
             <Footer/>

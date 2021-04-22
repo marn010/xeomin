@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
 import { Link } from 'react-router-dom'
+import Social from '../Social/Social';
 
 import './Campaign.css';
 
@@ -89,6 +90,9 @@ export default class CampaignMov extends Component{
                         <img className="InfoXeo" src="/assets/img/Pics/BotonXeo.png" alt="Xeomin" />
                      </Link>
                   </div>
+               </div>
+               <div style={{display:"block",margin:"0% auto", width:"90%"}}>
+                  <Social/>
                </div>
             </div>
          </React.Fragment>
