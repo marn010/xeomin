@@ -35,11 +35,11 @@ export default class Social extends Component{
                   <a className="WebMov" href="https://merzaesthetics.com/" target="blank">
                   </a>
                </div>
-            </div>
-            <div>
-               <p className="RalewayBold UniqueExp font40"> 
-                  ¿Y SUS PACIENTES HAN VIVIDO UNA EXPERIENCIA ÚNICA?
-               </p>
+               <div>
+                  <p className="RalewayBold UniqueExp font40"> 
+                     ¿Y SUS PACIENTES HAN VIVIDO UNA EXPERIENCIA ÚNICA?
+                  </p>
+               </div>
             </div>
          </React.Fragment>
       );

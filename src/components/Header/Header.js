@@ -62,9 +62,7 @@ export default class Header extends Component{
                         </p>
                      </div>
                      <div className="TestimonyVideoBox">
-                        
-                        <iframe title="vimeo-player" src="https://player.vimeo.com/video/529064794" className="VidCarolina " /* width="640" height="360" */ frameborder="0" allowfullscreen></iframe>
-                        
+                        <iframe title="vimeo-player" src="https://player.vimeo.com/video/539871734" className="VidCarolina " width="640" height="360" frameborder="0" allowfullscreen></iframe>
                      </div>
                   </div>
                </div>

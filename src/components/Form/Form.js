@@ -62,7 +62,7 @@ export default class Forms extends Component{
          name: e.target.name.value,
          email: e.target.email.value,
          address: e.target.address.value,
-         Tel: e.target.Tel.value,
+         tel: e.target.tel.value,
          city: e.target.city.value,
       }).then((response)=>{
          debugger;
@@ -71,9 +71,9 @@ export default class Forms extends Component{
             e.target.name.value="";
             e.target.email.value="";
             e.target.address.value="";
-            e.target.Tel.value="";
+            e.target.tel.value="";
             e.target.city.value="";
-         } else if(response.data.status=== 'fail'){
+         } else if(response.data.status === 'fail'){
             alert("Message failed to send.")
          }
       })
@@ -116,7 +116,7 @@ export default class Forms extends Component{
                   />
                </FormGroup>
                <FormGroup>
-                  <Input className="form" type="Tel" name="Tel" id="Tel"
+                  <Input className="form" type="tel" name="tel" id="tel"
                      placeholder="Teléfono de contacto*" required onChange={this.handleTel}
                   />
                </FormGroup>

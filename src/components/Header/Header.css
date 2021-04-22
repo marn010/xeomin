@@ -35,7 +35,7 @@
    }
    .TestimonyText{
       display: block;
-      width: 70%;
+      width: 92%;
    }
    /* .TestimonyVideoBox{
       display: block;
@@ -80,7 +80,7 @@
    }
    .TestimonyBox{
       display: block;
-      width: 90%;
+      width: 100%;
       margin: 0% auto;
       padding-bottom: 5%;
    }
@@ -97,7 +97,7 @@
    } */
    .TestimonyVideoBox{
       position: relative;
-      padding-bottom: 45%;
+      padding-bottom: 40%;
       height: 0;
    }
    .TestimonyVideoBox iframe{
