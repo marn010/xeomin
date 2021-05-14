@@ -1,7 +1,6 @@
 import React, { Component } from 'react';
 import { Link } from 'react-router-dom';
 import Forms from '../Form/Form';
-import Social from '../Social/Social';
 import { AnimateKeyframes  } from 'react-simple-animate';
 import './Footer.css'
 
