@@ -34,7 +34,7 @@ export default class CampaignMov extends Component{
                            "Ayudar a las mujeres a encontrar productos puros hace parte de mi rutina"
                         </b>
                      </p>
-                     <iframe className="VideoMobile VidPure" title="vimeo-player" src="https://vimeo.com/552619675/633a0d17d4" /* width="640" height="360" */ frameborder="0" allowfullscreen></iframe>
+                     <iframe className="VideoMobile VidPure" title="vimeo-player" src="https://player.vimeo.com/video/552619675" /* width="640" height="360" */ frameborder="0" allowfullscreen></iframe>
                   </div>
                </div>
                <div className="VideoPurePostTextBox justify-content-center Raleway font24">
@@ -55,7 +55,7 @@ export default class CampaignMov extends Component{
                         </p>
                      </div>
                      <div className="col-12">
-                     <iframe title="vimeo-player" src="https://vimeo.com/552620016/66f8ac80fb" className="VideoMobile VidPurify" /* width="640" height="360" */ frameborder="0" allowfullscreen></iframe>
+                     <iframe title="vimeo-player" src="https://player.vimeo.com/video/552620016" className="VideoMobile VidPurify" /* width="640" height="360" */ frameborder="0" allowfullscreen></iframe>
                      </div>
                   </div>
                </div>
