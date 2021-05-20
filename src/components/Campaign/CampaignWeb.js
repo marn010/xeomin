@@ -84,7 +84,7 @@ export default class CampaignWeb extends Component{
                         </p>
                      </div>
                      <div className="col-6">
-                        <iframe title="vimeo-player" src="https://player.vimeo.com/video/529064794" className="VidPure " /* width="640" height="360" */ frameborder="0" allowfullscreen></iframe>
+                        <iframe title="vimeo-player" src="https://vimeo.com/552619675/633a0d17d4" className="VidPure " /* width="640" height="360" */ frameborder="0" allowfullscreen></iframe>
                      </div>
                   </div>
                </div>
@@ -125,7 +125,7 @@ export default class CampaignWeb extends Component{
                         </p>
                      </div>
                      <div className="col-6">
-                     <iframe title="vimeo-player" src="https://player.vimeo.com/video/529064724" className="VidPurify" /* width="640" height="360" */ frameborder="0" allowfullscreen></iframe>
+                     <iframe title="vimeo-player" src="https://vimeo.com/552620016/66f8ac80fb" className="VidPurify" /* width="640" height="360" */ frameborder="0" allowfullscreen></iframe>
                      </div>
                   </div>
                </div>
