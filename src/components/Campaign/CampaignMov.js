@@ -31,7 +31,7 @@ export default class CampaignMov extends Component{
                   <div className="VidPureMov">
                      <p className="VideoPureText RalewayBold fonrt 40">
                         <b>
-                           "Ayudar a las mujeres a encontrar productos puros hace parte de mi rutina"
+                        “Admito que no era fan de las inyecciones antiarrugas para suavizar mis líneas de expresión. Entonces encontré una que es diferente”
                         </b>
                      </p>
                      <iframe className="VideoMobile VidPure" title="vimeo-player" src="https://player.vimeo.com/video/552619675" /* width="640" height="360" */ frameborder="0" allowfullscreen></iframe>
@@ -50,7 +50,7 @@ export default class CampaignMov extends Component{
                      <div className="col-12">
                         <p className="VideoPurifyText RalewayBold font40">
                            <b>
-                              "¿Están listos para la pureza?"
+                           “Me encanta Xeomin”
                            </b>
                         </p>
                      </div>

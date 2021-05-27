@@ -78,7 +78,7 @@ export default class CampaignWeb extends Component{
                               sequenceIndex={3}
                            >
                            <b>
-                              "Ayudar a las mujeres a encontrar productos puros hace parte de mi rutina"
+                           “Admito que no era fan de las inyecciones antiarrugas para suavizar mis líneas de expresión. Entonces encontré una que es diferente”
                            </b>
                            </Animate>
                         </p>
@@ -121,7 +121,7 @@ export default class CampaignWeb extends Component{
                      <div className="col-4 VideoTitle">
                         <p className="VideoPurifyText RalewayBold font30">
                            <b>
-                              "¿Están listos para la pureza?"
+                           “Me encanta Xeomin”
                            </b>
                         </p>
                      </div>
