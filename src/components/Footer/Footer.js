@@ -1,16 +1,16 @@
 import React, { Component } from 'react';
 import { Link } from 'react-router-dom';
-import Forms from '../Form/Form';
-import { AnimateKeyframes  } from 'react-simple-animate';
+/* import Forms from '../Form/Form';
+import { AnimateKeyframes  } from 'react-simple-animate'; */
 import './Footer.css'
 
 export default class Footer extends Component{
    render(){
-      let hScreen= this.props.hScreen;
+      /* let hScreen= this.props.hScreen; */
       return(
          <React.Fragment>
             {/* <Social/> */}
-            <div className="MainBox">
+            {/* <div className="MainBox">
                <div className="MainWebBox container">
                   <div className="container">
                      <img className="X" src="/assets/img/Background/X.svg" alt="X" />
@@ -54,7 +54,7 @@ export default class Footer extends Component{
                      </div>
                   </div>
                </div>
-            </div>
+            </div> */}
                <div className="RegInvima container Raleway font18">
                   <div className="row col-12 justify-content-center">
                      <Link to="/invima">
