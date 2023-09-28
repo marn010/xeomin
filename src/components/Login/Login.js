@@ -1,17 +1,20 @@
 import React, { useState } from 'react';
+import * as crypto from "crypto-browserify";
 
 import './Login.css';
 
 export default function Login({setToken}){
    const [password,setPassword] = useState();
    /* const pass = 'jZae727K08KaOmKSgOaGzww/XVqGr/PKEgIMkjrcbJI='; */
-   const pass= 'TjCCgDgNSrWlQmnZVkApcryjZwdpncIR4DyPGvWibB4=';
-   var crypto = require('crypto');
+   const pass= 'XohImNooBHFR0OVvjcYpJ3NgPQ1qq73WKhHvch0VQtg=';
+
+   /* var crypto = require('crypto'); */
+
    const handleSubmit = async e=> {
       e.preventDefault();
-      const hash = crypto.createHash('sha256').update(password).digest('base64');
-      /* alert("La clave ingresada fue: " + password); */
-      /* alert("El Hash producido es: " + hash); */
+      const hash = crypto.createHash('sha256',password).update('password').digest('base64');
+      /* alert("La clave ingresada fue: " + password); */ 
+      /* alert("El Hash producido es: " + hash); */ 
       if(hash===pass){
          setToken({token:pass})
          /* alert("codigo aceptado") */
